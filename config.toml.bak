@@ -1,0 +1,4 @@
+baseURL = "https://mariusvanderknaap.nl/"
+languageCode = "en-us"
+title = "mariusvanderknaap"
+theme = "PaperMod"
