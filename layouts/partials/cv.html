@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>Marius van der Knaap</title>
+      <meta name="description" content="With my background in user experience design, I have a strong focus on front-end development. Even though I don’t shy away from difficult technical matters, I always love working on the customer-facing side of digital applications. I chose to work with Mendix because it allows me not only to create apps, but also work closely together with business to investigate business requirements and translate them into amazing applications.
+      I’ve worked on several Mendix projects, but have also undertaken side activities such as marketing and pre-sales. I have an indepth knowledge of Mendix, including the ability to write custom widgets or Java actions, and working on the CI/CD pipeline. I love undertaking these activities and seeing the positive results in the end.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap">
+    <style>:root {
+  color-scheme: light dark;
+
+  --color-background: #ffffff;
+  --color-primary: #212529;
+  --color-secondary: #95a5a6;
+  --color-muted: #f4f6f6;
+  --color-accent: #f1c40f;
+  --color-link: #2ecc71;
+
+  --scale-ratio: 1.25;
+  --scale0: 1rem;
+  --scale1: calc(var(--scale0) * var(--scale-ratio));
+  --scale2: calc(var(--scale1) * var(--scale-ratio));
+  --scale3: calc(var(--scale2) * var(--scale-ratio));
+  --scale4: calc(var(--scale3) * var(--scale-ratio));
+  --scale5: calc(var(--scale4) * var(--scale-ratio));
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #181a1b;
+    --color-primary: #d1cdc7;
+    --color-secondary: #aaa398;
+    --color-muted: #1e2021;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+.resume {
+  background: var(--color-background);
+  color: var(--color-primary);
+  display: grid;
+  font: 1em/1.5 Lato, sans-serif;
+  gap: 2em;
+  padding-bottom: 4em;
+  grid-template-columns:
+    [full-start]
+    1fr
+    [main-start side-start]
+    minmax(min-content, 12em)
+    [side-end content-start]
+    minmax(min-content, 36em)
+    [main-end content-end]
+    1fr
+    [full-end];
+  grid-template-rows: auto [content] 0;
+}
+
+.resume::before {
+  content: '';
+  grid-column: full;
+  grid-row: content;
+}
+
+.resume ol,
+.resume ul {
+  padding-left: 1em;
+}
+
+.resume li + li {
+  margin-top: 0.4em;
+}
+
+.resume li::marker,
+.network {
+  color: var(--color-secondary);
+}
+
+.resume a {
+  color: var(--color-link);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.resume a:focus,
+.resume a:hover {
+  color: var(--color-accent);
+}
+
+.resume h1,
+.resume h2,
+.resume h3,
+.resume h5 {
+  font-weight: normal;
+}
+
+.resume h1,
+.resume h2,
+.resume h3 {
+  line-height: 1.2;
+}
+
+.resume h1 {
+  font-size: var(--scale5);
+}
+
+.resume h2 {
+  color: var(--color-secondary);
+  font-size: var(--scale4);
+}
+
+.resume h3 {
+  color: var(--color-accent);
+  font-size: var(--scale3);
+  grid-column: side;
+  margin-bottom: 1rem;
+}
+
+.resume h4 {
+  font-size: var(--scale2);
+}
+
+.resume h5 {
+  font-size: var(--scale1);
+}
+
+.resume h6 {
+  font-size: var(--scale0);
+}
+
+.resume blockquote {
+  border-left: 0.2em solid var(--color-muted);
+  padding-left: 1em;
+}
+
+.resume cite {
+  color: var(--color-secondary);
+  font-style: inherit;
+}
+
+.resume cite::before {
+  content: '— ';
+}
+
+.resume svg {
+  margin-right: 0.2em;
+  vertical-align: -0.2em;
+}
+
+.resume .masthead {
+  background: var(--color-muted);
+  display: inherit;
+  gap: inherit;
+  grid-column: full;
+  grid-template-columns: inherit;
+  padding: 4em 0;
+  text-align: center;
+}
+
+.resume .masthead > *,
+.resume section {
+  grid-column: main;
+}
+
+.resume .masthead > img {
+  border-radius: 50%;
+  margin: 0 auto;
+  max-width: 12em;
+}
+
+.resume article > * + *,
+.resume blockquote > * + * {
+  margin-top: 0.6em;
+}
+
+.resume .stack {
+  display: grid;
+  gap: 1.5em;
+}
+
+.resume .icon-list {
+  list-style: none;
+  padding: 0;
+}
+
+.resume .grid-list {
+  display: grid;
+  gap: 1em;
+}
+
+.resume .spaced-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.resume .spaced-list:first-child::before {
+  border-bottom: 1px solid var(--color-muted);
+  content: '';
+  flex-grow: 1;
+  margin: 0 1em;
+  order: 1;
+}
+
+.resume .spaced-list > :nth-child(2) {
+  order: 2;
+}
+
+.resume .tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.resume .tag-list > li {
+  background: var(--color-muted);
+  margin: 0 0.2em 0.2em 0;
+  padding: 0.2em 0.6em;
+}
+
+@media print, (min-width: 48em) {
+  .resume h3 {
+    text-align: right;
+    margin-bottom: inherit;
+  }
+
+  .resume .masthead {
+    text-align: inherit;
+  }
+
+  .resume .masthead > *,
+  .resume section {
+    grid-column: content;
+  }
+
+  .resume .masthead img {
+    grid-column: side;
+    grid-row: span 2;
+    max-width: 100%;
+  }
+
+  .resume section {
+    display: contents;
+  }
+
+  .resume .grid-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+</style>
+  </head>
+  <body>
+      <div class="resume">
+        <header class="masthead">
+            <img src="http://www.gravatar.com/avatar/177f87dae21214518392dba1fb6720d6?s&#x3D;400&amp;r&#x3D;pg&amp;d&#x3D;mm" alt="">
+          <div>
+              <h1>Marius van der Knaap</h1>
+              <h2>Mendix developer</h2>
+          </div>
+          <ul class="icon-list">
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                  Delft, Netherlands
+                </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                26-03-1992
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                <a href="mailto:info@mariusvanderknaap.nl">info@mariusvanderknaap.nl</a>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                <a href="tel:+31614371219">+31 6 143 71 219</a>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+                <a href="http://mariusvanderknaap.nl">mariusvanderknaap.nl</a>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    <a href="https://www.linkedin.com/in/mariusvanderknaap/">mariusvanderknaap</a>
+              </li>
+          </ul>
+        </header>
+          <section id="about">
+            <h3>About</h3>
+            <article>
+              <p>With my background in user experience design, I have a strong focus on front-end development. Even though I don’t shy away from difficult technical matters, I always love working on the customer-facing side of digital applications. I chose to work with Mendix because it allows me not only to create apps, but also work closely together with business to investigate business requirements and translate them into amazing applications.</p>
+        <p>I’ve worked on several Mendix projects, but have also undertaken side activities such as marketing and pre-sales. I have an indepth knowledge of Mendix, including the ability to write custom widgets or Java actions, and working on the CI/CD pipeline. I love undertaking these activities and seeing the positive results in the end.</p>
+            </article>
+          </section>
+
+          <section id="work">
+            <h3>Work</h3>
+            <div class="stack">
+                <article>
+                  <header>
+                    <div class="spaced-list">
+                      <h4>Finaps BV</h4>
+                      <span>
+                        <time datetime="2018-02-01">Feb 2018</time> –
+                        Present
+                      </span>
+                    </div>
+                    <div class="spaced-list">
+                        <strong>Senior Business Engineer</strong>
+                        <a href="http://finaps.nl">finaps.nl</a>
+                    </div>
+                  </header>
+                    <p>During my time at Finaps, I've quickly grown into the senior business engineer role. I've been involved in many projects within the company, each time in a different role. From sole developer on small applications, to larger Mendix apps in complex landscapes, to large-scale digital transformation journeys for multinationals.</p>
+                    <ul>
+                        <li>Siemens</li>
+                        <li>Quion</li>
+                        <li>Argenta</li>
+                        <li>Rabobank IDB</li>
+                        <li>BringWay</li>
+                        <li>UMC Utrecht</li>
+                        <li>Rijkswaterstaat</li>
+                        <li>My Finaps</li>
+                    </ul>
+                </article>
+                <article>
+                  <header>
+                    <div class="spaced-list">
+                      <h4>Bakker &amp; Spees</h4>
+                      <span>
+                        <time datetime="2016-02-01">Feb 2016</time> –
+                        <time datetime="2017-05-01">May 2017</time>
+                      </span>
+                    </div>
+                    <div class="spaced-list">
+                        <strong>User Experience designer and front-end developer</strong>
+                        <a href="http://bakkerspees.nl">bakkerspees.nl</a>
+                    </div>
+                  </header>
+                    <p>For my Master's, I took on an internship to perform a UX design analysis on existing VISI software. After obtaining my degree, I stayed with the company to apply best practices from my research into the application.</p>
+                </article>
+                <article>
+                  <header>
+                    <div class="spaced-list">
+                      <h4>Various restaurants</h4>
+                      <span>
+                        <time datetime="2009">Jan 2009</time> –
+                        <time datetime="2012">Jan 2012</time>
+                      </span>
+                    </div>
+                    <div class="spaced-list">
+                        <strong>Waiter/kitchen staff</strong>
+                    </div>
+                  </header>
+                    <p>During this period, I worked for several restaurants where I either waited tables and worked the kitchen. Although you could argue that this experience is hardly relevant for my current field of work, I think they greatly defined who I am as a person and my passion for cooking.</p>
+                </article>
+            </div>
+          </section>
+          <section id="education">
+            <h3>Education</h3>
+            <div class="stack">
+                <article>
+                  <header>
+                    <div class="spaced-list">
+                      <h4>University of Amsterdam</h4>
+                      <span>
+                        <time datetime="2011-09-01">Sep 2011</time> –
+                        <time datetime="2014-07-01">Jul 2014</time>
+                      </span>
+                    </div>
+                    <div class="spaced-list">
+                        <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-award"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                                <strong>Master&#x27;s degree</strong>
+                        </div>
+                    </div>
+                  </header>
+                    <p>Human Centered Multimedia</p>
+                </article>
+                <article>
+                  <header>
+                    <div class="spaced-list">
+                      <h4>Utrecht University</h4>
+                      <span>
+                        <time datetime="2011-09-01">Sep 2011</time> –
+                        <time datetime="2015-07-01">Jul 2015</time>
+                      </span>
+                    </div>
+                    <div class="spaced-list">
+                        <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-award"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                                <strong>Bachelor&#x27;s degree</strong>
+                        </div>
+                    </div>
+                  </header>
+                    <p>Liberal Arts &amp; Sciences</p>
+                </article>
+                <article>
+                  <header>
+                    <div class="spaced-list">
+                      <h4>Haags Montessori Lyceum</h4>
+                      <span>
+                        <time datetime="2004-09-01">Sep 2004</time> –
+                        <time datetime="2010-07-01">Jul 2010</time>
+                      </span>
+                    </div>
+                    <div class="spaced-list">
+                        <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-award"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                                <strong>High school</strong>
+                        </div>
+                    </div>
+                  </header>
+                    <p>Cultuur &amp; Maatschappij</p>
+                </article>
+            </div>
+          </section>
+          <section id="certificates">
+            <h3>Certificates</h3>
+            <div class="stack">
+                <article>
+                  <header>
+                    <div class="spaced-list">
+                      <h4>Professional Scrum Master I</h4>
+                        <time datetime="2019-02-01">Feb 2019</time>
+                    </div>
+                    <div class="spaced-list">
+                        <span>
+                          Issued by <strong>scrum.org</strong>
+                        </span>
+                    </div>
+                  </header>
+                </article>
+                <article>
+                  <header>
+                    <div class="spaced-list">
+                      <h4>Mendix Expert</h4>
+                        <time datetime="2021-06-24">Jun 2021</time>
+                    </div>
+                    <div class="spaced-list">
+                        <span>
+                          Issued by <strong>Mendix</strong>
+                        </span>
+                    </div>
+                  </header>
+                </article>
+                <article>
+                  <header>
+                    <div class="spaced-list">
+                      <h4>Mendix Advanced</h4>
+                        <time datetime="2018-12-01">Dec 2018</time>
+                    </div>
+                    <div class="spaced-list">
+                        <span>
+                          Issued by <strong>Mendix</strong>
+                        </span>
+                    </div>
+                  </header>
+                </article>
+            </div>
+          </section>
+          <section id="skills">
+            <h3>Skills</h3>
+            <div class="grid-list">
+                <div>
+                    <h4>Development</h4>
+                    <ul class="tag-list">
+                        <li>Mendix</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Graphic Design</h4>
+                    <ul class="tag-list">
+                        <li>Photoshop</li>
+                        <li>InDesign</li>
+                        <li>Premiere</li>
+                        <li>Sketch</li>
+                    </ul>
+                </div>
+            </div>
+          </section>
+          <section id="languages">
+            <h3>Languages</h3>
+            <div class="grid-list">
+                <div>
+                    <h4>Dutch</h4>
+                  Native speaker
+                </div>
+                <div>
+                    <h4>English</h4>
+                  Professional proficiency
+                </div>
+                <div>
+                    <h4>Spanish</h4>
+                  A2.1
+                </div>
+            </div>
+          </section>
+          <section id="interests">
+            <h3>Interests</h3>
+            <div class="grid-list">
+                <div>
+                    <h4>Hobbies</h4>
+                    <ul class="tag-list">
+                        <li>Cooking</li>
+                        <li>Traveling</li>
+                        <li>Gaming</li>
+                        <li>Programming</li>
+                    </ul>
+                </div>
+            </div>
+          </section>
+    </div>
+  </body>
+</html>
