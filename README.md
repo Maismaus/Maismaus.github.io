@@ -1,6 +1,6 @@
 # mariusvanderknaap.nl
 
-## Serve
+## Develop
 
 ``` hugo server ```
 
