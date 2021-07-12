@@ -3,7 +3,7 @@
     <span>{{ .Site.Copyright | markdownify }}</span>
     {{- else }}
     <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a></span>
-    {{- end }} {{- if .Site.Params.Kvk}} | KvK: {{ .Site.Params.kvk }} {{- end }}
+    {{- end }} {{- if .Site.Params.Kvk}} | KvK: {{ .Site.Params.kvk }} {{- end }} {{- if .Site.Params.BTW}} | BTW: {{ .Site.Params.BTW }} {{- end }}
 </footer>
 
 {{- if (not .Site.Params.disableScrollToTop) }}

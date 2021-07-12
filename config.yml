@@ -26,6 +26,7 @@ params:
     defaultTheme: auto # dark, light
     disableThemeToggle: true
     kvk: 83169164
+    BTW: NL003791766B40
 
     ShowReadingTime: true
     ShowShareButtons: true
