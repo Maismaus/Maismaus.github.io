@@ -6,7 +6,11 @@
             height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
         {{- end }}
         <h1>{{ .title | default $.Site.Title | markdownify }}</h1>
-        <div class="flex"><span class="subtitle align-right">{{ .subtitle | markdownify }}</span>{{- if .subtitleRight -}}<span> | </span><span class="subtitle align-left">{{ .subtitleRight | markdownify }}</span>{{- end}}</div>
+        <div>
+            <p>{{ .subtitle | markdownify }}</p>
+            {{- if .subtitleRight -}}
+            <p>–</p>
+            <p>{{ .subtitleRight | markdownify }}</p>{{- end}}</div>
         {{- partial "social_icons.html" $.Site.Params.socialIcons -}}
 
         {{- with .buttons }}
