@@ -22,7 +22,7 @@ params:
     author: "Marius van der Knaap"
     displayTitle: false
     #images: ["<link or path of image for opengraph, twitter-cards>"]
-    DateFormat: "June 24, 2021"
+    #DateFormat: "June 24, 2021"
     defaultTheme: auto # dark, light
     disableThemeToggle: true
     kvk: 83169164
@@ -118,6 +118,10 @@ menu:
           name: home
           url: /
           weight: 10
+        - identifier: Blog
+          name: blog
+          url: /blog/
+          weight: 20
         - identifier: CV
           name: cv
           url: /cv/
