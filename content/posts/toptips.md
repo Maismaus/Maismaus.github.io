@@ -1,18 +1,24 @@
 ---
 author: "Marius"
-title: "Why working as a Mendix developer is great"
+title: "tips to speed up your Mendix development"
+url: "/posts/tips-to-speed-up-your-Mendix-development"
 date: "2021-10-14"
-description: "Thoughts from an experienced developer"
-tags: ["Mendix", "Work"]
-ShowToc: false
-ShowBreadCrumbs: false
+description: "Pro tips"
+tags: ["Mendix", "Development"]
+#cover: 
+    #image: "posts/images/ow.png"
+    #alt: "mand"
+    #caption: "mand"
+    #relative: false
+#ShowToc: false
+#ShowBreadCrumbs: false
 ---
 
-*Here's the deal* – you're 20-something years old, freshly graduated off college. You've flirted with coding in the past, hacked your way through a few websites and generally have affinity with modern technology. Or maybe you are a psychology student and enjoyed working with statistics. You're starting to realise that the minor in theatre studies is not going to pay your bills. **It is time to get yourself one of them jobs.**
+*Here's the deal* – you're 20-something years old, freshly graduated off college. You've flirted with coding in the past, hacked your way through a few websites and generally have affinity with modern technology. Or maybe you are a psychology student and enjoyed working with statistics. You're starting to realise that the minor in theatre studies is not going to pay your bills. **You'll need to find yourself one of them jobs.**
 
-Then comes the question of 'what in the hell am I going to do for a living?' Writing code is great but you don't see yourself doing that *all day long for the next forty years of your life*, right? Those were exactly my thoughts before I started working in low code, when my then-future-to-be-employer approached me with a proposal to come work for them as a business engineer.
+Then comes the question of *what in the hell am I going to do for a living?* Writing code is great but you don't see yourself doing that *all day long for the next forty years of your life*, right? Those were exactly my thoughts before I started working in low code, after my then-future-to-be-employer approached me with a proposal to come work for them as a business engineer.
 
-I'd never heard of low code development before then. I thought I would either be writing lines of code or doing something else entirely. The work that she described sounded to me as – and still is – the perfect combination between developing applications and the aforementioned 'doing something else entirely'.
+I'd never heard of low code development before then. I thought I would either be writing lines of code or doing something else entirely. The work that she described sounded to me as – and still is – the perfect combination between developing applications and the aforementioned 'doing something else entirely'. Because as a low code developer, you are not just building software but are often involved in many more steps of the process than traditional software developers.
 
 Low-code development is often referred to as rapid development, implying that it is much faster than conventional programming. I believe that that holds up, but that the biggest difference between conventional programming and low code development is that a low code platform contains everything a web application needs, front to back. This means that every person on a team can usually handle many different aspects of development, be it a front-end user interface issue or a back-end web service integration.
 
