@@ -22,7 +22,7 @@ params:
     author: "Marius van der Knaap"
     displayTitle: false
     #images: ["<link or path of image for opengraph, twitter-cards>"]
-    #DateFormat: "June 24, 2021"
+    DateFormat: "02 January 2006"
     defaultTheme: auto # dark, light
     disableThemeToggle: true
     kvk: 83169164
