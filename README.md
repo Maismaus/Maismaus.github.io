@@ -1,8 +1,13 @@
 # mariusvanderknaap.nl
 
+## Installation
+
+`choco install hugo -y`
+
 ## Develop
 
-``` hugo server ```
+`hugo server`
 
 ## Build
-``` hugo ```
+
+`hugo`
