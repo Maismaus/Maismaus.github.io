@@ -1,32 +1,64 @@
 ---
 author: "Marius"
-title: "tips to speed up your Mendix development"
+title: "tips you wish you knew earlier to speed up your Mendix development"
 url: "/posts/tips-to-speed-up-your-Mendix-development"
 date: "2021-10-14"
 description: "Pro tips"
 tags: ["Mendix", "Development"]
-#cover: 
-    #image: "posts/images/ow.png"
-    #alt: "mand"
-    #caption: "mand"
-    #relative: false
-#ShowToc: false
-#ShowBreadCrumbs: false
 ---
 
-*Here's the deal* – you're 20-something years old, freshly graduated off college. You've flirted with coding in the past, hacked your way through a few websites and generally have affinity with modern technology. Or maybe you are a psychology student and enjoyed working with statistics. You're starting to realise that the minor in theatre studies is not going to pay your bills. **You'll need to find yourself one of them jobs.**
+As a Mendix developer, you are likely working with Studio Pro every day. However, there are many simple tricks that you can use in your day to day work that make your life a little bit easier. In this blog post, I will go over some of the pro tips that I have gathered during my time as a Mendix developer.
 
-Then comes the question of *what in the hell am I going to do for a living?* Writing code is great but you don't see yourself doing that *all day long for the next forty years of your life*, right? Those were exactly my thoughts before I started working in low code, after my then-future-to-be-employer approached me with a proposal to come work for them as a business engineer.
+### 1. Use the JavaScript api 
+Mendix uses the JavaScript API to send actions to the server. Did you know you can use this API to perform any action you could normally perform through the web page? 
+This could help you out if you need to quickly retrieve some objects but you don't have pages set up for this.
 
-I'd never heard of low code development before then. I thought I would either be writing lines of code or doing something else entirely. The work that she described sounded to me as – and still is – the perfect combination between developing applications and the aforementioned 'doing something else entirely'. Because as a low code developer, you are not just building software but are often involved in many more steps of the process than traditional software developers.
+                mx.data.get({
+                    xpath: "//System.User",
+                    callback: function(objs) {
+                        console.log("Received " + objs.length + " MxObjects");
+                    }
+                });
 
-Low-code development is often referred to as rapid development, implying that it is much faster than conventional programming. I believe that that holds up, but that the biggest difference between conventional programming and low code development is that a low code platform contains everything a web application needs, front to back. This means that every person on a team can usually handle many different aspects of development, be it a front-end user interface issue or a back-end web service integration.
+> *Mendix also offers [documentation](https://apidocs.rnd.mendix.com/9/client/) for using the JavaScript API*
 
-Additionally, low code developers generally have more involvement in business decisions. Where traditional development usually takes place in the IT department, developers for low code platforms are usually physically located within the business department. This makes a huge difference. It means that you don't get a list of requirements that business expects you to deliver – you collaborate with the business to define the requirements.
-This has some unexpected consequences. Traditionally, programmers are stereotyped as the nerdy, big-glasses guy behind a desk in the basement of a big office building. While that image is shifting, part of the stereotype holds up. The IT sector is still a male-dominated world, with men outnumbering women six to one.
+### 1. Use JavaScript bookmarklets
+Mx.logout(), Mx.login(username,password), DevMenu
+Since every action is available through the JavaScript API, we can take this one step further. Most modern browser offer the option to save JavaScript snippets in your bookmarks called [bookmarklets](https://en.wikipedia.org/wiki/Bookmarklet).
+Bookmarking a JavaScript function allows you to call it with a single mouse press directly from your browser!
 
-With low-code development, that stereotype doesn't hold up as much. I've had the pleasure of working with business engineers from completely different academic fields including biomedical science, psychology and industrial engineering. At some point, women even outnumbered the men in the team. As my interdisciplinary college professor used to say: the whole is greater than the sum of each parts.
+Use this bookmarklet to log out from any Mendix application:
 
-Companies are usually great places to work for too. They have to be, in order to attract and retain the right people. While working as a business engineer, you'll usually enjoy a lot of freedom in companies that greatly value their employees and show it.
+                    javascript:(function()%7Bmx.logout()%3B%7D)()%3B
 
-So, there you have it. While working as a low-code developer, you can enjoy working on technical problems and actively interacting with your client during the process of building amazing apps. What more do you want: working for great companies with amazing colleagues.
+> *I use this [bookmarklet maker](https://caiorss.github.io/bookmarklet-maker/) to generate bookmarklets from my JavaScript snippets.*
+
+### 2. Use dissolve container to quickly remove a container
+
+### 3. Use inline snippet to dissolve a snippet
+
+### 4. Imitate the Mendix DOM rendering for widget customizations
+
+### 5. Use Prettier for automatic file formatting
+If you have experience writing custom styling, you are probably familiar with CSS indentation formatting. There are many ways you can automate this. I use the Visual Studio Code extension [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) to automatically format my SCSS whenever I save a file.
+                
+                //From this
+                .class{background:red}
+
+                //To this!
+                .class {
+                    background: red;
+                }
+
+> *You can even customize the formatting rules on a per-project basis, using a Prettier [configuration file](https://prettier.io/docs/en/configuration.html)!*
+
+### 6. Use FontAwesome to override glyphicons
+
+### 7. Use set as return value to quickly configure the return value
+
+### 8. Drag and drop
+
+#### 8.1  microflows into subflow calls to replace them
+#### 8.2 Datasource flows into dataviews
+#### 8.3 Microflows into action buttons
+#### 8.4 Connector items into data views
