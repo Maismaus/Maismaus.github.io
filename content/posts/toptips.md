@@ -97,6 +97,16 @@ You can drag most items from the Project Explorer into a page to add a widget to
 - Drag a page into a page view to insert a button linking to that page
 - Drag a microflow onto a dataview to set that microflow as the datasource
 
+> Microflows must return a list before you can drag them onto a listview
+
 #### Drag connector items into data views to insert input widgets
 
 If you have your selection inside a dataview, the connector tab will show you the attributes for the entity in that dataview. You can use the connector to drag any of those attributes into the dataview to instantly create an input widget for that attribute. No more scrolling through the Toolbox to find the correct widget, it automatically select the right type of input widget for that attribute!
+
+### 9. Keyboard shortcuts
+
+Ctrl + Enter
+F5 F9
+Ctrl + Space
+
+### 10. TortoiseSVN
