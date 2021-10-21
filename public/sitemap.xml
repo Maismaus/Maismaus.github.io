@@ -2,12 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mariusvanderknaap.nl/tags/development/</loc>
+    <lastmod>2021-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mariusvanderknaap.nl/tags/guide/</loc>
+    <lastmod>2021-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mariusvanderknaap.nl/posts/tips-to-speed-up-your-Mendix-development/</loc>
+    <lastmod>2021-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mariusvanderknaap.nl/</loc>
+    <lastmod>2021-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mariusvanderknaap.nl/tags/mendix/</loc>
+    <lastmod>2021-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mariusvanderknaap.nl/posts/</loc>
+    <lastmod>2021-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mariusvanderknaap.nl/tags/</loc>
+    <lastmod>2021-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mariusvanderknaap.nl/tags/tips/</loc>
+    <lastmod>2021-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mariusvanderknaap.nl/blog/</loc>
+  </url><url>
     <loc>https://mariusvanderknaap.nl/categories/</loc>
   </url><url>
     <loc>https://mariusvanderknaap.nl/cv/</loc>
-  </url><url>
-    <loc>https://mariusvanderknaap.nl/</loc>
-  </url><url>
-    <loc>https://mariusvanderknaap.nl/tags/</loc>
   </url>
 </urlset>

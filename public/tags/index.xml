@@ -4,6 +4,43 @@
     <title>Tags on Marius van der Knaap</title>
     <link>https://mariusvanderknaap.nl/tags/</link>
     <description>Recent content in Tags on Marius van der Knaap</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://mariusvanderknaap.nl/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 14 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mariusvanderknaap.nl/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Development</title>
+      <link>https://mariusvanderknaap.nl/tags/development/</link>
+      <pubDate>Thu, 14 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mariusvanderknaap.nl/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guide</title>
+      <link>https://mariusvanderknaap.nl/tags/guide/</link>
+      <pubDate>Thu, 14 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mariusvanderknaap.nl/tags/guide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mendix</title>
+      <link>https://mariusvanderknaap.nl/tags/mendix/</link>
+      <pubDate>Thu, 14 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mariusvanderknaap.nl/tags/mendix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tips</title>
+      <link>https://mariusvanderknaap.nl/tags/tips/</link>
+      <pubDate>Thu, 14 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mariusvanderknaap.nl/tags/tips/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
