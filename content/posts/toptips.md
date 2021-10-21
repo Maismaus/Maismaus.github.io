@@ -6,7 +6,7 @@ date: "2021-10-14"
 description: "Pro tips"
 tags: ["Mendix", "Development", "Tips", "Guide"]
 cover:
-  image: "/posts/images/toptipsheader.png"
+  image: "/posts/images/toptipsheader.jpg"
   alt: "Hero image for top tips for speeding up your Mendix development"
 ---
 
@@ -33,7 +33,7 @@ mx.data.get({
 Since every action is available through the JavaScript API, we can take this one step further. Most modern browser offer the option to save JavaScript snippets in your bookmarks called [bookmarklets](https://en.wikipedia.org/wiki/Bookmarklet).
 Bookmarking a JavaScript function allows you to call it with a single mouse press directly from your browser. The possibilities are endless: logging in, opening a page, executing a microflow...
 
-##### Log out of any Mendix application instantly:
+##### Log out of any Mendix application instantly by clicking a bookmark on your toolbar:
 
 ```
 javascript:(function()%7Bmx.logout()%3B%7D)()%3B
@@ -73,25 +73,30 @@ If you have experience writing custom styling, you are probably familiar with CS
 
 > _You can even customize the formatting rules on a per-project basis, using a Prettier [configuration file](https://prettier.io/docs/en/configuration.html)!_
 
-### 6. Use FontAwesome to override glyphicons
+### 6. Use set as return value to quickly configure the return value
 
-### 7. Use set as return value to quickly configure the return value
+I used to select the entity to return from a microflow by:
+- Double clicking the End event
+- Selecting the return Entity type
+- Entering a variable to return
 
-You can select the entity to return from a microflow by double clicking the End event, selecting the return Entity type and then entering a variable to return. However you can also right click an activity that contains a variable and press `Set as return value` to do all those things at once!
+However you can also right click an activity that contains a variable and press `Set as return value` to do all those things at once!
 
 ![Use set as return value to set the return type and return the selected object](/posts/images/toptipsreturnvalue.png)
 
-### 8. Drag and drop
+### 7. Dragging and dropping
 
-Drag and drop (also jokingly referred to as _sleur en pleur_ in Dutch 😉) is a pattern which is used often throughout Studio Pro. Did you know you can use it in many more instances than simply dragging activities into microflows?
+Drag and drop (also jokingly referred to as _sleur en pleur_ in Dutch 😉) is a pattern which is used often throughout Studio Pro. Did you know you can use it in many more instances than you might be aware of?
 
 #### Drag flows from the Explorer into Microflows
 
-You can either drag a microflow into a blank area of a microflow to create a new Call Microflow activity, or onto an existing Call Microflow activity to replace the subflow with another.
+You can either drag a microflow into a blank area of a microflow to create a new Call Microflow activity, or onto an existing Call Microflow activity to replace the subflow call with another.
 
 #### Drag items from the Explorer into pages
 
-You can drag most items from the Project Explorer into a page to add a widget to your page. You can drag them onto existing widgets or onto blank targets to create a new widget.
+You can drag most items from the Project Explorer into a page to add a widget to your page instantly. You can drag them onto existing widgets or onto blank targets to create a new widget.
+
+Some examples of drag and drop actions that you can do:
 
 - Drag a microflow onto a button to set that microflow as the action
 - Drag a page into a page view to insert a button linking to that page
@@ -100,3 +105,11 @@ You can drag most items from the Project Explorer into a page to add a widget to
 #### Drag connector items into data views to insert input widgets
 
 If you have your selection inside a dataview, the connector tab will show you the attributes for the entity in that dataview. You can use the connector to drag any of those attributes into the dataview to instantly create an input widget for that attribute. No more scrolling through the Toolbox to find the correct widget, it automatically select the right type of input widget for that attribute!
+
+### 8. Quickly change between input widget types for enumerations and booleans
+
+As you probably know, you can use different types of input widgets for enumerations and booleans. Enumeration attributes support drop down and radio button widgets, and booleans support. Did you know you can right click those input widgets to instantly swap between the two types of input widgets?
+
+---
+
+Hero image by [Geeky Shots](https://unsplash.com/@geekyshots?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
