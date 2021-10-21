@@ -1,0 +1,4 @@
+{{- if or .Params.credits }}
+{{- $credits := .Params.credits }}
+<div class="footer" style="padding-top: 0;">{{- $credits.text }} <a href="{{- $credits.url }}" target="_blank">{{- $credits.author }}</a></div>
+{{- end -}}
