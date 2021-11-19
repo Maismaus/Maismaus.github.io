@@ -24,11 +24,11 @@ Got a container you don't need anymore, but you need to save the content within 
 
 ### 2. Use inline snippet to return snippet contents back to a page
 
-Similar to `dissolve container`, you can right click a snippet and select `inline snippet` to quickly put all snippet contents back on a page directly.
+Similar to `dissolve container`, you can right click a snippet and select `inline snippet` to put all snippet contents back on a page instantly.
 
 ![Remove a snippet quickly by selecting inline snippet](/posts/images/toptipsinlinesnippet.png)
 
-### 3. Use set as return value to quickly configure the return value
+### 3. Quickly set the return value in a microflow
 
 I used to select the entity to return from a microflow by:
 - Double clicking the End event
@@ -39,7 +39,7 @@ However, you can also right click an activity that contains a variable and press
 
 ![Use set as return value to set the return type and return the selected object](/posts/images/toptipsreturnvalue.png)
 
-### 4. Quickly change between input widget types for enumerations and booleans
+### 4. Instantly swap input widget types for enumerations and booleans
 
 As you probably know, you can use different types of input widgets for enumerations and booleans. Enumeration attributes support drop down and radio button widgets, and booleans support radio buttons and checkboxes. Did you know you can right click those input widgets to instantly swap between the two types of input widgets?
 
@@ -91,7 +91,7 @@ When you call a submicroflow from another microflow, Mendix auto generates the c
 
 In the appearance tab, you can assign design properties to apply to your page content. Selecting a design property adds the corresponding class to that element. 
 
-Design properties are defined in `design-projecties.json` in your project directory. You can add custom design properties to your project to allow all team members to quickly discover available custom classes. 
+Design properties are defined in `design-projecties.json` in your project directory. You can add custom design properties to your project to allow all team members to easily discover available custom classes. 
 
 For instance, you can add the 'hide empty' design property to all listviews by adding the code below to `design-properties.json`. 
 From then on, you can select it as a design property in the appearance tab. 
@@ -118,7 +118,7 @@ From this:
 
 To this! 
 ![Distribute horizontally to auto-align microflow actions](/posts/images/toptipsdistributehorizontallyafter.png)
-More useful when you have more than a single action, obviously.
+_More useful when you have more than a single action, obviously._
 
 ### 10. Use the documentation export to quickly generate app documentation
 
