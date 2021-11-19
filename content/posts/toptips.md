@@ -3,7 +3,7 @@ author: "Marius"
 title: "Here's 10 tips you wish you knew earlier to speed up your Mendix development"
 url: "/posts/10-tips-to-speed-up-your-Mendix-development"
 date: "2021-10-14"
-description: "Pro tips for leveling up your development game"
+description: "Pro tips for leveling up your development game within Mendix Studio Pro"
 tags: ["Mendix", "Development", "Tips", "Guide"]
 credits: 
     author: Geeky Shots
@@ -24,11 +24,11 @@ Got a container you don't need anymore, but you need to save the content within 
 
 ### 2. Use inline snippet to return snippet contents back to a page
 
-Similar to `dissolve container`, you can right click a snippet and select `inline snippet` to quickly put all snippet contents back on a page directly.
+Similar to `dissolve container`, you can right click a snippet and select `inline snippet` to put all snippet contents back on a page instantly.
 
 ![Remove a snippet quickly by selecting inline snippet](/posts/images/toptipsinlinesnippet.png)
 
-### 3. Use set as return value to quickly configure the return value
+### 3. Quickly set the return value in a microflow
 
 I used to select the entity to return from a microflow by:
 - Double clicking the End event
@@ -39,7 +39,7 @@ However, you can also right click an activity that contains a variable and press
 
 ![Use set as return value to set the return type and return the selected object](/posts/images/toptipsreturnvalue.png)
 
-### 4. Quickly change between input widget types for enumerations and booleans
+### 4. Instantly swap input widget types for enumerations and booleans
 
 As you probably know, you can use different types of input widgets for enumerations and booleans. Enumeration attributes support drop down and radio button widgets, and booleans support radio buttons and checkboxes. Did you know you can right click those input widgets to instantly swap between the two types of input widgets?
 
@@ -81,70 +81,47 @@ I'm sure you are using some of the shortcut keys that Mendix Studio Pro offers, 
 
 > _Refer to the Mendix [documentation](https://docs.mendix.com/refguide/studio-pro-overview#7-shortcut-keys) to view all shortcut keys configured for Studio Pro_
 
-### 7. Use Prettier for automatic file formatting
+### 7. Use the custom caption option to improve legibility of your microflows
 
-If you have experience writing custom styling, you are probably familiar with CSS indentation formatting. There are many ways you can automate this. I use the Visual Studio Code extension [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) to automatically format my SCSS whenever I save a file.
+When you call a submicroflow from another microflow, Mendix auto generates the caption that is displayed from the name of the submicroflow. However, you can greatly improve legibility by adding a custom caption to your submicroflow call. Just select the action and press **Shift + F2** to enter a custom caption. This way, you can explain in your own language what the microflow is doing.
 
-                //From this
-                .class{background:red}
+![Add custom caption for better microflow](/posts/images/toptipscustomcaption.png)
 
-                //To this!
-                .class {
-                    background: red;
-                }
+### 8. Add custom design properties to your project
 
-> _You can even customize the formatting rules on a per-project basis, using a Prettier [configuration file](https://prettier.io/docs/en/configuration.html)!_
+In the appearance tab, you can assign design properties to apply to your page content. Selecting a design property adds the corresponding class to that element. 
 
-### 8. Use the JavaScript api
+Design properties are defined in `design-projecties.json` in your project directory. You can add custom design properties to your project to allow all team members to easily discover available custom classes. 
 
-Mendix uses the JavaScript API to send actions to the server. Did you know you can use this API to perform any action you could normally perform through the web page?
-This could help you out if you need to quickly retrieve some objects but you don't have pages set up for this.
+For instance, you can add the 'hide empty' design property to all listviews by adding the code below to `design-properties.json`. 
+From then on, you can select it as a design property in the appearance tab. 
 
 ```
-mx.data.get({
-    xpath: "//System.User",
-    callback: function(objs) {
-        console.log("Received " + objs.length + " MxObjects");
+"ListView": [
+    {
+        "name": "Hide empty",
+        "type": "Toggle",
+        "description": "Hides the 'no items found' in empty lists.",
+        "class": "listview-hide-empty"
     }
-});
+],
 ```
 
-> _Mendix also offers [documentation](https://apidocs.rnd.mendix.com/9/client/) for using the JavaScript API. I might write a full blogpost about the Mendix JavaScript API later, so keep a look out!_
+> _Design properties do nothing besides adding a class to the element, so make sure you have appropriate styling available in your stylesheets to apply to the element!_ 
 
-### 9. Use JavaScript bookmarklets
+### 9. Align your microflows automatically
 
-Since every action is available through the JavaScript API, we can take this one step further. Most modern browser offer the option to save JavaScript snippets in your bookmarks called [bookmarklets](https://en.wikipedia.org/wiki/Bookmarklet).
-Bookmarking a JavaScript function allows you to call it with a single mouse press directly from your browser. The possibilities are endless: logging in, opening a page, executing a microflow...
+In a recent release, Mendix added the option to align your microflow actions automatically. Just select the elements that you want to align, and right click to select the correct option. For instance, `distribute horizontally` automatically adds the same space between all selected actions. 
 
-##### Log out of any Mendix application instantly by clicking a bookmark on your toolbar:
+From this:
+![Distribute horizontally to auto-align microflow actions](/posts/images/toptipsdistributehorizontallybefore.png)
 
-```
-javascript:(function()%7Bmx.logout()%3B%7D)()%3B
-```
+To this! 
+![Distribute horizontally to auto-align microflow actions](/posts/images/toptipsdistributehorizontallyafter.png)
+_More useful when you have more than a single action, obviously._
 
-##### Log in to your Mendix app with the provided username and password ("MxAdmin" with password "1" in this example):
+### 10. Use the documentation export to quickly generate app documentation
 
-```
-javascript:(function()%7Bmx.login(%22MxAdmin%22%2C%20%221%22)%3B%7D)()%3B
-```
+As you are probably aware, Mendix allows you to document content of your app in most places. You can add documentation to domain models, entities, microflows, and even separate microflow parameters. But did you know there is a built-in export feature for these types of documentation files? Just right click your app in the Explorer and select 'Export documentation'. This automatically generates a comprehensive .html file with all your project documentation!
 
-> _I use this [bookmarklet maker](https://caiorss.github.io/bookmarklet-maker/) to generate bookmarklets from my JavaScript snippets._
-
-### 10. TortoiseSVN
-
-Mendix uses Subversion (SVN) for version management. Most of the things you need for this are included in Studio Pro, but you can download [TortoiseSVN](https://tortoisesvn.net/) to get some additional functionalities. 
-
-With TortoiseSVN, you can:
-
-- Update to a specific revision, for instance to compare changes between commits
-- Rename and archive branches
-- Resolve merge issues that occurred outside of Studio Pro
-- Update and commit without having to open Studio Pro
-- Add items to the ignore list
-
-> _Make sure you check which TortoiseSVN version you need for your Studio Pro version_
-
-
----
-
-Are you missing some Pro Tips that you use in this blog post? Let me know!
+![Export documentation to generate a documentation html page of your app](/posts/images/toptipsexportdocumentation.png)
