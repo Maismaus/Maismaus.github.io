@@ -10,6 +10,7 @@ cover:
     alt: "mand"
     #caption: "mand"
     relative: false
+draft: true
 #ShowToc: false
 #ShowBreadCrumbs: false
 ---
