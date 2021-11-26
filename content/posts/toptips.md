@@ -2,16 +2,17 @@
 author: "Marius"
 title: "Here's 10 tips you wish you knew earlier to speed up your Mendix development"
 url: "/posts/10-tips-to-speed-up-your-Mendix-development"
-date: "2021-10-14"
+date: "2021-11-26"
 description: "Pro tips for leveling up your development game within Mendix Studio Pro"
 tags: ["Mendix", "Development", "Tips", "Guide"]
 credits: 
-    author: Geeky Shots
+    author: "Geeky Shots"
     url: "https://unsplash.com/@geekyshots?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-    text: Hero image by
+    text: "Hero image by"
 cover:
-  image: "/posts/images/toptipsheader.jpg"
-  alt: "Hero image for top tips for speeding up your Mendix development"
+    image: "/posts/images/toptips/header.jpg"
+    alt: "Hero image for top tips for speeding up your Mendix development"
+ShowShareButtons: false
 ---
 
 As a Mendix developer, you are likely working with Studio Pro every day. However, there are many simple tricks that you can use in your day to day work that make your life a little bit easier. In this blog post, I will go over some of the pro tips that I have gathered during my time as a Mendix developer.
@@ -20,13 +21,13 @@ As a Mendix developer, you are likely working with Studio Pro every day. However
 
 Got a container you don't need anymore, but you need to save the content within it? Stop dragging all items out of the container before deleting it! Simply right click the container and select `dissolve container` to remove the container but keep the content contained within it.
 
-![Remove a container quickly by selecting dissolve container](/posts/images/toptipsdissolvecontainer.png)
+![Remove a container quickly by selecting dissolve container](/posts/images/toptips/dissolvecontainer.png)
 
 ### 2. Use inline snippet to return snippet contents back to a page
 
 Similar to `dissolve container`, you can right click a snippet and select `inline snippet` to put all snippet contents back on a page instantly.
 
-![Remove a snippet quickly by selecting inline snippet](/posts/images/toptipsinlinesnippet.png)
+![Remove a snippet quickly by selecting inline snippet](/posts/images/toptips/inlinesnippet.png)
 
 ### 3. Quickly set the return value in a microflow
 
@@ -37,13 +38,13 @@ I used to select the entity to return from a microflow by:
 
 However, you can also right click an activity that contains a variable and press `Set as return value` to do all of those things at once!
 
-![Use set as return value to set the return type and return the selected object](/posts/images/toptipsreturnvalue.png)
+![Use set as return value to set the return type and return the selected object](/posts/images/toptips/returnvalue.png)
 
 ### 4. Instantly swap input widget types for enumerations and booleans
 
 As you probably know, you can use different types of input widgets for enumerations and booleans. Enumeration attributes support drop down and radio button widgets, and booleans support radio buttons and checkboxes. Did you know you can right click those input widgets to instantly swap between the two types of input widgets?
 
-![Use convert to option to convert an input widget to a different type](/posts/images/toptipschangewidgettype.png)
+![Use convert to option to convert an input widget to a different type](/posts/images/toptips/changewidgettype.png)
 
 ### 5. Dragging and dropping
 
@@ -53,7 +54,7 @@ Drag and drop is a pattern which is used often throughout Studio Pro. Did you kn
 
 You can either drag a microflow into a blank area of a microflow to create a new Call Microflow activity, or onto an existing Call Microflow activity to replace the subflow call with another.
 
-![Drag a microflow into a microflow to insert or replace a microflow call action](/posts/images/toptipsdragmicroflowintomicroflow.png)
+![Drag a microflow into a microflow to insert or replace a microflow call action](/posts/images/toptips/dragmicroflowintomicroflow.png)
 
 ##### Drag items from the Explorer into pages
 
@@ -65,7 +66,7 @@ Some examples of drag and drop actions that you can do:
 - Drag a page into a page view to insert a button linking to that page
 - Drag a microflow onto a dataview to set that microflow as the datasource
 
-![Drag a microflow into a page to insert a button](/posts/images/toptipsdragmicroflow.png)
+![Drag a microflow into a page to insert a button](/posts/images/toptips/dragmicroflow.png)
 
 > _Microflows must return a list before you can drag them onto a listview, and they must return a single object before you can drag them onto a data view._
 
@@ -73,7 +74,7 @@ Some examples of drag and drop actions that you can do:
 
 If you have your selection inside a dataview, the connector tab will show you the attributes for the entity in that dataview. You can use the connector to drag any of those attributes into the dataview to instantly create an input widget for that attribute. No more scrolling through the Toolbox to find the correct widget, it automatically select the right type of input widget for that attribute!
 
-![Drag an attribute into a dataview to insert an input widget](/posts/images/toptipsdragconnector.png)
+![Drag an attribute into a dataview to insert an input widget](/posts/images/toptips/dragconnector.png)
 
 ### 6. Keyboard shortcuts
 
@@ -93,7 +94,7 @@ I'm sure you are using some of the shortcut keys that Mendix Studio Pro offers, 
 
 When you call a submicroflow from another microflow, Mendix auto generates the caption that is displayed from the name of the submicroflow. However, you can greatly improve legibility by adding a custom caption to your submicroflow call. Just select the action and press **Shift + F2** to enter a custom caption. This way, you can explain in your own language what the microflow is doing.
 
-![Add custom caption for better microflow](/posts/images/toptipscustomcaption.png)
+![Add custom caption for better microflow](/posts/images/toptips/customcaption.png)
 
 ### 8. Add custom design properties to your project
 
@@ -122,17 +123,17 @@ From then on, you can select it as a design property in the appearance tab.
 In a recent release, Mendix added the option to align your microflow actions automatically. Just select the elements that you want to align, and right click to select the correct option. For instance, `distribute horizontally` automatically adds the same space between all selected actions. 
 
 From this:
-![Distribute horizontally to auto-align microflow actions](/posts/images/toptipsdistributehorizontallybefore.png)
+![Distribute horizontally to auto-align microflow actions](/posts/images/toptips/distributehorizontallybefore.png)
 
 To this! 
-![Distribute horizontally to auto-align microflow actions](/posts/images/toptipsdistributehorizontallyafter.png)
+![Distribute horizontally to auto-align microflow actions](/posts/images/toptips/distributehorizontallyafter.png)
 _More useful when you have more than a single action, obviously._
 
 ### 10. Use the documentation export to quickly generate app documentation
 
 As you are probably aware, Mendix allows you to document content of your app in most places. You can add documentation to domain models, entities, microflows, and even separate microflow parameters. But did you know there is a built-in export feature for these types of documentation files? Just right click your app in the Explorer and select 'Export documentation'. This automatically generates a comprehensive .html file with all your project documentation!
 
-![Export documentation to generate a documentation html page of your app](/posts/images/toptipsexportdocumentation.png)
+![Export documentation to generate a documentation html page of your app](/posts/images/toptips/exportdocumentation.png)
 
 ---
 
