@@ -1,7 +1,7 @@
 ---
 author: "Marius"
 title: "Here's 10 tips you wish you knew earlier to speed up your Mendix development"
-url: "/posts/tips-to-speed-up-your-Mendix-development"
+url: "/posts/top-tips-to-speed-up-your-Mendix-development"
 date: "2021-10-14"
 description: "Pro tips for leveling up your development game within Mendix Studio Pro"
 tags: ["Mendix", "Development", "Tips", "Guide"]
@@ -53,6 +53,8 @@ Drag and drop is a pattern which is used often throughout Studio Pro. Did you kn
 
 You can either drag a microflow into a blank area of a microflow to create a new Call Microflow activity, or onto an existing Call Microflow activity to replace the subflow call with another.
 
+![Drag a microflow into a microflow to insert or replace a microflow call action](/posts/images/toptipsdragmicroflowintomicroflow.png)
+
 ##### Drag items from the Explorer into pages
 
 You can drag most items from the Project Explorer into a page to add a widget to your page instantly. You can drag them onto existing widgets or onto blank targets to create a new widget.
@@ -63,21 +65,27 @@ Some examples of drag and drop actions that you can do:
 - Drag a page into a page view to insert a button linking to that page
 - Drag a microflow onto a dataview to set that microflow as the datasource
 
+![Drag a microflow into a page to insert a button](/posts/images/toptipsdragmicroflow.png)
+
 > _Microflows must return a list before you can drag them onto a listview, and they must return a single object before you can drag them onto a data view._
 
 ##### Drag connector items into data views to insert input widgets
 
 If you have your selection inside a dataview, the connector tab will show you the attributes for the entity in that dataview. You can use the connector to drag any of those attributes into the dataview to instantly create an input widget for that attribute. No more scrolling through the Toolbox to find the correct widget, it automatically select the right type of input widget for that attribute!
 
+![Drag an attribute into a dataview to insert an input widget](/posts/images/toptipsdragconnector.png)
+
 ### 6. Keyboard shortcuts
 
 I'm sure you are using some of the shortcut keys that Mendix Studio Pro offers, but are you making full use of them? These are the shortcuts I use every single day:
 
 - **Ctrl + Enter** to close any window that you currently have open
+- **Ctrl + G** to open the quick find menu
 - **Ctrl + Space** to open the autofill option when entering a variable or XPath
 - **F5** to run your app
 - **F9** to view your app
 - **Ctrl + W** to close any open tab
+- **Shift + mouse wheel** scrolls through a microflow horizontally
 
 > _Refer to the Mendix [documentation](https://docs.mendix.com/refguide/studio-pro-overview#7-shortcut-keys) to view all shortcut keys configured for Studio Pro_
 
@@ -125,3 +133,7 @@ _More useful when you have more than a single action, obviously._
 As you are probably aware, Mendix allows you to document content of your app in most places. You can add documentation to domain models, entities, microflows, and even separate microflow parameters. But did you know there is a built-in export feature for these types of documentation files? Just right click your app in the Explorer and select 'Export documentation'. This automatically generates a comprehensive .html file with all your project documentation!
 
 ![Export documentation to generate a documentation html page of your app](/posts/images/toptipsexportdocumentation.png)
+
+---
+
+I hope these tips will help you become a true Mendix Pro. If you have any thoughts, feel free to share them. And remember, stay curious!
