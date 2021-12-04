@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Guide on Marius van der Knaap</title>
-    <link>Maismaus.github.io/tags/guide/</link>
+    <link>https://maismaus.github.io/tags/guide/</link>
     <description>Recent content in Guide on Marius van der Knaap</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 26 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="Maismaus.github.io/tags/guide/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://maismaus.github.io/tags/guide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Here&#39;s 10 tips you wish you knew earlier to speed up your Mendix development</title>
-      <link>Maismaus.github.io/posts/10-tips-to-speed-up-your-Mendix-development/</link>
+      <link>https://maismaus.github.io/posts/10-tips-to-speed-up-your-Mendix-development/</link>
       <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>Maismaus.github.io/posts/10-tips-to-speed-up-your-Mendix-development/</guid>
+      <guid>https://maismaus.github.io/posts/10-tips-to-speed-up-your-Mendix-development/</guid>
       <description>Pro tips for leveling up your development game within Mendix Studio Pro</description>
     </item>
     
