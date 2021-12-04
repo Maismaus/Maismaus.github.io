@@ -1,4 +1,4 @@
-baseURL: "Maismaus.github.io"
+baseURL: "https://maismaus.github.io"
 title: Marius van der Knaap
 paginate: 5
 theme: PaperMod
