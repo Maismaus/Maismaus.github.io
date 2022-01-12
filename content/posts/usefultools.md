@@ -1,6 +1,6 @@
 ---
 author: "Marius"
-title: "8 must-have tools during app development"
+title: "Must-have tools for Mendix app development"
 url: "/posts/Mendix-tools-for-development"
 date: "2021-11-01"
 description: "Tools for Mendix developers you can't do without"
@@ -67,7 +67,7 @@ javascript:(function()%7Bmx.login(%22MxAdmin%22%2C%20%221%22)%3B%7D)()%3B
 > _I use this [bookmarklet maker](https://caiorss.github.io/bookmarklet-maker/) to generate bookmarklets from my JavaScript snippets._
 
 ### 4. Squeeze more efficiency out of Windows using PowerToys
-If you've ever used a MacBook before, I'm sure you miss the Spotlight feature after switching to Windows. Did you know Microsoft offers this and more in PowerToys? For instance, it adds functionality in File Explorer to preview .svg and .md files, a right-click image resizer, and a nifty color picker. A must-have for anyone using Windows 10 on a daily basis!
+If you've ever used a MacBook before, I'm sure you miss the Spotlight feature after switching to Windows. Did you know Microsoft offers this —and more— with PowerToys? For instance, it adds functionality in File Explorer to preview .svg and .md files, a right-click image resizer, and a nifty color picker. A must-have for anyone using Windows 10 on a daily basis!
 
 ### 5. Automate your installation process with Chocolatey
 Again, if you used a MacBook in the past, you've probably heard of Homebrew. There is a Windows equivalent called Chocolatey. Chocolatey is a package manager for Windows that allows you to search for and install software right from the command prompt. 
