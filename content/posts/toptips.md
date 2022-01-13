@@ -12,7 +12,6 @@ credits:
 cover:
     image: "/posts/images/toptips/header.jpg"
     alt: "Hero image for top tips for speeding up your Mendix development"
-ShowShareButtons: false
 ---
 
 As a Mendix developer, you are likely working with Studio Pro every day. However, there are many simple tricks that you can use in your day to day work that make your life a little bit easier. In this blog post, I will go over some of the pro tips that I have gathered during my time as a Mendix developer.
