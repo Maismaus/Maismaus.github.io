@@ -15,7 +15,7 @@ cover:
 draft: true
 ---
 
-If you're working on Mendix apps on a daily basis, you better make sure you have the right tools to work with. Mendix Studio Pro is a great platform to build apps with, but there are many external tools that will help you build apps quicker than ever before. In this blogpost, I will go over my recommendations for must-have tools for everyday use. 
+If you're working on Mendix apps on a daily basis, you better make sure you have the right tools to work with. Mendix Studio Pro is a great platform to build apps with, but there are many external tools that will help you build apps quicker than ever before. In this article, I will go over my recommendations for must-have tools for everyday use. 
 
 ### 1. Use Prettier for automatic file formatting
 
@@ -39,11 +39,11 @@ Mendix uses Subversion (SVN) for version management. Most of the things you need
 
 With TortoiseSVN, you can:
 
-- Update to a specific revision, for instance to compare changes between commits
-- Rename and archive branches
-- Resolve merge issues that occurred outside of Studio Pro
-- Update and commit without having to open Studio Pro
-- Add items to the ignore list
+- Update to a specific revision, for instance to compare changes between commits.
+- Rename and archive branches.
+- Resolve merge issues that occurred outside of Studio Pro.
+- Update and commit without having to open Studio Pro.
+- Add items to the ignore list, preventing merge conflicts for compiled files.
 
 > _Make sure you check which TortoiseSVN version you need for your Studio Pro version_
 
@@ -104,7 +104,7 @@ Postman also offers a collection runner, where you can configure a number of web
 
 ### 8. Run a local mail server using FakeSMTP
 
-Configuring an external e-mail server to work locally can be a nuisance. You might not have an internet connection, configuration settings could change or you don't want to have to reconfigure the e-mail server every time you switch databases locally. For these scenarios, FakeSMTP is a perfect solution. This lightwight Java package will run a local e-mail server that you can connect to in seconds. Because it is written in Java, you can use it on any operating system too!
+Configuring an external e-mail server to work locally can be a nuisance. You might not have an internet connection, configuration settings could change or you don't want to have to reconfigure the e-mail server every time you switch databases locally. For these scenarios, [FakeSMTP](http://nilhcem.com/FakeSMTP/) is a perfect solution. This lightwight Java package will run a local e-mail server that you can connect to in seconds. Because it is written in Java, you can use it on any operating system too!
 
 ### 9. Slack
 Did you know there is an entire Mendix community available on Slack? This active community can help you out with problems. Find the Mendix Slack community [here](https://mendixcommunity.slack.com/)!
