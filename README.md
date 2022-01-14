@@ -6,7 +6,7 @@
 
 ## Develop
 
-`hugo server`
+`hugo server --buildDrafts`
 
 ## Build
 

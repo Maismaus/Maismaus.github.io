@@ -2,7 +2,7 @@
 author: "Marius"
 title: "Using the JavaScript API in Mendix"
 url: "/posts/javascript-api-guide"
-date: "2021-11-01"
+date: "2022-01-01"
 description: "Must-have tools for Mendix developers"
 tags: ["Mendix", "Development", "Tips", "Guide"]
 credits: 

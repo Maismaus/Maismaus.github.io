@@ -2,7 +2,7 @@
 author: "Marius"
 title: "Best practices for extending Mendix input widgets"
 url: "/posts/input-widgets-best-practices"
-date: "2021-11-01"
+date: "2022-01-01"
 description: "The optimal way to extend default input widgets"
 tags: ["Mendix", "Development", "Tips", "Guide"]
 credits: 
