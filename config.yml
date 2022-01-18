@@ -81,6 +81,8 @@ params:
           url: "https://www.linkedin.com/in/mariusvanderknaap/"
         - name: github
           url: "https://github.com/Maismaus"
+        - name: medium
+          url: "https://medium.com/@mariusvanderknaap"
         #- name: email
         #  url: "mailto:info@mariusvanderknaap.nl"
 
