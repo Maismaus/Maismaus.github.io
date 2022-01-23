@@ -29,4 +29,6 @@ Traditionally, programmers are stereotyped as the nerdy, big-glasses guy behind 
 
 Companies are usually great places to work for, too. They have to be, in order to attract and retain the right people. While working as a business engineer, you'll usually enjoy a lot of freedom in companies that greatly value their employees and show it. Or you could decide to be your own boss and work as a freelancer, as I recently [did](https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A6851808905958346752?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BwtjbeyO4ROecTjEpolP23g%3D%3D). Since experienced business engineers are highly sought after, you'll enjoy knowing that you can probably find a job anywhere, anytime. 
 
-So, there you have it. While working as a business engineer, you can enjoy working on technical problems while actively interacting with your client during the process of building amazing apps. You'll meet wonderful people from a variety of academic backgrounds, 
+---
+
+So, there you have it. While working as a business engineer, you can enjoy working on technical problems while actively interacting with your client during the process of building amazing apps. You'll meet wonderful people from a variety of academic backgrounds. And you'll always have the satisfaction of looking back on a working day and seeing the results of your work. 
