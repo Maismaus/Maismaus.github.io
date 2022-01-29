@@ -1,7 +1,7 @@
 ---
 author: "Marius"
 title: "Wat ik geleerd heb van starten als freelancer"
-url: "/posts/freelance-tips"
+url: "/posts/freelance-ervaringen-en-tips"
 date: "2022-01-29"
 description: "Werken als freelancer in de IT"
 tags: ["Mendix", "Carrière", "Freelance", "ZZP"]

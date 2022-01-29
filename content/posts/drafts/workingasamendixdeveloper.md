@@ -12,7 +12,7 @@ credits:
 cover:
   image: "/posts/images/workingasamendixdeveloper/header.jpg"
   alt: "A modern desk"
-draft: false
+draft: true
 ---
 
 *Here's the deal* – you're 20-something years old, freshly graduated off college. Maybe you've flirted with coding in the past, hacked your way through a few websites and generally have affinity with modern technology. Or perhaps you are a psychology student and enjoyed working with statistics. You're starting to realise that your minor in theatre studies is not going to pay your bills. **You'll need to find yourself one of them jobs.**
