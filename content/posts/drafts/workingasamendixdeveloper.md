@@ -17,7 +17,20 @@ draft: true
 
 *Here's the deal* – you're 20-something years old, freshly graduated off college. Maybe you've flirted with coding in the past, hacked your way through a few websites and generally have affinity with modern technology. Or perhaps you are a psychology student and enjoyed working with statistics. You're starting to realise that your minor in theatre studies is not going to pay your bills. **You'll need to find yourself one of them jobs.**
 
-Then comes the question of *what in the hell am I going to do for a living?* Writing code might be great but you don't see yourself doing that *all day long for the next forty years of your life*, right? Or staring at Excel sheets all day? Those were my thoughts before I started working in low code, when I was approached with an offer to work as a business engineer.
+Before I started working as a Mendix developer I had serious doubts about my future career path. I liked writing code, but I didn't see myself doing that all day, every day. But I did like building things. I like looking back at a days' work and seeing the results. That's what building software is. I didn't know about low code until I was approached by my previous employer who described the Mendix platform to me.
+
+As a Mendix developer, you are building applications without writing traditional code. Instead, you're building applications using prebuilt parts. You design pieces of logic called microflows, which are translated into things computers can understand when you launch the application. A microflow looks like a traditional workflow diagram. It has a start and an end, and executes the pieces of logic in between. 
+
+![An example microflow](/posts/images/workingsasamendixdeveloper/examplemicroflow.png)
+*A traditional microflow that retrieves an object from the database, changes it and returns it to the database.*
+
+Because the pieces are prebuilt and ready to use, you can develop logic up to ten times faster than traditional coding methods. Because the learning curve is much shallower than coding, it's much easier to get into as well. 
+
+
+
+
+
+Then comes the question of *what in the hell am I going to do for a living?* Writing code might be great but you don't see yourself doing that *all day long for the next forty years of your life*, right? Those were my thoughts before I started working in low code, when I was approached with an offer to work as a business engineer.
 
 People who work in low code development are often referred to as business engineers. The term business engineer is a combination of software engineer and business administration expert. Business engineers know how businesses operate and are able to understand complex organisations. They can translate organization needs into software requirements. But after doing so, they are also able to produce software out of these requirements using a low code development platform. 
 
