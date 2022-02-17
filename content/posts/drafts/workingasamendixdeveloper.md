@@ -24,7 +24,10 @@ As a Mendix developer, you are building applications without writing traditional
 ![An example microflow](/posts/images/workingsasamendixdeveloper/examplemicroflow.png)
 *A traditional microflow that retrieves an object from the database, changes it and returns it to the database.*
 
-Because the pieces are prebuilt and ready to use, you can develop logic up to ten times faster than traditional coding methods. Because the learning curve is much shallower than coding, it's much easier to get into as well. 
+Because the pieces are prebuilt and ready to use, you can develop logic up to ten times faster than traditional coding methods. Because the learning curve is much shallower than coding, it's a lot easier to get into as well. You don't need a computer science degree to start working with low code technologies. In fact, most Mendix developers come from completely different academic fields. I've had the pleasure of working with Mendix developers with diverse academic backgrounds such as biomedical science, psychology and industrial engineering. And while IT sector continues to be a [male-dominated world](https://en.wikipedia.org/wiki/Gender_disparity_in_computing), women even outnumbered the men in my team at some point. 
+
+As a low code developer, you are often involved in more steps of the development process 
+
 
 
 
@@ -38,7 +41,7 @@ For you as a business engineer, this means a lot of variation in your day to day
 
 And that piece of software could be a customer-facing webpage, or a complex integration part. Low-code platforms contain all necessary pieces to create complete software packages with. You don't have to constrain yourself to being a front-end developer or back-end developer as software engineers often do, although you can specialize in some area.
 
-Traditionally, programmers are stereotyped as the nerdy, big-glasses guy behind a desk in the basement of a big office building. While I believe that image is shifting, part of the stereotype still holds up. The IT sector continues to be a male-dominated world, with men outnumbering women by [no small margin](https://en.wikipedia.org/wiki/Gender_disparity_in_computing). With business engineers, that stereotype doesn't hold up. I've had the pleasure of working with business engineers from completely different academic fields including biomedical science, psychology and industrial engineering. At some point, women even outnumbered the men in the team. 
+Traditionally, programmers are stereotyped as the nerdy, big-glasses guy behind a desk in the basement of a big office building. While I believe that image is shifting, part of the stereotype still holds up. 
 
 Companies are usually great places to work for, too. They have to be, in order to attract and retain the right people. While working as a business engineer, you'll usually enjoy a lot of freedom in companies that greatly value their employees and show it. Or you could decide to be your own boss and work as a freelancer, as I recently [did](https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A6851808905958346752?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BwtjbeyO4ROecTjEpolP23g%3D%3D). Since experienced business engineers are highly sought after, you'll enjoy knowing that you can probably find a job anywhere, anytime. 
 
