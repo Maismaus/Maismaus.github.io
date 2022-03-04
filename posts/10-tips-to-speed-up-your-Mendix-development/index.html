@@ -3,15 +3,14 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta name=robots content="index, follow">
-<title>Here's 10 tips you wish you knew earlier to speed up your Mendix development | Marius van der Knaap</title>
-<meta name=keywords content="Mendix,Development,Tips,Guide">
+<title>Here's 10 tips you wish you knew earlier to speed up your Mendix development | Marius van der Knaap</title><meta name=keywords content="Mendix,Development,Tips,Guide">
 <meta name=description content="Pro tips for leveling up your development game within Mendix Studio Pro">
 <meta name=author content="Marius">
 <link rel=canonical href=https://maismaus.github.io/posts/10-tips-to-speed-up-your-Mendix-development/>
 <meta name=google-site-verification content="6-XN00slhetN1Ww4jIAgr5n3fyKy_KluA0Y04-BApmw">
 <link crossorigin=anonymous href=/assets/css/stylesheet.min.bdfa2faa50df13ff44dc444cde2715efc94caf37f894ee4e2a134d85146ec1ec.css integrity="sha256-vfovqlDfE/9E3ERM3icV78lMrzf4lO5OKhNNhRRuwew=" rel="preload stylesheet" as=style>
 <link rel=preload href="https://www.gravatar.com/avatar/177f87dae21214518392dba1fb6720d6?s=200&r=pg&d=mm" as=image>
-<script defer crossorigin=anonymous src=/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
+<script defer crossorigin=anonymous src=/assets/js/highlight.min.4dcb3c4f38462f66c6b6137227726f5543cb934cca9788f041c087e374491df2.js integrity="sha256-Tcs8TzhGL2bGthNyJ3JvVUPLk0zKl4jwQcCH43RJHfI=" onload=hljs.initHighlightingOnLoad()></script>
 <link rel=icon href=https://maismaus.github.io/favicon.ico>
 <link rel=icon type=image/png sizes=16x16 href=https://maismaus.github.io/favicon.ico>
 <link rel=icon type=image/png sizes=32x32 href=https://maismaus.github.io/favicon.ico>
@@ -19,9 +18,9 @@
 <link rel=mask-icon href=https://maismaus.github.io/favicon.ico>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.92.2">
+<meta name=generator content="Hugo 0.93.1">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-2017VPDC7W"></script>
-<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-2017VPDC7W',{anonymize_ip:!1})}</script>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-2017VPDC7W",{anonymize_ip:!1})}</script>
 <meta property="og:title" content="Here's 10 tips you wish you knew earlier to speed up your Mendix development">
 <meta property="og:description" content="Pro tips for leveling up your development game within Mendix Studio Pro">
 <meta property="og:type" content="article">
@@ -35,160 +34,72 @@
 <meta name=twitter:description content="Pro tips for leveling up your development game within Mendix Studio Pro">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":2,"name":"Posts","item":"https://maismaus.github.io/posts/"},{"@type":"ListItem","position":3,"name":"Here's 10 tips you wish you knew earlier to speed up your Mendix development","item":"https://maismaus.github.io/posts/10-tips-to-speed-up-your-Mendix-development/"}]}</script>
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Here's 10 tips you wish you knew earlier to speed up your Mendix development","name":"Here\u0027s 10 tips you wish you knew earlier to speed up your Mendix development","description":"Pro tips for leveling up your development game within Mendix Studio Pro","keywords":["Mendix","Development","Tips","Guide"],"articleBody":"As a Mendix developer, you are likely working with Studio Pro every day. However, there are many simple tricks that you can use in your day to day work that make your life a little bit easier. In this blog post, I will go over some of the pro tips that I have gathered during my time as a Mendix developer.\n1. Use dissolve container to quickly remove a container Got a container you don’t need anymore, but you need to save the content within it? Stop dragging all items out of the container before deleting it! Simply right click the container and select dissolve container to remove the container but keep the content contained within it.\n2. Use inline snippet to return snippet contents back to a page Similar to dissolve container, you can right click a snippet and select inline snippet to put all snippet contents back on a page instantly.\n3. Quickly set the return value in a microflow I used to select the entity to return from a microflow by:\n Double clicking the End event Selecting the return Entity type Entering a variable to return  However, you can also right click an activity that contains a variable and press Set as return value to do all of those things at once!\n4. Instantly swap input widget types for enumerations and booleans As you probably know, you can use different types of input widgets for enumerations and booleans. Enumeration attributes support drop down and radio button widgets, and booleans support radio buttons and checkboxes. Did you know you can right click those input widgets to instantly swap between the two types of input widgets?\n5. Dragging and dropping Drag and drop is a pattern which is used often throughout Studio Pro. Did you know you can use it in many more instances than you might be aware of?\nDrag flows from the Explorer into Microflows You can either drag a microflow into a blank area of a microflow to create a new Call Microflow activity, or onto an existing Call Microflow activity to replace the subflow call with another.\nDrag items from the Explorer into pages You can drag most items from the Project Explorer into a page to add a widget to your page instantly. You can drag them onto existing widgets or onto blank targets to create a new widget.\nSome examples of drag and drop actions that you can do:\n Drag a microflow onto a button to set that microflow as the button action Drag a page into a page view to insert a button linking to that page Drag a microflow onto a dataview to set that microflow as the datasource   Microflows must return a list before you can drag them onto a listview, and they must return a single object before you can drag them onto a data view.\n Drag connector items into data views to insert input widgets If you have your selection inside a dataview, the connector tab will show you the attributes for the entity in that dataview. You can use the connector to drag any of those attributes into the dataview to instantly create an input widget for that attribute. No more scrolling through the Toolbox to find the correct widget, it automatically select the right type of input widget for that attribute!\n6. Keyboard shortcuts I’m sure you are using some of the shortcut keys that Mendix Studio Pro offers, but are you making full use of them? These are the shortcuts I use every single day:\n Ctrl + Enter to close any window that you currently have open Ctrl + G to open the quick find menu Ctrl + Space to open the autofill option when entering a variable or XPath F5 to run your app F9 to view your app Ctrl + W to close any open tab Shift + mouse wheel scrolls through a microflow horizontally   Refer to the Mendix documentation to view all shortcut keys configured for Studio Pro\n 7. Use the custom caption option to improve legibility of your microflows When you call a submicroflow from another microflow, Mendix auto generates the caption that is displayed from the name of the submicroflow. However, you can greatly improve legibility by adding a custom caption to your submicroflow call. Just select the action and press Shift + F2 to enter a custom caption. This way, you can explain in your own language what the microflow is doing.\n8. Add custom design properties to your project In the appearance tab, you can assign design properties to apply to your page content. Selecting a design property adds the corresponding class to that element.\nDesign properties are defined in design-projecties.json in your project directory. You can add custom design properties to your project to allow all team members to easily discover available custom classes.\nFor instance, you can add the ‘hide empty’ design property to all listviews by adding the code below to design-properties.json. From then on, you can select it as a design property in the appearance tab.\n\"ListView\": [ { \"name\": \"Hide empty\", \"type\": \"Toggle\", \"description\": \"Hides the 'no items found' in empty lists.\", \"class\": \"listview-hide-empty\" } ],  Design properties do nothing besides adding a class to the element, so make sure you have appropriate styling available in your stylesheets to apply to the element!\n 9. Align your microflows automatically In a recent release, Mendix added the option to align your microflow actions automatically. Just select the elements that you want to align, and right click to select the correct option. For instance, distribute horizontally automatically adds the same space between all selected actions.\nFrom this: To this! More useful when you have more than a single action, obviously.\n10. Use the documentation export to quickly generate app documentation As you are probably aware, Mendix allows you to document content of your app in most places. You can add documentation to domain models, entities, microflows, and even separate microflow parameters. But did you know there is a built-in export feature for these types of documentation files? Just right click your app in the Explorer and select ‘Export documentation’. This automatically generates a comprehensive .html file with all your project documentation!\n I hope these tips will help you become a true Mendix Pro. If you have any thoughts, feel free to share them. And remember, stay curious!\n","wordCount":"1061","inLanguage":"en","image":"https://maismaus.github.io/posts/images/toptips/header.jpg","datePublished":"2022-01-12T00:00:00Z","dateModified":"2022-01-12T00:00:00Z","author":{"@type":"Person","name":"Marius"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://maismaus.github.io/posts/10-tips-to-speed-up-your-Mendix-development/"},"publisher":{"@type":"Organization","name":"Marius van der Knaap","logo":{"@type":"ImageObject","url":"https://maismaus.github.io/favicon.ico"}}}</script>
-</head>
-<body id=top>
-<script>window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
+</head><body id=top>
+<script>window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script>
 <noscript>
-<style type=text/css>#theme-toggle,.top-link{display:none}</style>
-<style>@media(prefers-color-scheme:dark){:root{--theme:#1d1e20;--entry:#2e2e33;--primary:rgba(255, 255, 255, 0.84);--secondary:rgba(255, 255, 255, 0.56);--tertiary:rgba(255, 255, 255, 0.16);--content:rgba(255, 255, 255, 0.74);--hljs-bg:#2e2e33;--code-bg:#37383e;--border:#333}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
-</noscript>
-<header class=header>
+<style type=text/css>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:#1d1e20;--entry:#2e2e33;--primary:rgba(255, 255, 255, 0.84);--secondary:rgba(255, 255, 255, 0.56);--tertiary:rgba(255, 255, 255, 0.16);--content:rgba(255, 255, 255, 0.74);--hljs-bg:#2e2e33;--code-bg:#37383e;--border:#333}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><header class=header>
 <nav class=nav>
 <div class=logo>
 <span class=logo-switches>
 </span>
-</div>
-<ul id=menu>
+</div><ul id=menu>
 <li>
 <a href=https://maismaus.github.io/ title=home>
 <span>home</span>
 </a>
-</li>
-<li>
+</li><li>
 <a href=https://maismaus.github.io/blog/ title=blog>
 <span>blog</span>
 </a>
-</li>
-<li>
+</li><li>
 <a href=https://maismaus.github.io/cv/ title=cv>
 <span>cv</span>
 </a>
-</li>
-<li>
+</li><li>
 <a href=https://maismaus.github.io/cv.pdf title>
 <span><svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></span>
 </a>
-</li>
-</ul>
-</nav>
-</header>
-<main class=main>
+</li></ul></nav></header><main class=main>
 <article class=post-single>
 <header class=post-header>
 <h1 class=post-title>
 Here's 10 tips you wish you knew earlier to speed up your Mendix development
-</h1>
-<div class=post-description>
+</h1><div class=post-description>
 Pro tips for leveling up your development game within Mendix Studio Pro
-</div>
-<div class=post-meta>12 January 2022&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Marius&nbsp;|&nbsp;<a href=https://github.com/Maismaus/mariusvanderknaap.nl/blob/master/content/posts/toptips.md rel="noopener noreferrer" target=_blank>Suggest Changes</a>
-</div>
-</header>
-<figure class=entry-cover><img loading=lazy src=https://maismaus.github.io/posts/images/toptips/header.jpg alt="Hero image for top tips for speeding up your Mendix development">
-</figure>
-<div class=post-content><p>As a Mendix developer, you are likely working with Studio Pro every day. However, there are many simple tricks that you can use in your day to day work that make your life a little bit easier. In this blog post, I will go over some of the pro tips that I have gathered during my time as a Mendix developer.</p>
-<h3 id=1-use-dissolve-container-to-quickly-remove-a-container>1. Use dissolve container to quickly remove a container<a hidden class=anchor aria-hidden=true href=#1-use-dissolve-container-to-quickly-remove-a-container>#</a></h3>
-<p>Got a container you don&rsquo;t need anymore, but you need to save the content within it? Stop dragging all items out of the container before deleting it! Simply right click the container and select <code>dissolve container</code> to remove the container but keep the content contained within it.</p>
-<p><img loading=lazy src=/posts/images/toptips/dissolvecontainer.png alt="Remove a container quickly by selecting dissolve container">
-</p>
-<h3 id=2-use-inline-snippet-to-return-snippet-contents-back-to-a-page>2. Use inline snippet to return snippet contents back to a page<a hidden class=anchor aria-hidden=true href=#2-use-inline-snippet-to-return-snippet-contents-back-to-a-page>#</a></h3>
-<p>Similar to <code>dissolve container</code>, you can right click a snippet and select <code>inline snippet</code> to put all snippet contents back on a page instantly.</p>
-<p><img loading=lazy src=/posts/images/toptips/inlinesnippet.png alt="Remove a snippet quickly by selecting inline snippet">
-</p>
-<h3 id=3-quickly-set-the-return-value-in-a-microflow>3. Quickly set the return value in a microflow<a hidden class=anchor aria-hidden=true href=#3-quickly-set-the-return-value-in-a-microflow>#</a></h3>
-<p>I used to select the entity to return from a microflow by:</p>
-<ul>
-<li>Double clicking the End event</li>
-<li>Selecting the return Entity type</li>
-<li>Entering a variable to return</li>
-</ul>
-<p>However, you can also right click an activity that contains a variable and press <code>Set as return value</code> to do all of those things at once!</p>
-<p><img loading=lazy src=/posts/images/toptips/returnvalue.png alt="Use set as return value to set the return type and return the selected object">
-</p>
-<h3 id=4-instantly-swap-input-widget-types-for-enumerations-and-booleans>4. Instantly swap input widget types for enumerations and booleans<a hidden class=anchor aria-hidden=true href=#4-instantly-swap-input-widget-types-for-enumerations-and-booleans>#</a></h3>
-<p>As you probably know, you can use different types of input widgets for enumerations and booleans. Enumeration attributes support drop down and radio button widgets, and booleans support radio buttons and checkboxes. Did you know you can right click those input widgets to instantly swap between the two types of input widgets?</p>
-<p><img loading=lazy src=/posts/images/toptips/changewidgettype.png alt="Use convert to option to convert an input widget to a different type">
-</p>
-<h3 id=5-dragging-and-dropping>5. Dragging and dropping<a hidden class=anchor aria-hidden=true href=#5-dragging-and-dropping>#</a></h3>
-<p>Drag and drop is a pattern which is used often throughout Studio Pro. Did you know you can use it in many more instances than you might be aware of?</p>
-<h5 id=drag-flows-from-the-explorer-into-microflows>Drag flows from the Explorer into Microflows<a hidden class=anchor aria-hidden=true href=#drag-flows-from-the-explorer-into-microflows>#</a></h5>
-<p>You can either drag a microflow into a blank area of a microflow to create a new Call Microflow activity, or onto an existing Call Microflow activity to replace the subflow call with another.</p>
-<p><img loading=lazy src=/posts/images/toptips/dragmicroflowintomicroflow.png alt="Drag a microflow into a microflow to insert or replace a microflow call action">
-</p>
-<h5 id=drag-items-from-the-explorer-into-pages>Drag items from the Explorer into pages<a hidden class=anchor aria-hidden=true href=#drag-items-from-the-explorer-into-pages>#</a></h5>
-<p>You can drag most items from the Project Explorer into a page to add a widget to your page instantly. You can drag them onto existing widgets or onto blank targets to create a new widget.</p>
-<p>Some examples of drag and drop actions that you can do:</p>
-<ul>
-<li>Drag a microflow onto a button to set that microflow as the button action</li>
-<li>Drag a page into a page view to insert a button linking to that page</li>
-<li>Drag a microflow onto a dataview to set that microflow as the datasource</li>
-</ul>
-<p><img loading=lazy src=/posts/images/toptips/dragmicroflow.png alt="Drag a microflow into a page to insert a button">
-</p>
-<blockquote>
-<p><em>Microflows must return a list before you can drag them onto a listview, and they must return a single object before you can drag them onto a data view.</em></p>
-</blockquote>
-<h5 id=drag-connector-items-into-data-views-to-insert-input-widgets>Drag connector items into data views to insert input widgets<a hidden class=anchor aria-hidden=true href=#drag-connector-items-into-data-views-to-insert-input-widgets>#</a></h5>
-<p>If you have your selection inside a dataview, the connector tab will show you the attributes for the entity in that dataview. You can use the connector to drag any of those attributes into the dataview to instantly create an input widget for that attribute. No more scrolling through the Toolbox to find the correct widget, it automatically select the right type of input widget for that attribute!</p>
-<p><img loading=lazy src=/posts/images/toptips/dragconnector.png alt="Drag an attribute into a dataview to insert an input widget">
-</p>
-<h3 id=6-keyboard-shortcuts>6. Keyboard shortcuts<a hidden class=anchor aria-hidden=true href=#6-keyboard-shortcuts>#</a></h3>
-<p>I&rsquo;m sure you are using some of the shortcut keys that Mendix Studio Pro offers, but are you making full use of them? These are the shortcuts I use every single day:</p>
-<ul>
-<li><strong>Ctrl + Enter</strong> to close any window that you currently have open</li>
-<li><strong>Ctrl + G</strong> to open the quick find menu</li>
-<li><strong>Ctrl + Space</strong> to open the autofill option when entering a variable or XPath</li>
-<li><strong>F5</strong> to run your app</li>
-<li><strong>F9</strong> to view your app</li>
-<li><strong>Ctrl + W</strong> to close any open tab</li>
-<li><strong>Shift + mouse wheel</strong> scrolls through a microflow horizontally</li>
-</ul>
-<blockquote>
-<p><em>Refer to the Mendix <a href=https://docs.mendix.com/refguide/studio-pro-overview#7-shortcut-keys>documentation</a> to view all shortcut keys configured for Studio Pro</em></p>
-</blockquote>
-<h3 id=7-use-the-custom-caption-option-to-improve-legibility-of-your-microflows>7. Use the custom caption option to improve legibility of your microflows<a hidden class=anchor aria-hidden=true href=#7-use-the-custom-caption-option-to-improve-legibility-of-your-microflows>#</a></h3>
-<p>When you call a submicroflow from another microflow, Mendix auto generates the caption that is displayed from the name of the submicroflow. However, you can greatly improve legibility by adding a custom caption to your submicroflow call. Just select the action and press <strong>Shift + F2</strong> to enter a custom caption. This way, you can explain in your own language what the microflow is doing.</p>
-<p><img loading=lazy src=/posts/images/toptips/customcaption.png alt="Add custom caption for better microflow">
-</p>
-<h3 id=8-add-custom-design-properties-to-your-project>8. Add custom design properties to your project<a hidden class=anchor aria-hidden=true href=#8-add-custom-design-properties-to-your-project>#</a></h3>
-<p>In the appearance tab, you can assign design properties to apply to your page content. Selecting a design property adds the corresponding class to that element.</p>
-<p>Design properties are defined in <code>design-projecties.json</code> in your project directory. You can add custom design properties to your project to allow all team members to easily discover available custom classes.</p>
-<p>For instance, you can add the &lsquo;hide empty&rsquo; design property to all listviews by adding the code below to <code>design-properties.json</code>.
-From then on, you can select it as a design property in the appearance tab.</p>
-<pre tabindex=0><code>&quot;ListView&quot;: [
+</div><div class=post-meta>12 January 2022&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Marius&nbsp;|&nbsp;<a href=https://github.com/Maismaus/mariusvanderknaap.nl/blob/master/content/posts/toptips.md rel="noopener noreferrer" target=_blank>Suggest Changes</a>
+</div></header><figure class=entry-cover><img loading=lazy src=https://maismaus.github.io/posts/images/toptips/header.jpg alt="Hero image for top tips for speeding up your Mendix development">
+</figure><div class=post-content><p>As a Mendix developer, you are likely working with Studio Pro every day. However, there are many simple tricks that you can use in your day to day work that make your life a little bit easier. In this blog post, I will go over some of the pro tips that I have gathered during my time as a Mendix developer.</p><h3 id=1-use-dissolve-container-to-quickly-remove-a-container>1. Use dissolve container to quickly remove a container<a hidden class=anchor aria-hidden=true href=#1-use-dissolve-container-to-quickly-remove-a-container>#</a></h3><p>Got a container you don&rsquo;t need anymore, but you need to save the content within it? Stop dragging all items out of the container before deleting it! Simply right click the container and select <code>dissolve container</code> to remove the container but keep the content contained within it.</p><p><img loading=lazy src=/posts/images/toptips/dissolvecontainer.png alt="Remove a container quickly by selecting dissolve container">
+</p><h3 id=2-use-inline-snippet-to-return-snippet-contents-back-to-a-page>2. Use inline snippet to return snippet contents back to a page<a hidden class=anchor aria-hidden=true href=#2-use-inline-snippet-to-return-snippet-contents-back-to-a-page>#</a></h3><p>Similar to <code>dissolve container</code>, you can right click a snippet and select <code>inline snippet</code> to put all snippet contents back on a page instantly.</p><p><img loading=lazy src=/posts/images/toptips/inlinesnippet.png alt="Remove a snippet quickly by selecting inline snippet">
+</p><h3 id=3-quickly-set-the-return-value-in-a-microflow>3. Quickly set the return value in a microflow<a hidden class=anchor aria-hidden=true href=#3-quickly-set-the-return-value-in-a-microflow>#</a></h3><p>I used to select the entity to return from a microflow by:</p><ul>
+<li>Double clicking the End event</li><li>Selecting the return Entity type</li><li>Entering a variable to return</li></ul><p>However, you can also right click an activity that contains a variable and press <code>Set as return value</code> to do all of those things at once!</p><p><img loading=lazy src=/posts/images/toptips/returnvalue.png alt="Use set as return value to set the return type and return the selected object">
+</p><h3 id=4-instantly-swap-input-widget-types-for-enumerations-and-booleans>4. Instantly swap input widget types for enumerations and booleans<a hidden class=anchor aria-hidden=true href=#4-instantly-swap-input-widget-types-for-enumerations-and-booleans>#</a></h3><p>As you probably know, you can use different types of input widgets for enumerations and booleans. Enumeration attributes support drop down and radio button widgets, and booleans support radio buttons and checkboxes. Did you know you can right click those input widgets to instantly swap between the two types of input widgets?</p><p><img loading=lazy src=/posts/images/toptips/changewidgettype.png alt="Use convert to option to convert an input widget to a different type">
+</p><h3 id=5-dragging-and-dropping>5. Dragging and dropping<a hidden class=anchor aria-hidden=true href=#5-dragging-and-dropping>#</a></h3><p>Drag and drop is a pattern which is used often throughout Studio Pro. Did you know you can use it in many more instances than you might be aware of?</p><h5 id=drag-flows-from-the-explorer-into-microflows>Drag flows from the Explorer into Microflows<a hidden class=anchor aria-hidden=true href=#drag-flows-from-the-explorer-into-microflows>#</a></h5><p>You can either drag a microflow into a blank area of a microflow to create a new Call Microflow activity, or onto an existing Call Microflow activity to replace the subflow call with another.</p><p><img loading=lazy src=/posts/images/toptips/dragmicroflowintomicroflow.png alt="Drag a microflow into a microflow to insert or replace a microflow call action">
+</p><h5 id=drag-items-from-the-explorer-into-pages>Drag items from the Explorer into pages<a hidden class=anchor aria-hidden=true href=#drag-items-from-the-explorer-into-pages>#</a></h5><p>You can drag most items from the Project Explorer into a page to add a widget to your page instantly. You can drag them onto existing widgets or onto blank targets to create a new widget.</p><p>Some examples of drag and drop actions that you can do:</p><ul>
+<li>Drag a microflow onto a button to set that microflow as the button action</li><li>Drag a page into a page view to insert a button linking to that page</li><li>Drag a microflow onto a dataview to set that microflow as the datasource</li></ul><p><img loading=lazy src=/posts/images/toptips/dragmicroflow.png alt="Drag a microflow into a page to insert a button">
+</p><blockquote>
+<p><em>Microflows must return a list before you can drag them onto a listview, and they must return a single object before you can drag them onto a data view.</em></p></blockquote><h5 id=drag-connector-items-into-data-views-to-insert-input-widgets>Drag connector items into data views to insert input widgets<a hidden class=anchor aria-hidden=true href=#drag-connector-items-into-data-views-to-insert-input-widgets>#</a></h5><p>If you have your selection inside a dataview, the connector tab will show you the attributes for the entity in that dataview. You can use the connector to drag any of those attributes into the dataview to instantly create an input widget for that attribute. No more scrolling through the Toolbox to find the correct widget, it automatically select the right type of input widget for that attribute!</p><p><img loading=lazy src=/posts/images/toptips/dragconnector.png alt="Drag an attribute into a dataview to insert an input widget">
+</p><h3 id=6-keyboard-shortcuts>6. Keyboard shortcuts<a hidden class=anchor aria-hidden=true href=#6-keyboard-shortcuts>#</a></h3><p>I&rsquo;m sure you are using some of the shortcut keys that Mendix Studio Pro offers, but are you making full use of them? These are the shortcuts I use every single day:</p><ul>
+<li><strong>Ctrl + Enter</strong> to close any window that you currently have open</li><li><strong>Ctrl + G</strong> to open the quick find menu</li><li><strong>Ctrl + Space</strong> to open the autofill option when entering a variable or XPath</li><li><strong>F5</strong> to run your app</li><li><strong>F9</strong> to view your app</li><li><strong>Ctrl + W</strong> to close any open tab</li><li><strong>Shift + mouse wheel</strong> scrolls through a microflow horizontally</li></ul><blockquote>
+<p><em>Refer to the Mendix <a href=https://docs.mendix.com/refguide/studio-pro-overview#7-shortcut-keys>documentation</a> to view all shortcut keys configured for Studio Pro</em></p></blockquote><h3 id=7-use-the-custom-caption-option-to-improve-legibility-of-your-microflows>7. Use the custom caption option to improve legibility of your microflows<a hidden class=anchor aria-hidden=true href=#7-use-the-custom-caption-option-to-improve-legibility-of-your-microflows>#</a></h3><p>When you call a submicroflow from another microflow, Mendix auto generates the caption that is displayed from the name of the submicroflow. However, you can greatly improve legibility by adding a custom caption to your submicroflow call. Just select the action and press <strong>Shift + F2</strong> to enter a custom caption. This way, you can explain in your own language what the microflow is doing.</p><p><img loading=lazy src=/posts/images/toptips/customcaption.png alt="Add custom caption for better microflow">
+</p><h3 id=8-add-custom-design-properties-to-your-project>8. Add custom design properties to your project<a hidden class=anchor aria-hidden=true href=#8-add-custom-design-properties-to-your-project>#</a></h3><p>In the appearance tab, you can assign design properties to apply to your page content. Selecting a design property adds the corresponding class to that element.</p><p>Design properties are defined in <code>design-projecties.json</code> in your project directory. You can add custom design properties to your project to allow all team members to easily discover available custom classes.</p><p>For instance, you can add the &lsquo;hide empty&rsquo; design property to all listviews by adding the code below to <code>design-properties.json</code>.
+From then on, you can select it as a design property in the appearance tab.</p><pre tabindex=0><code>&#34;ListView&#34;: [
     {
-        &quot;name&quot;: &quot;Hide empty&quot;,
-        &quot;type&quot;: &quot;Toggle&quot;,
-        &quot;description&quot;: &quot;Hides the 'no items found' in empty lists.&quot;,
-        &quot;class&quot;: &quot;listview-hide-empty&quot;
+        &#34;name&#34;: &#34;Hide empty&#34;,
+        &#34;type&#34;: &#34;Toggle&#34;,
+        &#34;description&#34;: &#34;Hides the &#39;no items found&#39; in empty lists.&#34;,
+        &#34;class&#34;: &#34;listview-hide-empty&#34;
     }
 ],
 </code></pre><blockquote>
-<p><em>Design properties do nothing besides adding a class to the element, so make sure you have appropriate styling available in your stylesheets to apply to the element!</em></p>
-</blockquote>
-<h3 id=9-align-your-microflows-automatically>9. Align your microflows automatically<a hidden class=anchor aria-hidden=true href=#9-align-your-microflows-automatically>#</a></h3>
-<p>In a recent release, Mendix added the option to align your microflow actions automatically. Just select the elements that you want to align, and right click to select the correct option. For instance, <code>distribute horizontally</code> automatically adds the same space between all selected actions.</p>
-<p>From this:
+<p><em>Design properties do nothing besides adding a class to the element, so make sure you have appropriate styling available in your stylesheets to apply to the element!</em></p></blockquote><h3 id=9-align-your-microflows-automatically>9. Align your microflows automatically<a hidden class=anchor aria-hidden=true href=#9-align-your-microflows-automatically>#</a></h3><p>In a recent release, Mendix added the option to align your microflow actions automatically. Just select the elements that you want to align, and right click to select the correct option. For instance, <code>distribute horizontally</code> automatically adds the same space between all selected actions.</p><p>From this:
 <img loading=lazy src=/posts/images/toptips/distributehorizontallybefore.png alt="Distribute horizontally to auto-align microflow actions">
-</p>
-<p>To this!
+</p><p>To this!
 <img loading=lazy src=/posts/images/toptips/distributehorizontallyafter.png alt="Distribute horizontally to auto-align microflow actions">
-<em>More useful when you have more than a single action, obviously.</em></p>
-<h3 id=10-use-the-documentation-export-to-quickly-generate-app-documentation>10. Use the documentation export to quickly generate app documentation<a hidden class=anchor aria-hidden=true href=#10-use-the-documentation-export-to-quickly-generate-app-documentation>#</a></h3>
-<p>As you are probably aware, Mendix allows you to document content of your app in most places. You can add documentation to domain models, entities, microflows, and even separate microflow parameters. But did you know there is a built-in export feature for these types of documentation files? Just right click your app in the Explorer and select &lsquo;Export documentation&rsquo;. This automatically generates a comprehensive .html file with all your project documentation!</p>
-<p><img loading=lazy src=/posts/images/toptips/exportdocumentation.png alt="Export documentation to generate a documentation html page of your app">
-</p>
-<hr>
-<p>I hope these tips will help you become a true Mendix Pro. If you have any thoughts, feel free to share them. And remember, stay curious!</p>
-</div>
-<footer class=post-footer>
+<em>More useful when you have more than a single action, obviously.</em></p><h3 id=10-use-the-documentation-export-to-quickly-generate-app-documentation>10. Use the documentation export to quickly generate app documentation<a hidden class=anchor aria-hidden=true href=#10-use-the-documentation-export-to-quickly-generate-app-documentation>#</a></h3><p>As you are probably aware, Mendix allows you to document content of your app in most places. You can add documentation to domain models, entities, microflows, and even separate microflow parameters. But did you know there is a built-in export feature for these types of documentation files? Just right click your app in the Explorer and select &lsquo;Export documentation&rsquo;. This automatically generates a comprehensive .html file with all your project documentation!</p><p><img loading=lazy src=/posts/images/toptips/exportdocumentation.png alt="Export documentation to generate a documentation html page of your app">
+</p><hr>
+<p>I hope these tips will help you become a true Mendix Pro. If you have any thoughts, feel free to share them. And remember, stay curious!</p></div><footer class=post-footer>
 <ul class=post-tags>
-<li><a href=https://maismaus.github.io/tags/mendix/>Mendix</a></li>
-<li><a href=https://maismaus.github.io/tags/development/>Development</a></li>
-<li><a href=https://maismaus.github.io/tags/tips/>Tips</a></li>
-<li><a href=https://maismaus.github.io/tags/guide/>Guide</a></li>
-</ul>
-<nav class=paginav>
+<li><a href=https://maismaus.github.io/tags/mendix/>Mendix</a></li><li><a href=https://maismaus.github.io/tags/development/>Development</a></li><li><a href=https://maismaus.github.io/tags/tips/>Tips</a></li><li><a href=https://maismaus.github.io/tags/guide/>Guide</a></li></ul><nav class=paginav>
 <a class=prev href=https://maismaus.github.io/posts/freelance-ervaringen-en-tips/>
 <span class=title>« Prev Page</span>
 <br>
@@ -199,8 +110,7 @@ From then on, you can select it as a design property in the appearance tab.</p>
 <br>
 <span></span>
 </a>
-</nav>
-<div class=share-buttons>
+</nav><div class=share-buttons>
 <a target=_blank rel="noopener noreferrer" aria-label="share Here's 10 tips you wish you knew earlier to speed up your Mendix development on twitter" href="https://twitter.com/intent/tweet/?text=Here%27s%2010%20tips%20you%20wish%20you%20knew%20earlier%20to%20speed%20up%20your%20Mendix%20development&url=https%3a%2f%2fmaismaus.github.io%2fposts%2f10-tips-to-speed-up-your-Mendix-development%2f&hashtags=Mendix%2cDevelopment%2cTips%2cGuide"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM195.519 424.544c135.939.0 210.268-112.643 210.268-210.268.0-3.218.0-6.437-.153-9.502 14.406-10.421 26.973-23.448 36.935-38.314-13.18 5.824-27.433 9.809-42.452 11.648 15.326-9.196 26.973-23.602 32.49-40.92-14.252 8.429-30.038 14.56-46.896 17.931-13.487-14.406-32.644-23.295-53.946-23.295-40.767.0-73.87 33.104-73.87 73.87.0 5.824.613 11.494 1.992 16.858-61.456-3.065-115.862-32.49-152.337-77.241-6.284 10.881-9.962 23.601-9.962 37.088.0 25.594 13.027 48.276 32.95 61.456-12.107-.307-23.448-3.678-33.41-9.196v.92c0 35.862 25.441 65.594 59.311 72.49-6.13 1.686-12.72 2.606-19.464 2.606-4.751.0-9.348-.46-13.946-1.38 9.349 29.426 36.628 50.728 68.965 51.341-25.287 19.771-57.164 31.571-91.8 31.571-5.977.0-11.801-.306-17.625-1.073 32.337 21.15 71.264 33.41 112.95 33.41z"/></svg>
 </a>
 <a target=_blank rel="noopener noreferrer" aria-label="share Here's 10 tips you wish you knew earlier to speed up your Mendix development on linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fmaismaus.github.io%2fposts%2f10-tips-to-speed-up-your-Mendix-development%2f&title=Here%27s%2010%20tips%20you%20wish%20you%20knew%20earlier%20to%20speed%20up%20your%20Mendix%20development&summary=Here%27s%2010%20tips%20you%20wish%20you%20knew%20earlier%20to%20speed%20up%20your%20Mendix%20development&source=https%3a%2f%2fmaismaus.github.io%2fposts%2f10-tips-to-speed-up-your-Mendix-development%2f"><svg viewBox="0 0 512 512"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM160.461 423.278V197.561h-75.04v225.717h75.04zm270.539.0V293.839c0-69.333-37.018-101.586-86.381-101.586-39.804.0-57.634 21.891-67.617 37.266v-31.958h-75.021c.995 21.181.0 225.717.0 225.717h75.02V297.222c0-6.748.486-13.492 2.474-18.315 5.414-13.475 17.767-27.434 38.494-27.434 27.135.0 38.007 20.707 38.007 51.037v120.768H431zM123.448 88.722C97.774 88.722 81 105.601 81 127.724c0 21.658 16.264 39.002 41.455 39.002h.484c26.165.0 42.452-17.344 42.452-39.002-.485-22.092-16.241-38.954-41.943-39.002z"/></svg>
@@ -213,19 +123,12 @@ From then on, you can select it as a design property in the appearance tab.</p>
 </a>
 <a target=_blank rel="noopener noreferrer" aria-label="share Here's 10 tips you wish you knew earlier to speed up your Mendix development on telegram" href="https://telegram.me/share/url?text=Here%27s%2010%20tips%20you%20wish%20you%20knew%20earlier%20to%20speed%20up%20your%20Mendix%20development&url=https%3a%2f%2fmaismaus.github.io%2fposts%2f10-tips-to-speed-up-your-Mendix-development%2f"><svg viewBox="2 2 28 28"><path d="M26.49 29.86H5.5a3.37 3.37.0 01-2.47-1 3.35 3.35.0 01-1-2.47V5.48A3.36 3.36.0 013 3 3.37 3.37.0 015.5 2h21A3.38 3.38.0 0129 3a3.36 3.36.0 011 2.46V26.37a3.35 3.35.0 01-1 2.47 3.38 3.38.0 01-2.51 1.02zm-5.38-6.71a.79.79.0 00.85-.66L24.73 9.24a.55.55.0 00-.18-.46.62.62.0 00-.41-.17q-.08.0-16.53 6.11a.59.59.0 00-.41.59.57.57.0 00.43.52l4 1.24 1.61 4.83a.62.62.0 00.63.43.56.56.0 00.4-.17L16.54 20l4.09 3A.9.9.0 0021.11 23.15zM13.8 20.71l-1.21-4q8.72-5.55 8.78-5.55c.15.0.23.0.23.16a.18.18.0 010 .06s-2.51 2.3-7.52 6.8z"/></svg>
 </a>
-</div>
-</footer>
-</article>
-<div class=footer style=padding-bottom:0>Hero image by <a href="https://unsplash.com/@geekyshots?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target=_blank>Geeky Shots</a></div>
-</main>
-<footer class=footer>
+</div></footer></article><div class=footer style=padding-bottom:0>Hero image by <a href="https://unsplash.com/@geekyshots?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target=_blank>Geeky Shots</a></div></main><footer class=footer>
 <span>&copy; 2022 <a href=https://maismaus.github.io>Marius van der Knaap</a></span> | KvK: 83169164 | BTW: NL003791766B40
-</footer>
-<a href=#top aria-label="go to top" title="Go to Top (Alt + G)">
+</footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)">
 <button class=top-link id=top-link type=button accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
 </button>
 </a>
-<script>let menu=document.getElementById('menu');menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)},document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${a}`)})})</script>
+<script>let menu=document.getElementById("menu");menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)},document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(t){t.preventDefault();var e=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(e)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(e)}']`).scrollIntoView({behavior:"smooth"}),e==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${e}`)})})</script>
 <script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script>
-</body>
-</html>
+</body></html>
