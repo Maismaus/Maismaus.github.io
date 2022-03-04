@@ -15,7 +15,7 @@ cover:
 draft: false
 ---
 
-*Here's the deal* – you're 20-something years old, freshly graduated off college. Maybe you've flirted with coding in the past, hacked your way through a few websites and generally have affinity with modern technology. Or perhaps you are a psychology student and enjoyed working with statistics. You're starting to realise that you have to pay those bills eventually. **You'll need to find yourself one of them jobs.**
+*Here's the deal* – you're 20-something years old, freshly graduated from college. Maybe you've flirted with coding in the past, hacked your way through a few websites and generally have affinity with modern technology. Or perhaps you are a psychology student and enjoyed working with statistics. You're starting to realise that you have to pay those bills eventually. **You'll need to find yourself one of them jobs.**
 
 Before I started working as a Mendix developer I had serious doubts about my future career path. I liked writing code, but I didn't see myself doing that all day, every day. But I did like building things. I like looking back at a days' work and seeing the results. That's what building software is. I didn't know about low code until I was approached by my previous employer who explained the Mendix platform to me.
 
@@ -42,4 +42,4 @@ The freedom and growth opportunities that you get as a Mendix developer are grea
 
 ---
 
-*This blogpost reflects my personal beliefs only. A first version of this article was already published during my time at Finaps. This updated article reflects my latest thoughts on the subject.*
+*This blogpost reflects my personal beliefs only. It was not written in conjunction with Mendix or my previous employer [Finaps](https://www.finaps.nl/). A first version of this article was already published during my time there. This updated article reflects my latest thoughts on the subject.*
