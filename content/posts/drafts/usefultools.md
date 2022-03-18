@@ -21,10 +21,10 @@ If you're working on Mendix apps on a daily basis, you better make sure you have
 If you have experience writing custom styling, you are probably familiar with CSS indentation formatting. Did you know there are easy ways to automate this? I use the Visual Studio Code extension [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) to automatically format my SCSS whenever I save a file.
 
 ```
-//From this
+//From this...
 .class{background:red}
 
-//To this!
+//To this! 👇
 .class {
     background: red;
 }
