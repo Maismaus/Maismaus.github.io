@@ -8,6 +8,15 @@
     <language>en</language>
     <lastBuildDate>Tue, 24 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://maismaus.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pages</title>
+      <link>https://maismaus.github.io/docs/mendix/</link>
+      <pubDate>Mon, 23 Nov 2020 11:55:16 +0100</pubDate>
+      
+      <guid>https://maismaus.github.io/docs/mendix/</guid>
+      <description>Add a default page, documentation page, blog post, contributor page, or section. Customize the homepage and 404 page.</description>
+    </item>
+    
+    <item>
       <title>Quick and Easy Deployments on Mendix Cloud Using Postman</title>
       <link>https://maismaus.github.io/posts/quick-and-easy-deployments-using-postman/</link>
       <pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>

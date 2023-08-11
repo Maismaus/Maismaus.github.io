@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Docs on Marius van der Knaap</title>
+    <link>https://maismaus.github.io/docs/</link>
+    <description>Recent content in Docs on Marius van der Knaap</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 23 Nov 2020 11:55:16 +0100</lastBuildDate><atom:link href="https://maismaus.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pages</title>
+      <link>https://maismaus.github.io/docs/mendix/</link>
+      <pubDate>Mon, 23 Nov 2020 11:55:16 +0100</pubDate>
+      
+      <guid>https://maismaus.github.io/docs/mendix/</guid>
+      <description>Add a default page, documentation page, blog post, contributor page, or section. Customize the homepage and 404 page.</description>
+    </item>
+    
+  </channel>
+</rss>
