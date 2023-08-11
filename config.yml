@@ -11,128 +11,132 @@ buildExpired: false
 googleAnalytics: G-2017VPDC7W
 
 minify:
-    disableXML: true
-    minifyOutput: true
+  disableXML: true
+  minifyOutput: true
 
 params:
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: mariusvanderknaap.nl
-    description: "Personal website for Marius van der Knaap, Mendix developer and UX designer"
-    keywords: [Blog, Portfolio, Resume]
-    author: "Marius van der Knaap"
-    displayTitle: false
-    #images: ["<link or path of image for opengraph, twitter-cards>"]
-    DateFormat: "02 January 2006"
-    defaultTheme: auto # dark, light
-    disableThemeToggle: true
-    kvk: 83169164
-    BTW: NL003791766B40
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: mariusvanderknaap.nl
+  description: "Personal website for Marius van der Knaap, Mendix developer and UX designer"
+  keywords: [Blog, Portfolio, Resume]
+  author: "Marius van der Knaap"
+  displayTitle: false
+  #images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "02 January 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: true
+  kvk: 83169164
+  BTW: NL003791766B40
 
-    ShowReadingTime: true
-    ShowShareButtons: true
-    ShowPostNavLinks: true
-    ShowBreadCrumbs: false
-    ShowCodeCopyButtons: false
-    disableSpecial1stPost: false
-    disableScrollToTop: false
-    comments: false
-    hidemeta: false
-    hideSummary: false
-    showtoc: false
-    tocopen: false
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
 
-    assets:
-        # disableHLJS: true # to disable highlight.js
-        # disableFingerprinting: true
-        favicon: "favicon.ico"
-        favicon16x16: "favicon.ico"
-        favicon32x32: "favicon.ico"
-        apple_touch_icon: "favicon.ico"
-        safari_pinned_tab: "favicon.ico"
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "favicon.ico"
+    favicon16x16: "favicon.ico"
+    favicon32x32: "favicon.ico"
+    apple_touch_icon: "favicon.ico"
+    safari_pinned_tab: "favicon.ico"
 
-    label:
-        text: "Home"
-        #icon: /Untitled.png
-        #iconHeight: 35
+  label:
+    text: "Home"
+    #icon: /Untitled.png
+    #iconHeight: 35
 
-    # profile-mode
-    profileMode:
-        enabled: true # needs to be explicitly set
-        title: Marius van der Knaap
-        subtitle: "Mendix Developer"
-        subtitleRight: "UX Designer"
-        imageUrl: "https://www.gravatar.com/avatar/177f87dae21214518392dba1fb6720d6?s=200&r=pg&d=mm"
-        imageWidth: 200
-        imageHeight: 200
-        imageTitle: Profile picture Marius van der Knaap
-        #buttons:
-        #    - name: Posts
-        #      url: posts
-        #    - name: Tags
-        #      url: tags
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: Marius van der Knaap
+    subtitle: "Mendix Developer"
+    subtitleRight: "UX Designer"
+    imageUrl: "https://www.gravatar.com/avatar/177f87dae21214518392dba1fb6720d6?s=200&r=pg&d=mm"
+    imageWidth: 200
+    imageHeight: 200
+    imageTitle: Profile picture Marius van der Knaap
+    #buttons:
+    #    - name: Posts
+    #      url: posts
+    #    - name: Tags
+    #      url: tags
 
-    # home-info mode
-    #homeInfoParams:
-    #    Title: "Hi there \U0001F44B"
-    #    Content: Mendix developer | UX designer
+  # home-info mode
+  #homeInfoParams:
+  #    Title: "Hi there \U0001F44B"
+  #    Content: Mendix developer | UX designer
 
-    socialIcons:
-        - name: linkedin
-          url: "https://www.linkedin.com/in/mariusvanderknaap/"
-        - name: github
-          url: "https://github.com/Maismaus"
-        - name: medium
-          url: "https://medium.com/@mariusvanderknaap"
-        #- name: email
-        #  url: "mailto:info@mariusvanderknaap.nl"
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/mariusvanderknaap/"
+    - name: github
+      url: "https://github.com/Maismaus"
+    - name: medium
+      url: "https://medium.com/@mariusvanderknaap"
+    #- name: email
+    #  url: "mailto:info@mariusvanderknaap.nl"
 
-    analytics:
-        google:
-            SiteVerificationTag: 6-XN00slhetN1Ww4jIAgr5n3fyKy_KluA0Y04-BApmw
-        bing:
-            SiteVerificationTag: ""
-        yandex:
-            SiteVerificationTag: ""
+  analytics:
+    google:
+      SiteVerificationTag: 6-XN00slhetN1Ww4jIAgr5n3fyKy_KluA0Y04-BApmw
+    bing:
+      SiteVerificationTag: ""
+    yandex:
+      SiteVerificationTag: ""
 
-    cover:
-        hidden: false # hide everywhere but not in structured data
-        hiddenInList: false # hide on list pages and home
-        hiddenInSingle: false # hide on single page
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
-    editPost:
-        URL: "https://github.com/Maismaus/mariusvanderknaap.nl/blob/master/content"
-        Text: "Suggest Changes" # edit text
-        appendFilePath: true # to append file path to Edit link
+  editPost:
+    URL: "https://github.com/Maismaus/mariusvanderknaap.nl/blob/master/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 
-    # for search
-    # https://fusejs.io/api/options.html
-    fuseOpts:
-        isCaseSensitive: false
-        shouldSort: true
-        location: 0
-        distance: 1000
-        threshold: 0.4
-        minMatchCharLength: 0
-        keys: ["title", "permalink", "summary", "content"]
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
 menu:
-    main:
-        - identifier: home
-          name: home
-          url: /
-          weight: 10
-        - identifier: Blog
-          name: blog
-          url: /blog/
-          weight: 20
-        - identifier: CV
-          name: cv
-          url: /cv/
-          weight: 20
-        - identifier: downloadcv
-          pre: <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-          name: 
-          url: /cv.pdf
-          weight: 30
+  main:
+    - identifier: home
+      name: home
+      url: /
+      weight: 10
+    - identifier: Blog
+      name: blog
+      url: /blog/
+      weight: 20
+    - identifier: Docs
+      name: docs
+      url: /docs/
+      weight: 30
+    - identifier: CV
+      name: cv
+      url: /cv/
+      weight: 40
+    - identifier: downloadcv
+      pre: <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+      name:
+      url: /cv.pdf
+      weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:

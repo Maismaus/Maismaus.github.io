@@ -2,6 +2,7 @@
 title: 10 Essential Tools for Mendix App Development
 description: Tools for Mendix developers you won’t be able to do without
 date: "2022-05-25T09:54:40.816Z"
+author: "Marius"
 categories: []
 keywords: []
 slug: /@mariusvanderknaap/10-essential-tools-for-mendix-app-development-3c94e9afd692
