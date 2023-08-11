@@ -82,8 +82,5 @@ npm run create -- --kind docs development-guides/
 
 ## Customize homepage
 
-See: [Page Layouts]({{< relref "page-layouts" >}}).
 
 ## Customize 404 page
-
-See: [Page Layouts]({{< relref "page-layouts" >}}).
