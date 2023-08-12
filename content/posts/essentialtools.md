@@ -10,6 +10,7 @@ cover:
    alt: "10 Essential Tools for Mendix App Development"
 
 ShowReadingTime: true
+ShowShareButtons: true
 hidemeta: false
 showtoc: false
 ---
