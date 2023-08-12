@@ -1,14 +1,16 @@
 ---
 title: 10 Essential Tools for Mendix App Development
 description: Tools for Mendix developers you won’t be able to do without
+url: "/blog/10-essential-tools-for-Mendix-development"
 date: "2022-05-25T09:54:40.816Z"
 author: "Marius"
 categories: []
 keywords: []
 slug: /@mariusvanderknaap/10-essential-tools-for-mendix-app-development-3c94e9afd692
+cover:
+   image: "/posts/images/essentialtools/header.webp"
+   alt: "10 Essential Tools for Mendix App Development"
 ---
-
-![10 Essential Tools for Mendix App Development](/posts/images/essentialtools/header.webp)
 
 No matter what you do for a living, making sure you have the right tools for the job is essential for any working professional. Mendix Studio Pro is a great piece of software to build apps with, but there are a plethora of other tools that can help you build apps more efficiently than ever before. In this article, I go over my recommendations for must-have tools for everyday use in Mendix development.
 
@@ -26,11 +28,11 @@ Mendix uses Subversion (SVN) for version management. Most of the things you need
 
 With TortoiseSVN, you can:
 
-- Update to a specific revision, for instance, to compare changes between commits.
-- Rename and archive branches.
-- Resolve merge issues that occurred outside of Studio Pro.
-- Update and commit without having to open Studio Pro.
-- Add items to the ignore list, preventing merge conflicts for compiled files.
+-  Update to a specific revision, for instance, to compare changes between commits.
+-  Rename and archive branches.
+-  Resolve merge issues that occurred outside of Studio Pro.
+-  Update and commit without having to open Studio Pro.
+-  Add items to the ignore list, preventing merge conflicts for compiled files.
 
 > Make sure you check which TortoiseSVN version you need for your Studio Pro version.
 
@@ -62,21 +64,21 @@ Again, if you used a MacBook in the past, you’ve probably heard of Homebrew. T
 
 To illustrate, let me give you an example. I’m sure you are familiar with the traditional method of installing new software. It goes something like this:
 
-- Open browser
-- Search for software
-- Load the website
-- Navigate to the download page
-- Find the correct version
-- Download installer
-- Open the installer
-- Go through the installation wizard
-- Done
+-  Open browser
+-  Search for software
+-  Load the website
+-  Navigate to the download page
+-  Find the correct version
+-  Download installer
+-  Open the installer
+-  Go through the installation wizard
+-  Done
 
 With Chocolatey, you can:
 
-- Open command prompt
-- Enter `choco install PowerToys -y`
-- Done
+-  Open command prompt
+-  Enter `choco install PowerToys -y`
+-  Done
 
 > Sounds good? That’s because it is! Now let’s get Mendix Studio Pro available in Chocolatey by **upvoting my** [**idea**](https://forum.mendix.com/link/ideas/2645) on the forum.
 
