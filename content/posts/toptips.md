@@ -1,9 +1,9 @@
 ---
-author: "Marius"
 title: "Here's 10 tips you wish you knew earlier to speed up your Mendix development"
+description: "Pro tips for leveling up your development game within Mendix Studio Pro"
+author: "Marius"
 url: "/blog/10-tips-to-speed-up-your-Mendix-development"
 date: "2022-01-12"
-description: "Pro tips for leveling up your development game within Mendix Studio Pro"
 tags: ["Mendix", "Development", "Tips", "Guide"]
 cover:
    image: "/posts/images/toptips/header.webp"
