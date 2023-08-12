@@ -6,7 +6,7 @@ url: "/blog/10-essential-tools-for-Mendix-development"
 date: "2022-05-25T09:54:40.816Z"
 tags: ["Tips & tricks", "Recommended software"]
 cover:
-   image: "/posts/images/essentialtools/header.webp"
+   image: "/blog/images/essentialtools/header.webp"
    alt: "10 Essential Tools for Mendix App Development"
 
 ShowReadingTime: true
@@ -21,7 +21,7 @@ No matter what you do for a living, making sure you have the right tools for the
 
 If you have experience writing custom styling, you are probably familiar with CSS indentation formatting. Did you know there are easy ways to automate this? I use the Visual Studio Code extension [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) to automatically format my SCSS whenever I save a file.
 
-![Instant automatic indentation using Prettier.](/posts/images/essentialtools/prettier.webp)
+![Instant automatic indentation using Prettier.](/blog/images/essentialtools/prettier.webp)
 
 > You can even customize the formatting rules on a per-project basis, using a Prettier [configuration file](https://prettier.io/docs/en/configuration.html)! This way, you can ensure that everyone on your team uses the same formatting.
 
@@ -39,7 +39,7 @@ With TortoiseSVN, you can:
 
 > Make sure you check which TortoiseSVN version you need for your Studio Pro version.
 
-![Revert back to a specific revision using TortoiseSVN.](/posts/images/essentialtools/tortoisesvn.webp)
+![Revert back to a specific revision using TortoiseSVN.](/blog/images/essentialtools/tortoisesvn.webp)
 
 ### 3\. Enhance your browser with bookmarklets
 
@@ -53,13 +53,13 @@ Bookmarking a JavaScript function allows you to call it with a single mouse clic
 
 > I use this [bookmarklet maker](https://caiorss.github.io/bookmarklet-maker/) to generate bookmarklets from my JavaScript snippets.
 
-![Bookmark JavaScript snippets to quickly use JavaScript functions in your Mendix app.](/posts/images/essentialtools/bookmarklet.webp)
+![Bookmark JavaScript snippets to quickly use JavaScript functions in your Mendix app.](/blog/images/essentialtools/bookmarklet.webp)
 
 ### 4\. Squeeze more efficiency out of Windows using PowerToys
 
 If you’ve ever used a MacBook before, I’m sure you miss the Spotlight feature after switching to Windows. Did you know Microsoft offers this — and more — with PowerToys? For instance, it adds functionality in File Explorer to preview `.svg` and `.md` files, a right-click image resizer, and a nifty color picker. A must-have for anyone using Windows on a daily basis!
 
-![The PowerToys Run window, one of the many useful features included in the package.](/posts/images/essentialtools/powertoys.webp)
+![The PowerToys Run window, one of the many useful features included in the package.](/blog/images/essentialtools/powertoys.webp)
 
 ### 5\. Automate your installation process with Chocolatey
 
@@ -85,13 +85,13 @@ With Chocolatey, you can:
 
 > Sounds good? That’s because it is! Now let’s get Mendix Studio Pro available in Chocolatey by **upvoting my** [**idea**](https://forum.mendix.com/link/ideas/2645) on the forum.
 
-![What installing software looks like using Chocolatey.](/posts/images/essentialtools/chocolatey.webp)
+![What installing software looks like using Chocolatey.](/blog/images/essentialtools/chocolatey.webp)
 
 ### 6\. Use the built-in Windows Snipping Tool to capture parts of your screen
 
 Got a problem that you want to visualize? Use the Snipping Tool to capture parts of your screen in a screenshot. That way, you can keep your screenshots focused on the exact item that you want to share instead of sharing your entire screen. Simply press `⊞ Win + Shift + S` and drag to select the part of the screen you want to capture.
 
-![Quick and easy partial screen capture using the Snipping Tool.](/posts/images/essentialtools/snippingtool.webp)
+![Quick and easy partial screen capture using the Snipping Tool.](/blog/images/essentialtools/snippingtool.webp)
 
 ### 7\. Improve your integration testing with Postman
 
@@ -99,7 +99,7 @@ One of Mendix’s strengths is its ability to integrate with many other systems.
 
 Postman also offers a collection runner, where you can configure a number of web service requests in a specific order. You can use this on top of unit tests for test automation:
 
-![Run requests in sequence from Postman to test your entire app’s integration suite.](/posts/images/essentialtools/postman.webp)
+![Run requests in sequence from Postman to test your entire app’s integration suite.](/blog/images/essentialtools/postman.webp)
 
 > I’m working on a blogpost about **automated Mendixcloud deployments from Postman**. Follow me on [LinkedIn](https://www.linkedin.com/in/mariusvanderknaap/) to be the first to hear about it!
 
@@ -107,16 +107,16 @@ Postman also offers a collection runner, where you can configure a number of web
 
 Configuring an external e-mail server to work locally can be a nuisance. You might not have an internet connection, configuration settings change or you don’t want to have to reconfigure the e-mail server every time you switch databases locally. For these scenarios, [FakeSMTP](http://nilhcem.com/FakeSMTP/) is a perfect solution. This lightweight Java package will run a local e-mail server that you can connect to in seconds. Because it is written in Java, you can use it on any operating system too!
 
-![Run a local mail server with FakeSMTP.](/posts/images/essentialtools/fakesmtp.webp)
+![Run a local mail server with FakeSMTP.](/blog/images/essentialtools/fakesmtp.webp)
 
 ### 9\. Use Fiddler to analyze incoming and outgoing traffic
 
 If you want to have more insight into what data is coming in and going out, Fiddler is a must-have tool. You can route all internet traffic through Fiddler to analyze in detail what requests are being made between your computer and external servers. Make sure to configure the Fiddler port as a proxy in your Mendix project settings so all traffic is properly routed through it!
 
-![Investigate incoming and outgoing traffic with Fiddler.](/posts/images/essentialtools/fiddler.webp)
+![Investigate incoming and outgoing traffic with Fiddler.](/blog/images/essentialtools/fiddler.webp)
 
 ### 10\. Slack
 
 Did you know there is an entire Mendix community available on Slack? This active community can help you out with problems. **Find the Mendix Slack community** [**here**](https://mendixcommunity.slack.com/)**!**
 
-![Slack logo.](/posts/images/essentialtools/slack.webp)
+![Slack logo.](/blog/images/essentialtools/slack.webp)

@@ -6,7 +6,7 @@ url: "/blog/quick-and-easy-deployments-using-postman"
 date: "2023-01-24"
 tags: ["Mendix", "CICD", "Postman", "Automation"]
 cover:
-   image: "/posts/images/postmandeployments/header.webp"
+   image: "/blog/images/postmandeployments/header.webp"
    alt: "Quick and easy deployments on Mendix Cloud using Postman"
 
 ShowReadingTime: true
@@ -47,7 +47,7 @@ Once the connection is working, we’ll need the app’s identifiers. We can ret
 
 Lastly, store the desired branch that you want to deploy as a variable. All preparation is now done and your variables should look like this:
 
-![The resulting Collection Variables file. Initial values contain examples of what the variable should look like.](/posts/images/postmandeployments/collectionvariables.webp)
+![The resulting Collection Variables file. Initial values contain examples of what the variable should look like.](/blog/images/postmandeployments/collectionvariables.webp)
 
 # Step 3: Retrieve the latest revision
 
@@ -196,7 +196,7 @@ Once the environment has started, the collection run will finish and your new pa
 
 You can now use the Postman Collection Runner to run all the requests in order. This automatically deploys a new package from the latest revision in your selected branch. If anything needs to be fixed as expected, refer to the extensive Mendix documentation available, or leave a comment below!
 
-![The Collection Runner working on our deployment for us.](/posts/images/postmandeployments/collectionrunner.webp)
+![The Collection Runner working on our deployment for us.](/blog/images/postmandeployments/collectionrunner.webp)
 
 ## Next steps
 

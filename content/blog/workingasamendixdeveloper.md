@@ -6,7 +6,7 @@ url: "/blog/why-working-as-a-mendix-developer-is-great"
 date: "2022-03-04"
 tags: ["Mendix", "Career"]
 cover:
-   image: "/posts/images/workingasamendixdeveloper/header.webp"
+   image: "/blog/images/workingasamendixdeveloper/header.webp"
    alt: "Working as a Mendix developer"
 
 ShowReadingTime: true
@@ -22,7 +22,7 @@ Before I started working as a Mendix developer I had serious doubts about my fut
 
 As a Mendix developer, you build digital applications without writing traditional code. Instead, you’re building applications using prebuilt parts. You design pieces of logic called microflows, which Mendix translates into things computers can understand once you launch the app. A microflow looks like a traditional workflow diagram. It has a start and an end and executes the pieces of logic in between.
 
-![Example microflow](/posts/images/workingasamendixdeveloper/examplemicroflow.png)
+![Example microflow](/blog/images/workingasamendixdeveloper/examplemicroflow.png)
 
 Because the pieces are prebuilt and ready to use, you can develop logic up to ten times faster than traditional coding methods. And because the learning curve is much less steep than coding, it’s a lot easier to get into. You don’t need a computer science degree to work with Low-code technologies. In fact, most Mendix developers come from completely different academic fields. I’ve had the pleasure of working with Mendix developers with diverse academic backgrounds such as biomedical science, psychology, and industrial engineering. And while the IT sector continues to be a [male-dominated world](https://en.wikipedia.org/wiki/Gender_disparity_in_computing), this stereotype doesn’t hold up as much in Low-code. Women even outnumbered the men in my team at one point.
 
