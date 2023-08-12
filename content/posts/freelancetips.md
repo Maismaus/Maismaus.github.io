@@ -1,11 +1,14 @@
 ---
-author: "Marius"
 title: "Wat ik geleerd heb van starten als freelancer"
+description: "Werken als freelancer in de IT"
+author: "Marius"
 url: "/blog/freelance-ervaringen-en-tips"
 date: "2022-02-01"
-description: "Werken als freelancer in de IT"
 tags: ["Mendix", "Carrière", "Freelance", "ZZP"]
-draft: false
+
+ShowReadingTime: true
+hidemeta: false
+showtoc: false
 ---
 
 In september 2021 begon ik als freelancer. Ik had verschillende redenen om als zelfstandige te willen beginnen. Voornamelijk de vrijheid van het freelancen sprak mij aan. Over de autonomie beschikken om te mogen bepalen hoe veel vakantie je opneemt, welke opdracht je aanneemt en welke richting je op wilt bewegen als professional. Maar er speelden ook veel onzekerheden: hoe kom ik aan een opdracht en hoe is het om geen directe collega's te hebben.

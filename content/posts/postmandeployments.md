@@ -1,14 +1,17 @@
 ---
-author: "Marius"
 title: "Quick and Easy Deployments on Mendix Cloud Using Postman"
+description: "Save time every day by using Mendix APIs"
+author: "Marius"
 url: "/blog/quick-and-easy-deployments-using-postman"
 date: "2023-01-24"
-description: "Save time every day by using Mendix APIs"
 tags: ["Mendix", "CICD", "Postman", "Automation"]
-draft: false
 cover:
    image: "/posts/images/postmandeployments/header.webp"
    alt: "Quick and easy deployments on Mendix Cloud using Postman"
+
+ShowReadingTime: true
+hidemeta: false
+showtoc: false
 ---
 
 If your app runs in the Mendix cloud you are probably using the Mendix Developer Portal to deploy your application. Deploying this way takes several steps: creating a deployment package, transferring it to the desired environment, and restarting the app. Each step can take several minutes after which you have to check back to see if you can progress further.

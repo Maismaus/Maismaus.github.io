@@ -1,15 +1,17 @@
 ---
 title: 10 Essential Tools for Mendix App Development
 description: Tools for Mendix developers you won’t be able to do without
+author: "Marius"
 url: "/blog/10-essential-tools-for-Mendix-development"
 date: "2022-05-25T09:54:40.816Z"
-author: "Marius"
-categories: []
-keywords: []
-slug: /@mariusvanderknaap/10-essential-tools-for-mendix-app-development-3c94e9afd692
+tags: ["Tips & tricks", "Recommended software"]
 cover:
    image: "/posts/images/essentialtools/header.webp"
    alt: "10 Essential Tools for Mendix App Development"
+
+ShowReadingTime: true
+hidemeta: false
+showtoc: false
 ---
 
 No matter what you do for a living, making sure you have the right tools for the job is essential for any working professional. Mendix Studio Pro is a great piece of software to build apps with, but there are a plethora of other tools that can help you build apps more efficiently than ever before. In this article, I go over my recommendations for must-have tools for everyday use in Mendix development.

@@ -1,14 +1,17 @@
 ---
-author: "Marius"
 title: "Why working as a Mendix developer is great"
+description: "Thoughts from an experienced developer"
+author: "Marius"
 url: "/blog/why-working-as-a-mendix-developer-is-great"
 date: "2022-03-04"
-description: "Thoughts from an experienced developer"
 tags: ["Mendix", "Career"]
 cover:
    image: "/posts/images/workingasamendixdeveloper/header.webp"
    alt: "Working as a Mendix developer"
-draft: false
+
+ShowReadingTime: true
+hidemeta: false
+showtoc: false
 ---
 
 *Here’s the deal* — you’re in your twenties, freshly graduated from college. Maybe you’ve flirted with coding in the past, or hacked your way through a few websites, and generally, you have an affinity with modern tech. Or perhaps you are a psych student who enjoyed working with statistics, and you’re starting to realize that you have to pay those bills eventually.

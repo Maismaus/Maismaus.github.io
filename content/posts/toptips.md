@@ -1,13 +1,17 @@
 ---
 author: "Marius"
 title: "Here's 10 tips you wish you knew earlier to speed up your Mendix development"
-url: "/posts/10-tips-to-speed-up-your-Mendix-development"
+url: "/blog/10-tips-to-speed-up-your-Mendix-development"
 date: "2022-01-12"
 description: "Pro tips for leveling up your development game within Mendix Studio Pro"
 tags: ["Mendix", "Development", "Tips", "Guide"]
 cover:
    image: "/posts/images/toptips/header.webp"
    alt: "Hero image for top tips for speeding up your Mendix development"
+
+ShowReadingTime: true
+hidemeta: false
+showtoc: false
 ---
 
 As a Mendix developer, you are likely working with Studio Pro every day. However, there are many simple tricks that you can use in your day to day work that make your life a little bit easier. In this blog post, I will go over some of the pro tips that I have gathered during my time as a Mendix developer.
