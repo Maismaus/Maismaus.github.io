@@ -1,3 +1,10 @@
 .archive-count {
    display: none;
 }
+
+.toc {
+   font-size: 12px;
+}
+.toc .inner {
+   margin: 0;
+}
