@@ -25,3 +25,7 @@ XPath<IMendixObject> xpath = XPath.create(getContext(), MxObjectMember.entityNam
 List<IMendixObject> mxObjectMemberList = xpath.all();
 return mxObjectMemberList;
 ```
+
+### Escape JSON object
+
+`return JSONObject.escape(inputString);`
