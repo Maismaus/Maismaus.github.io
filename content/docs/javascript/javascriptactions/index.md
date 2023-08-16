@@ -21,3 +21,12 @@ var z = y[1].split('.');
 var pageName =  z[0];
 return pageName;
 ```
+
+### Select all text on input focus
+
+Set this JavaScript action on the OnChange nanoflow
+
+```
+const activeElement = document.activeElement;
+if (activeElement.tagName === "INPUT") activeElement.select();
+```

@@ -68,8 +68,10 @@ xhr.onreadystatechange = function () {
 
 #### Login bookmarklet
 
+Bookmark this and press the bookmark to login. Replace username and password with your own (currently: MxAdmin, 1).
+
 ```
-javascript:(function()%7Bvar%20xhr%20%3D%20new%20XMLHttpRequest()%3B%0Axhr.open(%22POST%22%2C%20location.origin%20%2B%20%22%2Fxas%2F%22%2C%20true)%3B%0Axhr.setRequestHeader(%22Content-Type%22%2C%20%22application%2Fjson%22)%3B%0Axhr.send(%0A%20%20JSON.stringify(%7B%0A%20%20%20%20action%3A%20%22login%22%2C%0A%20%20%20%20params%3A%20%7B%0A%20%20%20%20%20%20username%3A%20%22MxAdmin%22%2C%0A%20%20%20%20%20%20password%3A%20%221%22%2C%0A%20%20%20%20%7D%2C%0A%20%20%7D)%0A)%3B%0Axhr.onreadystatechange%20%3D%20function%20()%20%7B%0A%20%20window.location%20%3D%20%22index.html%22%3B%0A%7D%3B%7D)()%3B
+javascript:(function()%7Bvar%20xhr%3Dnew%20XMLHttpRequest()%3Bxhr.open(%22POST%22%2Clocation.origin%2B%22%2Fxas%2F%22%2Ctrue)%3Bxhr.setRequestHeader(%22Content-Type%22%2C%22application%2Fjson%22)%3Bxhr.send(JSON.stringify(%7Baction%3A%22login%22%2Cparams%3A%7Busername%3A%22MxAdmin%22%2Cpassword%3A%221%22%2C%7D%2C%7D))%3Bxhr.onreadystatechange%3Dfunction()%7Bwindow.location%3D%22index.html%22%3B%7D%7D)()%3B
 ```
 
 ## Object handling
