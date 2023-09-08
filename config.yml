@@ -66,7 +66,7 @@ params:
    profileMode:
       enabled: true # needs to be explicitly set
       title: Marius van der Knaap
-      subtitle: "Mendix Developer"
+      subtitle: "Mendix Developer | Expert & MVP"
       subtitleRight: "UX Designer"
       imageUrl: "https://www.gravatar.com/avatar/177f87dae21214518392dba1fb6720d6?s=200&r=pg&d=mm"
       imageWidth: 200
