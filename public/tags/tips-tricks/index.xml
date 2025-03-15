@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tips &amp; tricks on Marius van der Knaap</title>
+    <link>https://maismaus.github.io/tags/tips-tricks/</link>
+    <description>Recent content in Tips &amp; tricks on Marius van der Knaap</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 May 2022 09:54:40 +0000</lastBuildDate><atom:link href="https://maismaus.github.io/tags/tips-tricks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>10 Essential Tools for Mendix App Development</title>
+      <link>https://maismaus.github.io/blog/10-essential-tools-for-Mendix-development/</link>
+      <pubDate>Wed, 25 May 2022 09:54:40 +0000</pubDate>
+      
+      <guid>https://maismaus.github.io/blog/10-essential-tools-for-Mendix-development/</guid>
+      <description>Tools for Mendix developers you won’t be able to do without</description>
+    </item>
+    
+  </channel>
+</rss>

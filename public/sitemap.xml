@@ -2,29 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://maismaus.github.io/tags/carri%C3%A8re/</loc>
-    <lastmod>2022-01-29T00:00:00+00:00</lastmod>
+    <loc>https://maismaus.github.io/tags/automation/</loc>
+    <lastmod>2023-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/tags/freelance/</loc>
-    <lastmod>2022-01-29T00:00:00+00:00</lastmod>
+    <loc>https://maismaus.github.io/blog/</loc>
+    <lastmod>2023-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maismaus.github.io/tags/cicd/</loc>
+    <lastmod>2023-01-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maismaus.github.io/</loc>
-    <lastmod>2022-01-29T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maismaus.github.io/tags/mendix/</loc>
-    <lastmod>2022-01-29T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/posts/</loc>
-    <lastmod>2022-01-29T00:00:00+00:00</lastmod>
+    <loc>https://maismaus.github.io/tags/postman/</loc>
+    <lastmod>2023-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maismaus.github.io/blog/quick-and-easy-deployments-using-postman/</loc>
+    <lastmod>2023-01-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maismaus.github.io/tags/</loc>
-    <lastmod>2022-01-29T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/posts/freelance-ervaringen-en-tips/</loc>
-    <lastmod>2022-01-29T00:00:00+00:00</lastmod>
+    <loc>https://maismaus.github.io/blog/10-essential-tools-for-Mendix-development/</loc>
+    <lastmod>2022-05-25T09:54:40+00:00</lastmod>
+  </url><url>
+    <loc>https://maismaus.github.io/tags/recommended-software/</loc>
+    <lastmod>2022-05-25T09:54:40+00:00</lastmod>
+  </url><url>
+    <loc>https://maismaus.github.io/tags/tips-tricks/</loc>
+    <lastmod>2022-05-25T09:54:40+00:00</lastmod>
+  </url><url>
+    <loc>https://maismaus.github.io/tags/career/</loc>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maismaus.github.io/blog/why-working-as-a-mendix-developer-is-great/</loc>
+    <lastmod>2022-03-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maismaus.github.io/tags/carri%C3%A8re/</loc>
+    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maismaus.github.io/tags/freelance/</loc>
+    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maismaus.github.io/blog/freelance-ervaringen-en-tips/</loc>
+    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maismaus.github.io/tags/zzp/</loc>
-    <lastmod>2022-01-29T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maismaus.github.io/tags/development/</loc>
     <lastmod>2022-01-12T00:00:00+00:00</lastmod>
@@ -32,7 +59,7 @@
     <loc>https://maismaus.github.io/tags/guide/</loc>
     <lastmod>2022-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/posts/10-tips-to-speed-up-your-Mendix-development/</loc>
+    <loc>https://maismaus.github.io/blog/10-tips-to-speed-up-your-Mendix-development/</loc>
     <lastmod>2022-01-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maismaus.github.io/tags/tips/</loc>
@@ -42,6 +69,30 @@
   </url><url>
     <loc>https://maismaus.github.io/categories/</loc>
   </url><url>
+    <loc>https://maismaus.github.io/docs/css/</loc>
+  </url><url>
     <loc>https://maismaus.github.io/cv/</loc>
+  </url><url>
+    <loc>https://maismaus.github.io/docs/cssdoc/dataview/</loc>
+  </url><url>
+    <loc>https://maismaus.github.io/docs/</loc>
+  </url><url>
+    <loc>https://maismaus.github.io/docs/java/</loc>
+  </url><url>
+    <loc>https://maismaus.github.io/docs/javadoc/misc/</loc>
+  </url><url>
+    <loc>https://maismaus.github.io/docs/javascript/</loc>
+  </url><url>
+    <loc>https://maismaus.github.io/docs/javascriptdoc/jsactions/</loc>
+  </url><url>
+    <loc>https://maismaus.github.io/docs/jsdoc/javascriptapi/</loc>
+  </url><url>
+    <loc>https://maismaus.github.io/docs/javadoc/listoperations/</loc>
+  </url><url>
+    <loc>https://maismaus.github.io/docs/cssdoc/listview/</loc>
+  </url><url>
+    <loc>https://maismaus.github.io/search/</loc>
+  </url><url>
+    <loc>https://maismaus.github.io/docs/javadoc/selfreference/</loc>
   </url>
 </urlset>

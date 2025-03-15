@@ -1,0 +1,139 @@
+<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>JavaScript API | Marius van der Knaap</title><meta name=keywords content><meta name=description content="Mendix JavaScript API"><meta name=author content="Marius van der Knaap"><link rel=canonical href=https://maismaus.github.io/docs/jsdoc/javascriptapi/><meta name=google-site-verification content="6-XN00slhetN1Ww4jIAgr5n3fyKy_KluA0Y04-BApmw"><link crossorigin=anonymous href=/assets/css/stylesheet.208251346d77e292c58d9b21054e463d03021272e190a62c1bec593ce208ad92.css integrity="sha256-IIJRNG134pLFjZshBU5GPQMCEnLhkKYsG+xZPOIIrZI=" rel="preload stylesheet" as=style><script defer crossorigin=anonymous src=/assets/js/highlight.acb54fd32bbc1982428b8850317e45d076b95012730a5936667e6bc21777692a.js integrity="sha256-rLVP0yu8GYJCi4hQMX5F0Ha5UBJzClk2Zn5rwhd3aSo=" onload=hljs.initHighlightingOnLoad()></script>
+<link rel=icon href=https://maismaus.github.io/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://maismaus.github.io/favicon.ico><link rel=icon type=image/png sizes=32x32 href=https://maismaus.github.io/favicon.ico><link rel=apple-touch-icon href=https://maismaus.github.io/favicon.ico><link rel=mask-icon href=https://maismaus.github.io/favicon.ico><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><script async src="https://www.googletagmanager.com/gtag/js?id=G-2017VPDC7W"></script>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-2017VPDC7W",{anonymize_ip:!1})}</script><meta property="og:title" content="JavaScript API"><meta property="og:description" content="Mendix JavaScript API"><meta property="og:type" content="article"><meta property="og:url" content="https://maismaus.github.io/docs/jsdoc/javascriptapi/"><meta property="article:section" content="docs"><meta property="og:site_name" content="mariusvanderknaap.nl"><meta name=twitter:card content="summary"><meta name=twitter:title content="JavaScript API"><meta name=twitter:description content="Mendix JavaScript API"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":2,"name":"Docs","item":"https://maismaus.github.io/docs/"},{"@type":"ListItem","position":3,"name":"JavaScript","item":"https://maismaus.github.io/docs/javascript/"},{"@type":"ListItem","position":4,"name":"JavaScript API","item":"https://maismaus.github.io/docs/jsdoc/javascriptapi/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"JavaScript API","name":"JavaScript API","description":"Mendix JavaScript API","keywords":[],"articleBody":"This section describes various JavaScript code snippets using the Mendix JavaScript client-side API. For the complete documentation, refer to the Mendix docs\nSession management Remove sessions This can be useful if you’ve exceeded the user limit in your local environment\nmx.data.get({\rxpath: \"//System.Session\",\rcallback: function (session) {\rvar sessionArray = [];\rvar sessionLength = session.length;\rfor (var i = 0; i \u003c session.length; i++) {\rsessionArray.push(session[i]._guid);\r}\rmx.data.remove({\rguids: sessionArray,\rcallback: function () {\rconsole.log(sessionLength + \" sessions removed\");\r},\rerror: function (e) {\rconsole.log(\"Could not remove objects:\", e);\r},\r});\r},\r}); Session bookmarklet javascript:(function()%7Bmx.data.get(%7Bxpath%3A%20%22%2F%2FSystem.Session%22%2Ccallback%3A%20function%20(session)%20%7Bvar%20sessionArray%20%3D%20%5B%5D%3Bfor%20(var%20i%20%3D%200%3B%20i%20%3C%20session.length%3B%20i%2B%2B)%20%7BsessionArray.push(session%5Bi%5D._guid)%3B%7Dmx.data.remove(%7Bguids%3A%20sessionArray%2Ccallback%3A%20function%20()%20%7Bconsole.log(toString(session.length)%20%2B%20%22sessions%20removed%22)%3B%7D%2Cerror%3A%20function%20(e)%20%7Bconsole.log(%22Could%20not%20remove%20objects%3A%22%2C%20e)%3B%7D%7D)%3B%7D%7D)%7D)() Logging in var xhr = new XMLHttpRequest();\rxhr.open(\"POST\", location.origin + \"/xas/\", true);\rxhr.setRequestHeader(\"Content-Type\", \"application/json\");\rxhr.send(\rJSON.stringify({\raction: \"login\",\rparams: {\rusername: \"MxAdmin\",\rpassword: \"1\",\r},\r})\r);\rxhr.onreadystatechange = function () {\rwindow.location = \"index.html\";\r}; Login bookmarklet Bookmark this and press the bookmark to login. Replace username and password with your own (currently: MxAdmin, 1).\njavascript:(function()%7Bvar%20xhr%3Dnew%20XMLHttpRequest()%3Bxhr.open(%22POST%22%2Clocation.origin%2B%22%2Fxas%2F%22%2Ctrue)%3Bxhr.setRequestHeader(%22Content-Type%22%2C%22application%2Fjson%22)%3Bxhr.send(JSON.stringify(%7Baction%3A%22login%22%2Cparams%3A%7Busername%3A%22MxAdmin%22%2Cpassword%3A%221%22%2C%7D%2C%7D))%3Bxhr.onreadystatechange%3Dfunction()%7Bwindow.location%3D%22index.html%22%3B%7D%7D)()%3B Object handling Log GUID of object retrieved through association mx.data.get({\rxpath: \"//Onboarding.Application[RegisterID=257]/Onboarding.Applicant_Application/Onboarding.Applicant\",\rcallback: function (obj) {\rconsole.log(obj[0]._guid);\r},\r}); Retrieve objects with guid mx.data.get({\rguids: [\"123456\", \"456789\"],\rcallback: function (objs) {\rconsole.log(\"Received \" + objs.length + \" MxObjects\");\r},\r}); Execute microflow with guid as parameter mx.data.action({\rparams: {\rapplyto: \"selection\",\ractionname: \"Onboarding.ACT_NewApplication\", //Execute microflow\rguids: [\"20829148276589155\"], //Guid as parameter\r},\rorigin: this.mxform,\rcallback: function (obj) {\r// expect single MxObject\ralert(obj.get(\"manufacturer\"));\r},\rerror: function (error) {\ralert(error);\r},\r}); Get, edit and commit mx.data.get({\rxpath: \"//Onboarding.Applicant[RegisterID=1374]\", //Get applicant with ID 1374\rcallback: function (obj) {\robj[0].set(\"RegisterID\", \"1375\"); //Set marital status to '02'\rmx.data.commit({\rmxobj: obj[0], //Commit applicant\rcallback: function () {\rconsole.log(\"Object committed\");\r},\rerror: function (e) {\rconsole.error(\"Could not commit object:\", e);\r},\r});\r},\r}); Advanced object editing Get an object, Get another object, Set association of first object to second object, Commit second object mx.data.get({\rxpath: '//Onboarding.Applicant[RegisterID=1374]',\rcallback: function (applicant) {\rconsole.log(applicant[0]);\rmx.data.get({\rxpath: '//Onboarding.Country[Name=\"Germany\"]',\rcallback: function (obj) {\robj[0].addReference(\"Onboarding.Application_Country\", country[0]._guid);\rconsole.log(obj[0]);\rmx.data.commit({\rmxobj: obj[0], //Commit applicant\rcallback: function () {\rconsole.log(\"Object committed\");\r},\rerror: function (e) {\rconsole.error(\"Could not commit object:\", e);\r},\r});\r},\r});\r},\r}); Remove object mx.data.get({\rxpath: \"//Onboarding.Applicant[RegisterID=84427]\",\rcallback: function (applicant) {\r//Return list of tasks\rmx.data.remove({\r//Remove first item in the list\rguid: applicant[0]._guid,\rcallback: function () {\rconsole.log(applicant[0]);\r},\rerror: function (e) {\rconsole.log(\"Could not remove objects:\", e);\r},\r});\r},\r}); Open pages Open page in content mx.ui.openForm(\"Login/Login.page.xml\", {\rlocation: \"content\",\rcallback: function (form) {\rconsole.log(form.id);\r},\r}); Open page in popup mx.ui.openForm(\"Onboarding/Application.page.xml\", {\rlocation: \"modal\",\rcallback: function () {},\r}); Get page title javascript: (function () {\rvar pageTitle = mx.ui.getContentForm().path.replace(\".page.xml\", \"\");\rvar pageTitleArr = pageTitle.split(\"/\");\rvar moduleName = pageTitleArr[0];\rvar pageName = pageTitleArr[1];\rprompt(\"Module: \" + moduleName, pageName);\r})(); ","wordCount":"447","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"0001-01-01T00:00:00Z","author":{"@type":"Person","name":"Marius van der Knaap"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://maismaus.github.io/docs/jsdoc/javascriptapi/"},"publisher":{"@type":"Organization","name":"Marius van der Knaap","logo":{"@type":"ImageObject","url":"https://maismaus.github.io/favicon.ico"}}}</script></head><body id=top><script>window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><noscript><style type=text/css>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:#1d1e20;--entry:#2e2e33;--primary:rgba(255, 255, 255, 0.84);--secondary:rgba(255, 255, 255, 0.56);--tertiary:rgba(255, 255, 255, 0.16);--content:rgba(255, 255, 255, 0.74);--hljs-bg:#2e2e33;--code-bg:#37383e;--border:#333}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><header class=header><nav class=nav><div class=logo><span class=logo-switches></span></div><ul id=menu><li><a href=https://maismaus.github.io/ title=home><span>home</span></a></li><li><a href=https://maismaus.github.io/blog/ title=blog><span>blog</span></a></li><li><a href=https://maismaus.github.io/docs/ title=docs><span>docs</span></a></li><li><a href=https://maismaus.github.io/cv/ title=cv><span>cv</span></a></li><li><a href=https://maismaus.github.io/search/ title=" (Alt + /)" accesskey=/><span><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" fill="currentcolor"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8.0 45.3s-32.8 12.5-45.3.0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9.0 208S93.1.0 208 0 416 93.1 416 208zM208 352a144 144 0 100-288 144 144 0 100 288z"/></svg></span></a></li><li><a href=https://maismaus.github.io/cv.pdf title><span><svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></span></a></li></ul></nav></header><main class=main><style>:root{--main-width:auto}.grid{display:flex;max-width:100vw}article{flex:1;overflow:hidden;padding:20px}nav.sidebar{width:300px;flex-shrink:0}@media(max-width:992px){nav{display:none}}@media(max-width:1200px){.nav-left{display:none}}</style><div class=grid><nav class="sidebar nav-left"></nav><article class=post-single><header class=post-header><div class=breadcrumbs><a href=https://maismaus.github.io>Home</a>&nbsp;»&nbsp;<a href=https://maismaus.github.io/docs/>Docs</a>&nbsp;»&nbsp;<a href=https://maismaus.github.io/docs/javascript/>JavaScript</a></div><h1 class=post-title>JavaScript API</h1><div class=post-description>Mendix JavaScript API</div></header><div class=post-content><p>This section describes various JavaScript code snippets using the Mendix JavaScript client-side API.
+For the complete documentation, refer to the <a href=https://apidocs.rnd.mendix.com/10/client/index.html>Mendix docs</a></p><h2 id=session-management>Session management<a hidden class=anchor aria-hidden=true href=#session-management>#</a></h2><h3 id=remove-sessions>Remove sessions<a hidden class=anchor aria-hidden=true href=#remove-sessions>#</a></h3><p>This can be useful if you&rsquo;ve exceeded the user limit in your local environment</p><pre tabindex=0><code>mx.data.get({
+  xpath: &#34;//System.Session&#34;,
+  callback: function (session) {
+    var sessionArray = [];
+    var sessionLength = session.length;
+    for (var i = 0; i &lt; session.length; i++) {
+      sessionArray.push(session[i]._guid);
+    }
+    mx.data.remove({
+      guids: sessionArray,
+      callback: function () {
+        console.log(sessionLength + &#34; sessions removed&#34;);
+      },
+      error: function (e) {
+        console.log(&#34;Could not remove objects:&#34;, e);
+      },
+    });
+  },
+});
+</code></pre><h4 id=session-bookmarklet>Session bookmarklet<a hidden class=anchor aria-hidden=true href=#session-bookmarklet>#</a></h4><pre tabindex=0><code>javascript:(function()%7Bmx.data.get(%7Bxpath%3A%20%22%2F%2FSystem.Session%22%2Ccallback%3A%20function%20(session)%20%7Bvar%20sessionArray%20%3D%20%5B%5D%3Bfor%20(var%20i%20%3D%200%3B%20i%20%3C%20session.length%3B%20i%2B%2B)%20%7BsessionArray.push(session%5Bi%5D._guid)%3B%7Dmx.data.remove(%7Bguids%3A%20sessionArray%2Ccallback%3A%20function%20()%20%7Bconsole.log(toString(session.length)%20%2B%20%22sessions%20removed%22)%3B%7D%2Cerror%3A%20function%20(e)%20%7Bconsole.log(%22Could%20not%20remove%20objects%3A%22%2C%20e)%3B%7D%7D)%3B%7D%7D)%7D)()
+</code></pre><h3 id=logging-in>Logging in<a hidden class=anchor aria-hidden=true href=#logging-in>#</a></h3><pre tabindex=0><code>var xhr = new XMLHttpRequest();
+xhr.open(&#34;POST&#34;, location.origin + &#34;/xas/&#34;, true);
+xhr.setRequestHeader(&#34;Content-Type&#34;, &#34;application/json&#34;);
+xhr.send(
+  JSON.stringify({
+    action: &#34;login&#34;,
+    params: {
+      username: &#34;MxAdmin&#34;,
+      password: &#34;1&#34;,
+    },
+  })
+);
+xhr.onreadystatechange = function () {
+  window.location = &#34;index.html&#34;;
+};
+</code></pre><h4 id=login-bookmarklet>Login bookmarklet<a hidden class=anchor aria-hidden=true href=#login-bookmarklet>#</a></h4><p>Bookmark this and press the bookmark to login. Replace username and password with your own (currently: MxAdmin, 1).</p><pre tabindex=0><code>javascript:(function()%7Bvar%20xhr%3Dnew%20XMLHttpRequest()%3Bxhr.open(%22POST%22%2Clocation.origin%2B%22%2Fxas%2F%22%2Ctrue)%3Bxhr.setRequestHeader(%22Content-Type%22%2C%22application%2Fjson%22)%3Bxhr.send(JSON.stringify(%7Baction%3A%22login%22%2Cparams%3A%7Busername%3A%22MxAdmin%22%2Cpassword%3A%221%22%2C%7D%2C%7D))%3Bxhr.onreadystatechange%3Dfunction()%7Bwindow.location%3D%22index.html%22%3B%7D%7D)()%3B
+</code></pre><h2 id=object-handling>Object handling<a hidden class=anchor aria-hidden=true href=#object-handling>#</a></h2><h3 id=log-guid-of-object-retrieved-through-association>Log GUID of object retrieved through association<a hidden class=anchor aria-hidden=true href=#log-guid-of-object-retrieved-through-association>#</a></h3><pre tabindex=0><code>mx.data.get({
+  xpath: &#34;//Onboarding.Application[RegisterID=257]/Onboarding.Applicant_Application/Onboarding.Applicant&#34;,
+  callback: function (obj) {
+    console.log(obj[0]._guid);
+  },
+});
+</code></pre><h3 id=retrieve-objects-with-guid>Retrieve objects with guid<a hidden class=anchor aria-hidden=true href=#retrieve-objects-with-guid>#</a></h3><pre tabindex=0><code>mx.data.get({
+  guids: [&#34;123456&#34;, &#34;456789&#34;],
+  callback: function (objs) {
+    console.log(&#34;Received &#34; + objs.length + &#34; MxObjects&#34;);
+  },
+});
+</code></pre><h3 id=execute-microflow-with-guid-as-parameter>Execute microflow with guid as parameter<a hidden class=anchor aria-hidden=true href=#execute-microflow-with-guid-as-parameter>#</a></h3><pre tabindex=0><code>mx.data.action({
+  params: {
+    applyto: &#34;selection&#34;,
+    actionname: &#34;Onboarding.ACT_NewApplication&#34;, //Execute microflow
+    guids: [&#34;20829148276589155&#34;], //Guid as parameter
+  },
+  origin: this.mxform,
+  callback: function (obj) {
+    // expect single MxObject
+    alert(obj.get(&#34;manufacturer&#34;));
+  },
+  error: function (error) {
+    alert(error);
+  },
+});
+</code></pre><h3 id=get-edit-and-commit>Get, edit and commit<a hidden class=anchor aria-hidden=true href=#get-edit-and-commit>#</a></h3><pre tabindex=0><code>mx.data.get({
+  xpath: &#34;//Onboarding.Applicant[RegisterID=1374]&#34;, //Get applicant with ID 1374
+  callback: function (obj) {
+    obj[0].set(&#34;RegisterID&#34;, &#34;1375&#34;); //Set marital status to &#39;02&#39;
+    mx.data.commit({
+      mxobj: obj[0], //Commit applicant
+      callback: function () {
+        console.log(&#34;Object committed&#34;);
+      },
+      error: function (e) {
+        console.error(&#34;Could not commit object:&#34;, e);
+      },
+    });
+  },
+});
+</code></pre><h3 id=advanced-object-editing>Advanced object editing<a hidden class=anchor aria-hidden=true href=#advanced-object-editing>#</a></h3><ul><li>Get an object,</li><li>Get another object,</li><li>Set association of first object to second object,</li><li>Commit second object</li></ul><pre tabindex=0><code>mx.data.get({
+  xpath: &#39;//Onboarding.Applicant[RegisterID=1374]&#39;,
+  callback: function (applicant) {
+    console.log(applicant[0]);
+    mx.data.get({
+      xpath: &#39;//Onboarding.Country[Name=&#34;Germany&#34;]&#39;,
+      callback: function (obj) {
+        obj[0].addReference(&#34;Onboarding.Application_Country&#34;, country[0]._guid);
+        console.log(obj[0]);
+        mx.data.commit({
+          mxobj: obj[0], //Commit applicant
+          callback: function () {
+            console.log(&#34;Object committed&#34;);
+          },
+          error: function (e) {
+            console.error(&#34;Could not commit object:&#34;, e);
+          },
+        });
+      },
+    });
+  },
+});
+</code></pre><h3 id=remove-object>Remove object<a hidden class=anchor aria-hidden=true href=#remove-object>#</a></h3><pre tabindex=0><code>mx.data.get({
+  xpath: &#34;//Onboarding.Applicant[RegisterID=84427]&#34;,
+  callback: function (applicant) {
+    //Return list of tasks
+    mx.data.remove({
+      //Remove first item in the list
+      guid: applicant[0]._guid,
+      callback: function () {
+        console.log(applicant[0]);
+      },
+      error: function (e) {
+        console.log(&#34;Could not remove objects:&#34;, e);
+      },
+    });
+  },
+});
+</code></pre><h2 id=open-pages>Open pages<a hidden class=anchor aria-hidden=true href=#open-pages>#</a></h2><h3 id=open-page-in-content>Open page in content<a hidden class=anchor aria-hidden=true href=#open-page-in-content>#</a></h3><pre tabindex=0><code>mx.ui.openForm(&#34;Login/Login.page.xml&#34;, {
+  location: &#34;content&#34;,
+  callback: function (form) {
+    console.log(form.id);
+  },
+});
+</code></pre><h3 id=open-page-in-popup>Open page in popup<a hidden class=anchor aria-hidden=true href=#open-page-in-popup>#</a></h3><pre tabindex=0><code>mx.ui.openForm(&#34;Onboarding/Application.page.xml&#34;, {
+  location: &#34;modal&#34;,
+  callback: function () {},
+});
+</code></pre><h3 id=get-page-title>Get page title<a hidden class=anchor aria-hidden=true href=#get-page-title>#</a></h3><pre tabindex=0><code>javascript: (function () {
+  var pageTitle = mx.ui.getContentForm().path.replace(&#34;.page.xml&#34;, &#34;&#34;);
+  var pageTitleArr = pageTitle.split(&#34;/&#34;);
+  var moduleName = pageTitleArr[0];
+  var pageName = pageTitleArr[1];
+  prompt(&#34;Module: &#34; + moduleName, pageName);
+})();
+</code></pre></div><footer class=post-footer><ul class=post-tags></ul><nav class=paginav><a class=prev href=https://maismaus.github.io/docs/javascriptdoc/jsactions/><span class=title>« Prev</span><br><span>JavaScript Actions</span></a>
+<a class=next href=https://maismaus.github.io/docs/javadoc/listoperations/><span class=title>Next »</span><br><span>List operations</span></a></nav></footer></article><nav class="sidebar nav-right"><div class=toc><details open><summary accesskey=c title="(Alt + C)"><span class=details>On this page</span></summary><div class=inner><ul><li><a href=#session-management aria-label="Session management">Session management</a><ul><li><a href=#remove-sessions aria-label="Remove sessions">Remove sessions</a><ul><li><a href=#session-bookmarklet aria-label="Session bookmarklet">Session bookmarklet</a></li></ul></li><li><a href=#logging-in aria-label="Logging in">Logging in</a><ul><li><a href=#login-bookmarklet aria-label="Login bookmarklet">Login bookmarklet</a></li></ul></li></ul></li><li><a href=#object-handling aria-label="Object handling">Object handling</a><ul><li><a href=#log-guid-of-object-retrieved-through-association aria-label="Log GUID of object retrieved through association">Log GUID of object retrieved through association</a></li><li><a href=#retrieve-objects-with-guid aria-label="Retrieve objects with guid">Retrieve objects with guid</a></li><li><a href=#execute-microflow-with-guid-as-parameter aria-label="Execute microflow with guid as parameter">Execute microflow with guid as parameter</a></li><li><a href=#get-edit-and-commit aria-label="Get, edit and commit">Get, edit and commit</a></li><li><a href=#advanced-object-editing aria-label="Advanced object editing">Advanced object editing</a></li><li><a href=#remove-object aria-label="Remove object">Remove object</a></li></ul></li><li><a href=#open-pages aria-label="Open pages">Open pages</a><ul><li><a href=#open-page-in-content aria-label="Open page in content">Open page in content</a></li><li><a href=#open-page-in-popup aria-label="Open page in popup">Open page in popup</a></li><li><a href=#get-page-title aria-label="Get page title">Get page title</a></li></ul></li></ul></div></details></div></nav></div></main><footer class=footer><span>&copy; 2023 <a href=https://maismaus.github.io>Marius van der Knaap</a></span> | KvK: 83169164 | BTW: NL003791766B40</footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)"><button class=top-link id=top-link type=button accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg></button></a>
+<script>let menu=document.getElementById("menu");menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)},document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.querySelectorAll("pre > code").forEach(e=>{const n=e.parentNode.parentNode,t=document.createElement("button");t.classList.add("copy-code"),t.innerText="copy";function s(){t.innerText="copied!",setTimeout(()=>{t.innerText="copy"},2e3)}t.addEventListener("click",t=>{if("clipboard"in navigator){navigator.clipboard.writeText(e.textContent),s();return}const n=document.createRange();n.selectNodeContents(e);const o=window.getSelection();o.removeAllRanges(),o.addRange(n);try{document.execCommand("copy"),s()}catch{}o.removeRange(n)}),n.classList.contains("highlight")?n.appendChild(t):n.parentNode.firstChild==n||(e.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?e.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(t):e.parentNode.appendChild(t))})</script></body></html>

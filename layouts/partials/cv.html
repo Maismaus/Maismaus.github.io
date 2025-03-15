@@ -46,22 +46,17 @@ html {
 }
 
 .resume {
+  break-inside: avoid;
   background: var(--color-background);
   color: var(--color-primary);
   display: grid;
   font: 1em/1.5 Lato, sans-serif;
   gap: 2em;
   padding-bottom: 4em;
-  grid-template-columns:
-    [full-start]
-    1fr
-    [main-start side-start]
-    minmax(min-content, 12em)
-    [side-end content-start]
-    minmax(min-content, 36em)
-    [main-end content-end]
-    1fr
-    [full-end];
+  grid-template-columns: [full-start] 1fr [main-start side-start] minmax(
+      min-content,
+      12em
+    ) [side-end content-start] minmax(min-content, 36em) [main-end content-end] 1fr [full-end];
   grid-template-rows: auto [content] 0;
 }
 
@@ -300,10 +295,29 @@ html {
                 <article>
                   <header>
                     <div class="spaced-list">
+                      <h4>FMO</h4>
+                      <span>
+                        <time datetime="2023-05-01">May 2023</time> –
+                        Present
+                      </span>
+                    </div>
+                    <div class="spaced-list">
+                        <strong>Freelance Mendix developer</strong>
+                        <a href="http://fmo.nl">fmo.nl</a>
+                    </div>
+                  </header>
+                    <p>Worked on internal FMO Mendix applications.</p>
+                    <ul>
+                        <li><p><strong>Technical lead</strong> for FMO project.</p></li>
+                    </ul>
+                </article>
+                <article>
+                  <header>
+                    <div class="spaced-list">
                       <h4>Prijsvergelijken.nl</h4>
                       <span>
                         <time datetime="2021-10-01">Oct 2021</time> –
-                        Present
+                        <time datetime="2023-04-01">Apr 2023</time>
                       </span>
                     </div>
                     <div class="spaced-list">
@@ -333,7 +347,6 @@ html {
                   </header>
                     <p>During my time at Finaps, I've quickly grown into the senior business engineer role. I've been involved in many projects within the company, each time in a different role. From sole developer on small applications, to larger Mendix apps in complex landscapes, to large-scale digital transformation journeys for global enterprises.</p>
                     <ul>
-                        <li><p><strong>Nestlé</strong> <em>System architect</em> for Mobility field service management application.</p></li>
                         <li><p><strong>Siemens</strong> <em>Principal business engineer</em> for Siemens DevOps center. First point of contact for team leads and involved in setting up development processes.</p></li>
                         <li><p><strong>Quion</strong> <em>Front-end styling consultant</em> for Quion platform.</p></li>
                         <li><p><strong>Argenta</strong> <em>Lead business engineer</em> for Argenta proof of concept.</p></li>
@@ -439,6 +452,19 @@ html {
           <section id="certificates">
             <h3>Certificates</h3>
             <div class="stack">
+                <article>
+                  <header>
+                    <div class="spaced-list">
+                      <h4>Mendix MVP</h4>
+                        <time datetime="2022-09-13">Sep 2022</time>
+                    </div>
+                    <div class="spaced-list">
+                        <span>
+                          Issued by <strong>Mendix</strong>
+                        </span>
+                    </div>
+                  </header>
+                </article>
                 <article>
                   <header>
                     <div class="spaced-list">

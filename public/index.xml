@@ -5,22 +5,50 @@
     <link>https://maismaus.github.io/</link>
     <description>Recent content on Marius van der Knaap</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 29 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://maismaus.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://maismaus.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quick and Easy Deployments on Mendix Cloud Using Postman</title>
+      <link>https://maismaus.github.io/blog/quick-and-easy-deployments-using-postman/</link>
+      <pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://maismaus.github.io/blog/quick-and-easy-deployments-using-postman/</guid>
+      <description>Save time every day by using Mendix APIs</description>
+    </item>
+    
+    <item>
+      <title>10 Essential Tools for Mendix App Development</title>
+      <link>https://maismaus.github.io/blog/10-essential-tools-for-Mendix-development/</link>
+      <pubDate>Wed, 25 May 2022 09:54:40 +0000</pubDate>
+      
+      <guid>https://maismaus.github.io/blog/10-essential-tools-for-Mendix-development/</guid>
+      <description>Tools for Mendix developers you won’t be able to do without</description>
+    </item>
+    
+    <item>
+      <title>Why working as a Mendix developer is great</title>
+      <link>https://maismaus.github.io/blog/why-working-as-a-mendix-developer-is-great/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://maismaus.github.io/blog/why-working-as-a-mendix-developer-is-great/</guid>
+      <description>Thoughts from an experienced developer</description>
+    </item>
+    
     <item>
       <title>Wat ik geleerd heb van starten als freelancer</title>
-      <link>https://maismaus.github.io/posts/freelance-ervaringen-en-tips/</link>
-      <pubDate>Sat, 29 Jan 2022 00:00:00 +0000</pubDate>
+      <link>https://maismaus.github.io/blog/freelance-ervaringen-en-tips/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://maismaus.github.io/posts/freelance-ervaringen-en-tips/</guid>
+      <guid>https://maismaus.github.io/blog/freelance-ervaringen-en-tips/</guid>
       <description>Werken als freelancer in de IT</description>
     </item>
     
     <item>
       <title>Here&#39;s 10 tips you wish you knew earlier to speed up your Mendix development</title>
-      <link>https://maismaus.github.io/posts/10-tips-to-speed-up-your-Mendix-development/</link>
+      <link>https://maismaus.github.io/blog/10-tips-to-speed-up-your-Mendix-development/</link>
       <pubDate>Wed, 12 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://maismaus.github.io/posts/10-tips-to-speed-up-your-Mendix-development/</guid>
+      <guid>https://maismaus.github.io/blog/10-tips-to-speed-up-your-Mendix-development/</guid>
       <description>Pro tips for leveling up your development game within Mendix Studio Pro</description>
     </item>
     
@@ -32,6 +60,70 @@
       
       <guid>https://maismaus.github.io/cv/</guid>
       <description>cv</description>
+    </item>
+    
+    <item>
+      <title>Dataview helpers</title>
+      <link>https://maismaus.github.io/docs/cssdoc/dataview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://maismaus.github.io/docs/cssdoc/dataview/</guid>
+      <description>SCSS dataview helpers</description>
+    </item>
+    
+    <item>
+      <title>Java actions</title>
+      <link>https://maismaus.github.io/docs/javadoc/misc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://maismaus.github.io/docs/javadoc/misc/</guid>
+      <description>Miscellaneous Java action helpers</description>
+    </item>
+    
+    <item>
+      <title>JavaScript Actions</title>
+      <link>https://maismaus.github.io/docs/javascriptdoc/jsactions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://maismaus.github.io/docs/javascriptdoc/jsactions/</guid>
+      <description>JavaScript actions</description>
+    </item>
+    
+    <item>
+      <title>JavaScript API</title>
+      <link>https://maismaus.github.io/docs/jsdoc/javascriptapi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://maismaus.github.io/docs/jsdoc/javascriptapi/</guid>
+      <description>Mendix JavaScript API</description>
+    </item>
+    
+    <item>
+      <title>List operations</title>
+      <link>https://maismaus.github.io/docs/javadoc/listoperations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://maismaus.github.io/docs/javadoc/listoperations/</guid>
+      <description>Generic list operations in Java</description>
+    </item>
+    
+    <item>
+      <title>Listview helpers</title>
+      <link>https://maismaus.github.io/docs/cssdoc/listview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://maismaus.github.io/docs/cssdoc/listview/</guid>
+      <description>SCSS listview helpers</description>
+    </item>
+    
+    
+    <item>
+      <title>Self-reference retrieval</title>
+      <link>https://maismaus.github.io/docs/javadoc/selfreference/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://maismaus.github.io/docs/javadoc/selfreference/</guid>
+      <description>Retrieving a list of children from self-reference</description>
     </item>
     
   </channel>
