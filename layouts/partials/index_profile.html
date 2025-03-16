@@ -2,7 +2,7 @@
     {{- with .Site.Params.profileMode }}
     <div class="profile_inner">
         {{- if .imageUrl -}}
-        <img src="{{ .imageUrl }}" alt="{{ .imageTitle | default "profile image" }}"
+        <img src="{{ .imageUrl }}" alt="{{ .imageTitle | default " profile image" }}"
             height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
         {{- end }}
         <h1>{{ .title | default $.Site.Title | markdownify }}</h1>
@@ -10,8 +10,10 @@
             <p>{{ .subtitle | markdownify }}</p>
             {{- if .subtitleRight -}}
             <p>–</p>
-            <p>{{ .subtitleRight | markdownify }}</p>{{- end}}</div>
-        {{- partial "social_icons.html" $.Site.Params.socialIcons -}}
+            <p>{{ .subtitleRight | markdownify }}</p>{{- end}}
+        </div>
+        {{- partial "social_icons.html" (dict "align"
+        site.Params.homeInfoParams.AlignSocialIconsTo) -}}
 
         {{- with .buttons }}
         <div class="buttons">

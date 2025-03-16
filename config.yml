@@ -1,6 +1,6 @@
 baseURL: "https://maismaus.github.io"
 title: Marius van der Knaap
-paginate: 5
+# paginate: 5
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -68,7 +68,7 @@ params:
       title: Marius van der Knaap
       subtitle: "Mendix Developer | Expert & MVP"
       subtitleRight: "UX Designer"
-      imageUrl: "https://www.gravatar.com/avatar/177f87dae21214518392dba1fb6720d6?s=200&r=pg&d=mm"
+      imageUrl: "/pasfoto-round.png"
       imageWidth: 200
       imageHeight: 200
       imageTitle: Profile picture Marius van der Knaap
@@ -79,7 +79,8 @@ params:
       #      url: tags
 
    # home-info mode
-   #homeInfoParams:
+   homeInfoParams:
+      AlignSocialIconsTo: "center"
    #    Title: "Hi there \U0001F44B"
    #    Content: Mendix developer | UX designer
 
@@ -90,8 +91,6 @@ params:
         url: "https://github.com/Maismaus"
       - name: medium
         url: "https://medium.com/@mariusvanderknaap"
-      #- name: email
-      #  url: "mailto:info@mariusvanderknaap.nl"
 
    analytics:
       google:
