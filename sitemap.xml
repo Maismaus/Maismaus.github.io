@@ -2,19 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://maismaus.github.io/blog/</loc>
+    <lastmod>2024-03-18T09:54:40+00:00</lastmod>
+  </url><url>
+    <loc>https://maismaus.github.io/</loc>
+    <lastmod>2024-03-18T09:54:40+00:00</lastmod>
+  </url><url>
+    <loc>https://maismaus.github.io/tags/mendix/</loc>
+    <lastmod>2024-03-18T09:54:40+00:00</lastmod>
+  </url><url>
+    <loc>https://maismaus.github.io/tags/recommended-hardware/</loc>
+    <lastmod>2024-03-18T09:54:40+00:00</lastmod>
+  </url><url>
+    <loc>https://maismaus.github.io/tags/</loc>
+    <lastmod>2024-03-18T09:54:40+00:00</lastmod>
+  </url><url>
+    <loc>https://maismaus.github.io/blog/the-mendix-hardware-survey/</loc>
+    <lastmod>2024-03-18T09:54:40+00:00</lastmod>
+  </url><url>
     <loc>https://maismaus.github.io/tags/automation/</loc>
     <lastmod>2023-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/blog/</loc>
-    <lastmod>2023-01-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://maismaus.github.io/tags/cicd/</loc>
-    <lastmod>2023-01-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maismaus.github.io/</loc>
-    <lastmod>2023-01-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maismaus.github.io/tags/mendix/</loc>
     <lastmod>2023-01-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maismaus.github.io/tags/postman/</loc>
@@ -23,16 +32,13 @@
     <loc>https://maismaus.github.io/blog/quick-and-easy-deployments-using-postman/</loc>
     <lastmod>2023-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/tags/</loc>
-    <lastmod>2023-01-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://maismaus.github.io/blog/10-essential-tools-for-Mendix-development/</loc>
     <lastmod>2022-05-25T09:54:40+00:00</lastmod>
   </url><url>
     <loc>https://maismaus.github.io/tags/recommended-software/</loc>
     <lastmod>2022-05-25T09:54:40+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/tags/tips-tricks/</loc>
+    <loc>https://maismaus.github.io/tags/tips--tricks/</loc>
     <lastmod>2022-05-25T09:54:40+00:00</lastmod>
   </url><url>
     <loc>https://maismaus.github.io/tags/career/</loc>
