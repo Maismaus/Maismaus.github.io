@@ -1,13 +1,13 @@
 ---
 title: The Mendix hardware survey
-description: Tools for Mendix developers you won’t be able to do without
+description: Exploring the impact of hardware on Mendix performance
 author: "Marius van der Knaap"
 url: "/blog/the-mendix-hardware-survey"
 date: "2024-03-18T09:54:40.816Z"
 tags: ["Mendix", "Recommended hardware"]
 cover:
    image: "/blog/images/hardwaresurvey/hardwaresurvey_header.png"
-   alt: "10 Essential Tools for Mendix App Development"
+   alt: "The Mendix hardware survey"
 
 ShowReadingTime: true
 ShowShareButtons: true
