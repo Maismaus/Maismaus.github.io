@@ -15,27 +15,36 @@ hidemeta: false
 showtoc: false
 ---
 
-Have you ever wondered how much of a difference in performance a better laptop makes? Have you ever wondered what aspects of a laptop you should focus on when looking for the best PC for building Mendix applications?
+Have you ever wondered how much of a difference in performance a better laptop makes? Have you ever wondered what aspects of a laptop you should focus on when looking for the best development machine for building Mendix applications?
 
-Introducing the **Mendix Hardware Survey**! After this survey, I hope to answer the commonly asked question on purchasing a Mendix development machine. In order to do so, we need to analyze how different machines perform.
+Introducing the **Mendix Hardware Survey**! During this survey, I want to research what contributes to a powerful Mendix development machine. The goal is to find out where to spend your money when looking for a new laptop.
 
 This research consists of two tests.
 * Benchmark 1 measures how long it takes to boot up a Mendix app.
 * Benchmark 2 measures how fast common runtime operations complete.
 
-The more hardware configurations perform these tests, the better the results will be, so this is where you come in. This is by no means a scientific method, but the initial results are already very promising. 
+The more hardware configurations perform these tests, the better the results will be, so this is where you come in. The results will be shared in an upcoming hardware purchasing guide for Mendix developers.
 
 # How to participate
 
-1. Enter your details in columns A - H of the [data sheet](https://docs.google.com/spreadsheets/d/13SVOxbG8D3knN_U5IyizcgVN8Iq4YBFCiN6HZFR4YMw/edit?usp=sharing).
+## Preparation
+1. Enter your details in columns A - I of the [data sheet](https://docs.google.com/spreadsheets/d/13SVOxbG8D3knN_U5IyizcgVN8Iq4YBFCiN6HZFR4YMw/edit?usp=sharing).
 2. Download the [.mpk package](https://drive.google.com/file/d/1ffvXpCzLOEr0vDa3L2NhqRPprHSNS6DU/view?usp=drive_link).
-2. Extract the package and open the .mpr file.
-3. Run the project locally:
+3. Extract the package and open the .mpr file.
+4. Make sure there is no other Mendix app or resource heavy software running.
+
+## Running the benchmarks
+1. Run the project locally:
    * Start a timer when pressing the run button.
    * Stop the timer when the "Your app is running!" message appears.
-   * Write down the times in column L - P under Benchmark 1.
+   * Write down the times in column N - R under Benchmark 1.
 ![Stop the timer when the "Your app is running!" message appears.](/blog/images/hardwaresurvey/stoptimer.png)
-4. Press the Run benchmark button and wait for it to finish.
-5. Write down your results in column Q - U under Benchmark 2.
+2. Press the Run benchmark button and wait for it to finish (approx. 5 mins).
+   
+   Write down your results in column S - W under Benchmark 2.
 
-Repeat step 3 - 5 up to 5 times. If you prefer to stay anonymous, you can download a copy of the sheet and mail it to me separately at [mendixhardwaresurvey.visible078@passfwd.com](mailto:mendixhardwaresurvey.visible078@passfwd.com).
+Repeat the benchmarks up to 5 times. Especially benchmark #1 (boot time) is important to do at least three times. 
+
+If you prefer to stay anonymous, you can download a copy of the sheet and mail it to me separately at [mendixhardwaresurvey.visible078@passfwd.com](mailto:mendixhardwaresurvey.visible078@passfwd.com).
+
+Thank you and please find me on [Slack](https://mendixcommunity.slack.com/) when you have any questions!
