@@ -30,7 +30,7 @@ The more hardware configurations perform these tests, the better the results wil
 ## Preparation
 1. Enter your details in columns A - I of the [data sheet](https://docs.google.com/spreadsheets/d/13SVOxbG8D3knN_U5IyizcgVN8Iq4YBFCiN6HZFR4YMw/edit?usp=sharing).
 2. Download the [.mpk package](https://drive.google.com/file/d/1ffvXpCzLOEr0vDa3L2NhqRPprHSNS6DU/view?usp=drive_link).
-3. Extract the package and open the .mpr file.
+3. Extract the package and open the .mpr file in Mendix 10.20.
 4. Make sure there is no other Mendix app or resource heavy software running.
 
 ## Running the benchmarks
@@ -43,7 +43,7 @@ The more hardware configurations perform these tests, the better the results wil
    
    Write down your results in column S - W under Benchmark 2.
 
-Repeat the benchmarks up to 5 times. Especially benchmark #1 (boot time) is important to do at least three times. 
+Repeat the benchmarks up to 5 times. Especially benchmark #1 (boot time) is important to do at least three times. Completely stop the app and rerun to perform the test again. 
 
 If you prefer to stay anonymous, you can download a copy of the sheet and mail it to me separately at [mendixhardwaresurvey.visible078@passfwd.com](mailto:mendixhardwaresurvey.visible078@passfwd.com).
 
