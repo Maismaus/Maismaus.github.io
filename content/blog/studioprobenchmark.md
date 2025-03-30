@@ -3,7 +3,7 @@ title: The Mendix hardware survey
 description: Exploring the impact of hardware on Mendix performance
 author: "Marius van der Knaap"
 url: "/blog/the-mendix-hardware-survey"
-date: "2024-03-18T09:54:40.816Z"
+date: "2025-03-18T09:54:40.816Z"
 tags: ["Mendix", "Recommended hardware"]
 cover:
    image: "/blog/images/hardwaresurvey/hardwaresurvey_header.png"
@@ -32,6 +32,8 @@ The more hardware configurations perform these tests, the better the results wil
 2. Download the [.mpk package](https://drive.google.com/file/d/1ffvXpCzLOEr0vDa3L2NhqRPprHSNS6DU/view?usp=drive_link).
 3. Extract the package and open the .mpr file in Mendix 10.20.
 4. Make sure there is no other Mendix app or resource heavy software running.
+5. Make sure your hardware is running in high performance mode.
+6. If you are using a laptop, make sure it is charging.
 
 ## Running the benchmarks
 1. Run the project locally:
