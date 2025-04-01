@@ -3,7 +3,7 @@ title: The Mendix hardware survey
 description: Exploring the impact of hardware on Mendix performance
 author: "Marius van der Knaap"
 url: "/blog/the-mendix-hardware-survey"
-date: "2024-03-18T09:54:40.816Z"
+date: "2025-03-18T09:54:40.816Z"
 tags: ["Mendix", "Recommended hardware"]
 cover:
    image: "/blog/images/hardwaresurvey/hardwaresurvey_header.png"
@@ -43,7 +43,8 @@ The more hardware configurations perform these tests, the better the results wil
    
    Write down your results in column S - W under Benchmark 2.
 
-Repeat the benchmarks up to 5 times. Especially benchmark #1 (boot time) is important to do at least three times. Completely stop the app and rerun to perform the test again. 
+Repeat the benchmarks up to 5 times. Especially benchmark #1 (boot time) is important to do at least three times. Completely stop the app and rerun to perform the test again. No need to clean deployment directory in between.
+You can also perform multiple benchmarks in different configurations to compare the results (Laptop on battery vs. plugged in, enabling high performance mode etc.).
 
 If you prefer to stay anonymous, you can download a copy of the sheet and mail it to me separately at [mendixhardwaresurvey.visible078@passfwd.com](mailto:mendixhardwaresurvey.visible078@passfwd.com).
 
