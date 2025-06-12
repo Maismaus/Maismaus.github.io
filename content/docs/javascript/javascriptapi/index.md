@@ -39,13 +39,6 @@ mx.data.get({
 });
 ```
 
-#### Session bookmarklet
-
-```
-javascript:(function()%7Bmx.data.get(%7Bxpath%3A%20%22%2F%2FSystem.Session%22%2Ccallback%3A%20function%20(session)%20%7Bvar%20sessionArray%20%3D%20%5B%5D%3Bfor%20(var%20i%20%3D%200%3B%20i%20%3C%20session.length%3B%20i%2B%2B)%20%7BsessionArray.push(session%5Bi%5D._guid)%3B%7Dmx.data.remove(%7Bguids%3A%20sessionArray%2Ccallback%3A%20function%20()%20%7Bconsole.log(toString(session.length)%20%2B%20%22sessions%20removed%22)%3B%7D%2Cerror%3A%20function%20(e)%20%7Bconsole.log(%22Could%20not%20remove%20objects%3A%22%2C%20e)%3B%7D%7D)%3B%7D%7D)%7D)()
-
-```
-
 ### Logging in
 
 ```
@@ -64,14 +57,6 @@ xhr.send(
 xhr.onreadystatechange = function () {
   window.location = "index.html";
 };
-```
-
-#### Login bookmarklet
-
-Bookmark this and press the bookmark to login. Replace username and password with your own (currently: MxAdmin, 1).
-
-```
-javascript:(function()%7Bvar%20xhr%3Dnew%20XMLHttpRequest()%3Bxhr.open(%22POST%22%2Clocation.origin%2B%22%2Fxas%2F%22%2Ctrue)%3Bxhr.setRequestHeader(%22Content-Type%22%2C%22application%2Fjson%22)%3Bxhr.send(JSON.stringify(%7Baction%3A%22login%22%2Cparams%3A%7Busername%3A%22MxAdmin%22%2Cpassword%3A%221%22%2C%7D%2C%7D))%3Bxhr.onreadystatechange%3Dfunction()%7Bwindow.location%3D%22index.html%22%3B%7D%7D)()%3B
 ```
 
 ## Object handling
