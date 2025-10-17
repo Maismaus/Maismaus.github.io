@@ -113,9 +113,7 @@
   </url><url>
     <loc>https://maismaus.github.io/docs/</loc>
   </url><url>
-    <loc>https://maismaus.github.io/docs/java/</loc>
-  </url><url>
-    <loc>https://maismaus.github.io/docs/javadoc/misc/</loc>
+    <loc>https://maismaus.github.io/docs/javadoc/</loc>
   </url><url>
     <loc>https://maismaus.github.io/docs/javascript/</loc>
   </url><url>
@@ -125,12 +123,8 @@
   </url><url>
     <loc>https://maismaus.github.io/docs/jsdoc/javascriptbookmarks/</loc>
   </url><url>
-    <loc>https://maismaus.github.io/docs/javadoc/listoperations/</loc>
-  </url><url>
     <loc>https://maismaus.github.io/docs/cssdoc/listview/</loc>
   </url><url>
     <loc>https://maismaus.github.io/search/</loc>
-  </url><url>
-    <loc>https://maismaus.github.io/docs/javadoc/selfreference/</loc>
   </url>
 </urlset>
