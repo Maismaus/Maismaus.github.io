@@ -47,6 +47,39 @@ const activeElement = document.activeElement;
 if (activeElement.tagName === "INPUT") activeElement.select();
 ```
 
+### Scroll to element
+
+```
+// BEGIN EXTRA CODE
+function scrollToElement(targetSelector, block, inline) {
+	const elements = document.querySelectorAll(targetSelector);
+    if (elements) {
+        const element = elements[elements.length -1];
+		if (element){
+			console.debug(element);
+			element.scrollIntoView({
+				behavior: "smooth",
+				block: block,
+				inline: inline
+			});
+			return true;
+		}
+	}
+	return false;
+}
+// END EXTRA CODE
+
+if (scrollToElement(targetSelector, block, inline)) return;
+
+//Retry because sometimes the DOM element is not loaded yet. 
+console.log("no element found");
+setTimeout(function() {
+    scrollToElement(targetSelector, block, inline);
+},200);
+```
+
+[JS_ScrollToElement.mpk](/mpk/JS_ScrollToElement.mpk)
+
 ### Scroll to error
 
 ```
