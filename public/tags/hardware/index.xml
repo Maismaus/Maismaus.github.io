@@ -2,17 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hardware on Marius van der Knaap</title>
-    <link>http://localhost:1313/tags/hardware/</link>
+    <link>https://maismaus.github.io/tags/hardware/</link>
     <description>Recent content in Hardware on Marius van der Knaap</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Thu, 11 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://maismaus.github.io/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Mendix benchmark analysis</title>
+      <link>https://maismaus.github.io/blog/the-mendix-benchmark-analysis/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://maismaus.github.io/blog/the-mendix-benchmark-analysis/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This is an addition to the &lt;a href=&#34;https://medium.com/mendix/the-ultimate-mendix-hardware-purchasing-guide-987da31b65e5&#34;&gt;Mendix hardware survey&lt;/a&gt; article. For full transparency, I put the research results of the benchmark analysis in this blogpost. So anyone can double check my findings. As I don’t expect many people to read this, I’m not formatting this perfectly as I would a more public blogpost. Feel free to add your thoughts!&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;a-note-on-limitations&#34;&gt;A note on limitations&lt;/h2&gt;
+&lt;p&gt;The most powerful hardware often combines different aspects to achieve its results, so it is difficult to make conclusions on single components. If a PC performs well but has both a powerful CPU and GPU, it is hard to conclude which component contributes to its success.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Ultimate Mendix Hardware Purchasing Guide</title>
-      <link>http://localhost:1313/blog/the-ultimate-mendix-hardware-purchasing-guide/</link>
+      <link>https://maismaus.github.io/blog/the-ultimate-mendix-hardware-purchasing-guide/</link>
       <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/the-ultimate-mendix-hardware-purchasing-guide/</guid>
+      <guid>https://maismaus.github.io/blog/the-ultimate-mendix-hardware-purchasing-guide/</guid>
       <description>How to find the best hardware for Mendix developers</description>
     </item>
   </channel>

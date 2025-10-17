@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Version Control on Marius van der Knaap</title>
-    <link>http://localhost:1313/tags/version-control/</link>
+    <link>https://maismaus.github.io/tags/version-control/</link>
     <description>Recent content in Version Control on Marius van der Knaap</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Thu, 09 May 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/version-control/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://maismaus.github.io/tags/version-control/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Everything you need to know about Git for Mendix</title>
-      <link>http://localhost:1313/blog/everything-you-need-to-know-about-git-for-mendix/</link>
+      <link>https://maismaus.github.io/blog/everything-you-need-to-know-about-git-for-mendix/</link>
       <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/everything-you-need-to-know-about-git-for-mendix/</guid>
+      <guid>https://maismaus.github.io/blog/everything-you-need-to-know-about-git-for-mendix/</guid>
       <description>&lt;p&gt;For the last decade, Mendix has relied on SVN for version control. However, with Git surpassing SVN in functionality, migrating to Git became inevitable. With all the talk about using Git with Mendix, you probably considered migrating or have done so already.&lt;/p&gt;
 &lt;p&gt;Having relied on SVN for so long, many developers became accustomed to working with SVN. Now that updating is suddenly called pulling, and committing doesn’t mean what it used to mean anymore, many developers are confused about the differences between SVN and Git.&lt;/p&gt;</description>
     </item>
