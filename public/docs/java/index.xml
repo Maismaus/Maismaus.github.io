@@ -14,19 +14,5 @@
       <guid>http://localhost:1313/docs/javadoc/misc/</guid>
       <description>Miscellaneous Java action helpers</description>
     </item>
-    <item>
-      <title>List operations</title>
-      <link>http://localhost:1313/docs/javadoc/listoperations/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/javadoc/listoperations/</guid>
-      <description>Generic list operations in Java</description>
-    </item>
-    <item>
-      <title>Self-reference retrieval</title>
-      <link>http://localhost:1313/docs/javadoc/selfreference/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/javadoc/selfreference/</guid>
-      <description>Retrieving a list of children from self-reference</description>
-    </item>
   </channel>
 </rss>
