@@ -2,135 +2,135 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://maismaus.github.io/tags/benchmark/</loc>
+    <loc>http://localhost:1313/tags/benchmark/</loc>
     <lastmod>2025-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/blog/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2025-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/tags/development/</loc>
+    <loc>http://localhost:1313/tags/development/</loc>
     <lastmod>2025-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/tags/guide/</loc>
+    <loc>http://localhost:1313/tags/guide/</loc>
     <lastmod>2025-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/tags/hardware/</loc>
+    <loc>http://localhost:1313/tags/hardware/</loc>
     <lastmod>2025-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/tags/mendix/</loc>
+    <loc>http://localhost:1313/tags/mendix/</loc>
     <lastmod>2025-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/blog/the-mendix-benchmark-analysis/</loc>
+    <loc>http://localhost:1313/blog/the-mendix-benchmark-analysis/</loc>
     <lastmod>2025-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/blog/the-ultimate-mendix-hardware-purchasing-guide/</loc>
+    <loc>http://localhost:1313/blog/the-ultimate-mendix-hardware-purchasing-guide/</loc>
     <lastmod>2025-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/tags/tips/</loc>
+    <loc>http://localhost:1313/tags/tips/</loc>
     <lastmod>2025-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/blog/the-mendix-react-client-is-coming/</loc>
+    <loc>http://localhost:1313/blog/the-mendix-react-client-is-coming/</loc>
     <lastmod>2025-07-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/tags/recommended-hardware/</loc>
+    <loc>http://localhost:1313/tags/recommended-hardware/</loc>
     <lastmod>2025-03-18T09:54:40+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/blog/the-mendix-hardware-survey/</loc>
+    <loc>http://localhost:1313/blog/the-mendix-hardware-survey/</loc>
     <lastmod>2025-03-18T09:54:40+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/blog/everything-you-need-to-know-about-git-for-mendix/</loc>
+    <loc>http://localhost:1313/blog/everything-you-need-to-know-about-git-for-mendix/</loc>
     <lastmod>2024-05-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/tags/git/</loc>
+    <loc>http://localhost:1313/tags/git/</loc>
     <lastmod>2024-05-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/tags/version-control/</loc>
+    <loc>http://localhost:1313/tags/version-control/</loc>
     <lastmod>2024-05-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/tags/java/</loc>
+    <loc>http://localhost:1313/tags/java/</loc>
     <lastmod>2023-10-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/blog/mastering-mendix-maps/</loc>
+    <loc>http://localhost:1313/blog/mastering-mendix-maps/</loc>
     <lastmod>2023-10-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/tags/automation/</loc>
+    <loc>http://localhost:1313/tags/automation/</loc>
     <lastmod>2023-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/tags/cicd/</loc>
+    <loc>http://localhost:1313/tags/cicd/</loc>
     <lastmod>2023-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/tags/postman/</loc>
+    <loc>http://localhost:1313/tags/postman/</loc>
     <lastmod>2023-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/blog/quick-and-easy-deployments-using-postman/</loc>
+    <loc>http://localhost:1313/blog/quick-and-easy-deployments-using-postman/</loc>
     <lastmod>2023-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/blog/10-essential-tools-for-Mendix-development/</loc>
+    <loc>http://localhost:1313/blog/10-essential-tools-for-Mendix-development/</loc>
     <lastmod>2022-05-25T09:54:40+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/tags/recommended-software/</loc>
+    <loc>http://localhost:1313/tags/recommended-software/</loc>
     <lastmod>2022-05-25T09:54:40+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/tags/tips--tricks/</loc>
+    <loc>http://localhost:1313/tags/tips--tricks/</loc>
     <lastmod>2022-05-25T09:54:40+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/tags/career/</loc>
+    <loc>http://localhost:1313/tags/career/</loc>
     <lastmod>2022-03-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/blog/why-working-as-a-mendix-developer-is-great/</loc>
+    <loc>http://localhost:1313/blog/why-working-as-a-mendix-developer-is-great/</loc>
     <lastmod>2022-03-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/tags/carri%C3%A8re/</loc>
+    <loc>http://localhost:1313/tags/carri%C3%A8re/</loc>
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/tags/freelance/</loc>
+    <loc>http://localhost:1313/tags/freelance/</loc>
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/blog/freelance-ervaringen-en-tips/</loc>
+    <loc>http://localhost:1313/blog/freelance-ervaringen-en-tips/</loc>
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/tags/zzp/</loc>
+    <loc>http://localhost:1313/tags/zzp/</loc>
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/blog/10-tips-to-speed-up-your-Mendix-development/</loc>
+    <loc>http://localhost:1313/blog/10-tips-to-speed-up-your-Mendix-development/</loc>
     <lastmod>2022-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://maismaus.github.io/blog/</loc>
+    <loc>http://localhost:1313/blog/</loc>
   </url><url>
-    <loc>https://maismaus.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://maismaus.github.io/docs/css/</loc>
+    <loc>http://localhost:1313/docs/css/</loc>
   </url><url>
-    <loc>https://maismaus.github.io/cv/</loc>
+    <loc>http://localhost:1313/cv/</loc>
   </url><url>
-    <loc>https://maismaus.github.io/docs/cssdoc/dataview/</loc>
+    <loc>http://localhost:1313/docs/cssdoc/dataview/</loc>
   </url><url>
-    <loc>https://maismaus.github.io/docs/</loc>
+    <loc>http://localhost:1313/docs/</loc>
   </url><url>
-    <loc>https://maismaus.github.io/docs/java/</loc>
+    <loc>http://localhost:1313/docs/java/</loc>
   </url><url>
-    <loc>https://maismaus.github.io/docs/javadoc/misc/</loc>
+    <loc>http://localhost:1313/docs/javadoc/misc/</loc>
   </url><url>
-    <loc>https://maismaus.github.io/docs/javascript/</loc>
+    <loc>http://localhost:1313/docs/javascript/</loc>
   </url><url>
-    <loc>https://maismaus.github.io/docs/javascriptdoc/jsactions/</loc>
+    <loc>http://localhost:1313/docs/javascriptdoc/jsactions/</loc>
   </url><url>
-    <loc>https://maismaus.github.io/docs/jsdoc/javascriptapi/</loc>
+    <loc>http://localhost:1313/docs/jsdoc/javascriptapi/</loc>
   </url><url>
-    <loc>https://maismaus.github.io/docs/jsdoc/javascriptbookmarks/</loc>
+    <loc>http://localhost:1313/docs/jsdoc/javascriptbookmarks/</loc>
   </url><url>
-    <loc>https://maismaus.github.io/docs/javadoc/listoperations/</loc>
+    <loc>http://localhost:1313/docs/javadoc/listoperations/</loc>
   </url><url>
-    <loc>https://maismaus.github.io/docs/cssdoc/listview/</loc>
+    <loc>http://localhost:1313/docs/cssdoc/listview/</loc>
   </url><url>
-    <loc>https://maismaus.github.io/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url><url>
-    <loc>https://maismaus.github.io/docs/javadoc/selfreference/</loc>
+    <loc>http://localhost:1313/docs/javadoc/selfreference/</loc>
   </url>
 </urlset>

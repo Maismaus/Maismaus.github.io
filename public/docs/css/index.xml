@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CSS on Marius van der Knaap</title>
-    <link>https://maismaus.github.io/docs/css/</link>
+    <link>http://localhost:1313/docs/css/</link>
     <description>Recent content in CSS on Marius van der Knaap</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <atom:link href="https://maismaus.github.io/docs/css/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/docs/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dataview helpers</title>
-      <link>https://maismaus.github.io/docs/cssdoc/dataview/</link>
+      <link>http://localhost:1313/docs/cssdoc/dataview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://maismaus.github.io/docs/cssdoc/dataview/</guid>
+      <guid>http://localhost:1313/docs/cssdoc/dataview/</guid>
       <description>SCSS dataview helpers</description>
     </item>
     <item>
       <title>Listview helpers</title>
-      <link>https://maismaus.github.io/docs/cssdoc/listview/</link>
+      <link>http://localhost:1313/docs/cssdoc/listview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://maismaus.github.io/docs/cssdoc/listview/</guid>
+      <guid>http://localhost:1313/docs/cssdoc/listview/</guid>
       <description>SCSS listview helpers</description>
     </item>
   </channel>

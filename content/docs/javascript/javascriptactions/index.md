@@ -16,9 +16,13 @@ hidemeta: true
 
 `window.open(url, target);`
 
+[JS_OpenURL_WithTarget.mpk](/mpk/JS_OpenURL_WithTarget.mpk)
+
 ### Print current page
 
 `window.print();`
+
+[JS_Print.mpk](/mpk/JS_Print.mpk)
 
 ### Toggle class on element
 
@@ -46,6 +50,8 @@ Set this JavaScript action on the OnChange nanoflow
 const activeElement = document.activeElement;
 if (activeElement.tagName === "INPUT") activeElement.select();
 ```
+
+[JS_Input_SelectOnFocus.mpk](/mpk/JS_Input_SelectOnFocus.mpk)
 
 ### Scroll to element
 
@@ -95,3 +101,5 @@ if(alert) {
 }
 console.warn("No validation message found.");
 ```
+
+[JS_ScrollToError.mpk](/mpk/JS_ScrollToError.mpk)

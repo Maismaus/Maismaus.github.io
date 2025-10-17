@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Postman on Marius van der Knaap</title>
-    <link>https://maismaus.github.io/tags/postman/</link>
+    <link>http://localhost:1313/tags/postman/</link>
     <description>Recent content in Postman on Marius van der Knaap</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Tue, 24 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://maismaus.github.io/tags/postman/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/postman/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quick and Easy Deployments on Mendix Cloud Using Postman</title>
-      <link>https://maismaus.github.io/blog/quick-and-easy-deployments-using-postman/</link>
+      <link>http://localhost:1313/blog/quick-and-easy-deployments-using-postman/</link>
       <pubDate>Tue, 24 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://maismaus.github.io/blog/quick-and-easy-deployments-using-postman/</guid>
+      <guid>http://localhost:1313/blog/quick-and-easy-deployments-using-postman/</guid>
       <description>Save time every day by using Mendix APIs</description>
     </item>
   </channel>
