@@ -3,15 +3,13 @@ title: "The Mendix benchmark analysis"
 # description: "How to find the best hardware for Mendix developers"
 author: "Marius"
 url: "/blog/the-mendix-benchmark-analysis"
-date: "2025-09-11"
+date: "2025-09-11T09:54:00.816Z"
 tags: ["Mendix", "Development", "Tips", "Guide", "Hardware", "Benchmark"]
 
 ShowReadingTime: true
 hidemeta: false
 showtoc: false
 ---
-
-
 
 > This is an addition to the [Mendix hardware survey](https://medium.com/mendix/the-ultimate-mendix-hardware-purchasing-guide-987da31b65e5) article. For full transparency, I put the research results of the benchmark analysis in this blogpost. So anyone can double check my findings. As I don’t expect many people to read this, I’m not formatting this perfectly as I would a more public blogpost. Feel free to add your thoughts!
 

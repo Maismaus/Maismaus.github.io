@@ -3,7 +3,7 @@ title: "The Ultimate Mendix Hardware Purchasing Guide"
 description: "How to find the best hardware for Mendix developers"
 author: "Marius"
 url: "/blog/the-ultimate-mendix-hardware-purchasing-guide"
-date: "2025-09-11"
+date: "2025-09-11T09:54:40.816Z"
 tags: ["Mendix", "Development", "Tips", "Guide", "Hardware", "Benchmark"]
 cover:
    image: "header.webp"
@@ -13,7 +13,6 @@ ShowReadingTime: true
 hidemeta: false
 showtoc: false
 ---
-
 
 ### When you’re developing with Mendix, every second spent waiting for your app to boot quickly adds up. But which hardware actually delivers the best performance? And how much does it matter?
 

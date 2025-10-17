@@ -3,37 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/tags/benchmark/</loc>
-    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-11T09:54:40+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-11T09:54:40+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/development/</loc>
-    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-11T09:54:40+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/guide/</loc>
-    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-11T09:54:40+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/hardware/</loc>
-    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-11T09:54:40+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-11T09:54:40+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/mendix/</loc>
-    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-11T09:54:40+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/the-mendix-benchmark-analysis/</loc>
-    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-11T09:54:40+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/the-ultimate-mendix-hardware-purchasing-guide/</loc>
-    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-11T09:54:40+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/tips/</loc>
-    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-11T09:54:40+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/the-mendix-benchmark-analysis/</loc>
+    <lastmod>2025-09-11T09:54:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/the-mendix-react-client-is-coming/</loc>
     <lastmod>2025-07-10T00:00:00+00:00</lastmod>
@@ -113,9 +113,7 @@
   </url><url>
     <loc>http://localhost:1313/docs/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/java/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/javadoc/misc/</loc>
+    <loc>http://localhost:1313/docs/javadoc/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/javascript/</loc>
   </url><url>
@@ -125,12 +123,8 @@
   </url><url>
     <loc>http://localhost:1313/docs/jsdoc/javascriptbookmarks/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/javadoc/listoperations/</loc>
-  </url><url>
     <loc>http://localhost:1313/docs/cssdoc/listview/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/javadoc/selfreference/</loc>
   </url>
 </urlset>

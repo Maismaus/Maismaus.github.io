@@ -6,24 +6,24 @@
     <description>Recent content in Blogs on Marius van der Knaap</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 11 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Sep 2025 09:54:40 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Ultimate Mendix Hardware Purchasing Guide</title>
+      <link>http://localhost:1313/blog/the-ultimate-mendix-hardware-purchasing-guide/</link>
+      <pubDate>Thu, 11 Sep 2025 09:54:40 +0000</pubDate>
+      <guid>http://localhost:1313/blog/the-ultimate-mendix-hardware-purchasing-guide/</guid>
+      <description>How to find the best hardware for Mendix developers</description>
+    </item>
     <item>
       <title>The Mendix benchmark analysis</title>
       <link>http://localhost:1313/blog/the-mendix-benchmark-analysis/</link>
-      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 11 Sep 2025 09:54:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/the-mendix-benchmark-analysis/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;This is an addition to the &lt;a href=&#34;https://medium.com/mendix/the-ultimate-mendix-hardware-purchasing-guide-987da31b65e5&#34;&gt;Mendix hardware survey&lt;/a&gt; article. For full transparency, I put the research results of the benchmark analysis in this blogpost. So anyone can double check my findings. As I don’t expect many people to read this, I’m not formatting this perfectly as I would a more public blogpost. Feel free to add your thoughts!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h2 id=&#34;a-note-on-limitations&#34;&gt;A note on limitations&lt;/h2&gt;
 &lt;p&gt;The most powerful hardware often combines different aspects to achieve its results, so it is difficult to make conclusions on single components. If a PC performs well but has both a powerful CPU and GPU, it is hard to conclude which component contributes to its success.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>The Ultimate Mendix Hardware Purchasing Guide</title>
-      <link>http://localhost:1313/blog/the-ultimate-mendix-hardware-purchasing-guide/</link>
-      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/the-ultimate-mendix-hardware-purchasing-guide/</guid>
-      <description>How to find the best hardware for Mendix developers</description>
     </item>
     <item>
       <title>The Mendix React Client Is Coming: Here’s What You Need to Know</title>
