@@ -2,38 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://maismaus.github.io/tags/benchmark/</loc>
-    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://maismaus.github.io/blog/</loc>
-    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maismaus.github.io/tags/challenge/</loc>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maismaus.github.io/tags/ctf/</loc>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maismaus.github.io/tags/development/</loc>
-    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maismaus.github.io/tags/guide/</loc>
-    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maismaus.github.io/tags/hardware/</loc>
-    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maismaus.github.io/</loc>
-    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maismaus.github.io/tags/mendix/</loc>
-    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maismaus.github.io/tags/</loc>
-    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maismaus.github.io/blog/the-mendix-benchmark-analysis/</loc>
-    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://maismaus.github.io/blog/the-ultimate-mendix-hardware-purchasing-guide/</loc>
-    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://maismaus.github.io/tags/tips/</loc>
-    <lastmod>2025-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maismaus.github.io/blog/capture-the-flag-tips/</loc>
+    <lastmod>2025-10-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://maismaus.github.io/tags/benchmark/</loc>
+    <lastmod>2025-09-11T09:54:40+00:00</lastmod>
+  </url><url>
+    <loc>https://maismaus.github.io/tags/guide/</loc>
+    <lastmod>2025-09-11T09:54:40+00:00</lastmod>
+  </url><url>
+    <loc>https://maismaus.github.io/tags/hardware/</loc>
+    <lastmod>2025-09-11T09:54:40+00:00</lastmod>
+  </url><url>
+    <loc>https://maismaus.github.io/blog/the-ultimate-mendix-hardware-purchasing-guide/</loc>
+    <lastmod>2025-09-11T09:54:40+00:00</lastmod>
+  </url><url>
+    <loc>https://maismaus.github.io/blog/the-mendix-benchmark-analysis/</loc>
+    <lastmod>2025-09-11T09:54:00+00:00</lastmod>
   </url><url>
     <loc>https://maismaus.github.io/blog/the-mendix-react-client-is-coming/</loc>
     <lastmod>2025-07-10T00:00:00+00:00</lastmod>
