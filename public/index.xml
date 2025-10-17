@@ -6,14 +6,53 @@
     <description>Recent content on Marius van der Knaap</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 18 Mar 2024 09:54:40 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Mendix benchmark analysis</title>
+      <link>http://localhost:1313/blog/the-mendix-benchmark-analysis/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/the-mendix-benchmark-analysis/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This is an addition to the &lt;a href=&#34;https://medium.com/mendix/the-ultimate-mendix-hardware-purchasing-guide-987da31b65e5&#34;&gt;Mendix hardware survey&lt;/a&gt; article. For full transparency, I put the research results of the benchmark analysis in this blogpost. So anyone can double check my findings. As I don’t expect many people to read this, I’m not formatting this perfectly as I would a more public blogpost. Feel free to add your thoughts!&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;a-note-on-limitations&#34;&gt;A note on limitations&lt;/h2&gt;
+&lt;p&gt;The most powerful hardware often combines different aspects to achieve its results, so it is difficult to make conclusions on single components. If a PC performs well but has both a powerful CPU and GPU, it is hard to conclude which component contributes to its success.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Ultimate Mendix Hardware Purchasing Guide</title>
+      <link>http://localhost:1313/blog/the-ultimate-mendix-hardware-purchasing-guide/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/the-ultimate-mendix-hardware-purchasing-guide/</guid>
+      <description>How to find the best hardware for Mendix developers</description>
+    </item>
+    <item>
+      <title>The Mendix React Client Is Coming: Here’s What You Need to Know</title>
+      <link>http://localhost:1313/blog/the-mendix-react-client-is-coming/</link>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/the-mendix-react-client-is-coming/</guid>
+      <description>Stay up to date on React to build future-proof applications</description>
+    </item>
     <item>
       <title>The Mendix hardware survey</title>
       <link>http://localhost:1313/blog/the-mendix-hardware-survey/</link>
-      <pubDate>Mon, 18 Mar 2024 09:54:40 +0000</pubDate>
+      <pubDate>Tue, 18 Mar 2025 09:54:40 +0000</pubDate>
       <guid>http://localhost:1313/blog/the-mendix-hardware-survey/</guid>
       <description>Exploring the impact of hardware on Mendix performance</description>
+    </item>
+    <item>
+      <title>Everything you need to know about Git for Mendix</title>
+      <link>http://localhost:1313/blog/everything-you-need-to-know-about-git-for-mendix/</link>
+      <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/everything-you-need-to-know-about-git-for-mendix/</guid>
+      <description>&lt;p&gt;For the last decade, Mendix has relied on SVN for version control. However, with Git surpassing SVN in functionality, migrating to Git became inevitable. With all the talk about using Git with Mendix, you probably considered migrating or have done so already.&lt;/p&gt;
+&lt;p&gt;Having relied on SVN for so long, many developers became accustomed to working with SVN. Now that updating is suddenly called pulling, and committing doesn’t mean what it used to mean anymore, many developers are confused about the differences between SVN and Git.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mastering Mendix Maps: Unlocking Lightning-Fast Performance</title>
+      <link>http://localhost:1313/blog/mastering-mendix-maps/</link>
+      <pubDate>Thu, 19 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/mastering-mendix-maps/</guid>
+      <description>You probably know what a list is. But do you?</description>
     </item>
     <item>
       <title>Quick and Easy Deployments on Mendix Cloud Using Postman</title>
@@ -84,6 +123,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/jsdoc/javascriptapi/</guid>
       <description>Mendix JavaScript API</description>
+    </item>
+    <item>
+      <title>JavaScript Bookmarks</title>
+      <link>http://localhost:1313/docs/jsdoc/javascriptbookmarks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/jsdoc/javascriptbookmarks/</guid>
+      <description>Mendix JavaScript Bookmarks</description>
     </item>
     <item>
       <title>List operations</title>

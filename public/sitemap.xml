@@ -3,22 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2024-03-18T09:54:40+00:00</lastmod>
+    <lastmod>2025-03-18T09:54:40+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-03-18T09:54:40+00:00</lastmod>
+    <lastmod>2025-03-18T09:54:40+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/mendix/</loc>
-    <lastmod>2024-03-18T09:54:40+00:00</lastmod>
+    <lastmod>2025-03-18T09:54:40+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/recommended-hardware/</loc>
-    <lastmod>2024-03-18T09:54:40+00:00</lastmod>
+    <lastmod>2025-03-18T09:54:40+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-03-18T09:54:40+00:00</lastmod>
+    <lastmod>2025-03-18T09:54:40+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/the-mendix-hardware-survey/</loc>
-    <lastmod>2024-03-18T09:54:40+00:00</lastmod>
+    <lastmod>2025-03-18T09:54:40+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/automation/</loc>
     <lastmod>2023-01-24T00:00:00+00:00</lastmod>
@@ -68,6 +68,9 @@
     <loc>http://localhost:1313/blog/10-tips-to-speed-up-your-Mendix-development/</loc>
     <lastmod>2022-01-12T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blog/10-tips-to-speed-up-your-Mendix-development/</loc>
+    <lastmod>2022-01-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/tips/</loc>
     <lastmod>2022-01-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -92,6 +95,8 @@
     <loc>http://localhost:1313/docs/javascriptdoc/jsactions/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/jsdoc/javascriptapi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/jsdoc/javascriptbookmarks/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/javadoc/listoperations/</loc>
   </url><url>
