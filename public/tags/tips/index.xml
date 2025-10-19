@@ -9,7 +9,7 @@
     <lastBuildDate>Sat, 18 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/tips/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>No Accessible Vector</title>
+      <title>No Accessible Vector (CTF solution)</title>
       <link>http://localhost:1313/blog/capture-the-flag-solutions-no-accessible-vector/</link>
       <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/capture-the-flag-solutions-no-accessible-vector/</guid>
@@ -17,15 +17,14 @@
 &lt;p&gt;&lt;em&gt;Another day, another tester leaking something they shouldn&amp;rsquo;t. You have no chance navigating your way to the flag though: It is simply not visible for you!&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Difficulty: Medium&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s solve the No Accessible Vector challenge using the principles we&amp;rsquo;ve just learned. Make sure you read the &lt;a href=&#34;http://localhost:1313/blog/capture-the-flag-tips&#34;&gt;Capture the Flag tips&lt;/a&gt; first, as this article leans heavily on the first.&lt;/p&gt;
-&lt;p&gt;First, we read the description and realize that a tester built a page that we don&amp;rsquo;t have access to. A common mistake is a developer not realizing that all pages are accessible regardless of access rules. All we have to do is figure out the name of the page.&lt;/p&gt;</description>
+&lt;p&gt;First, we read the description and realize that a tester built a page that we don&amp;rsquo;t have access to. We can use our first principle of using developer mistakes to theorize about the solution. One common mistake is a developer not realizing that all pages are accessible regardless of access rules. All we have to do is figure out the name of the page.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Tips for the next Capture the Flag event</title>
+      <title>Tips for the next Mendix Capture the Flag event</title>
       <link>http://localhost:1313/blog/capture-the-flag-tips/</link>
       <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/capture-the-flag-tips/</guid>
-      <description>&lt;p&gt;After winning &lt;a href=&#34;https://www.linkedin.com/feed/update/urn:li:activity:7383427955881824257/&#34;&gt;this year&amp;rsquo;s&lt;/a&gt; Mendix Capture the Flag event, many people have asked me for tips regarding winning the challenge.
-Therefore, I decided to make a short writeup on essential insights for next Capture the Flag events. Read on to learn more!&lt;/p&gt;
+      <description>&lt;p&gt;After winning &lt;a href=&#34;https://www.linkedin.com/feed/update/urn:li:activity:7383427955881824257/&#34;&gt;this year&amp;rsquo;s&lt;/a&gt; Mendix Capture the Flag event, many people have asked me for tips. I wrote this writeup with my insights for next Capture the Flag events. Read on to learn more!&lt;/p&gt;
 &lt;h2 id=&#34;recap&#34;&gt;Recap&lt;/h2&gt;
 &lt;p&gt;The Capture the Flag event consisted of three levels: Pizza Mario (easy–intermediate), Patient Portal (difficult) and Magic level challenges. In total, you had about 30 hours to complete the 26 challenges. Since we solved 24 challenges (and also ate and slept), this leaves about 20 hours of hacking, which means solving approximately one challenge every hour of hacking. Time is of the essence, and working efficiently is important.&lt;/p&gt;</description>
     </item>

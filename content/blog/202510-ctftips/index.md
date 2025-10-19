@@ -1,10 +1,13 @@
 ---
-title: "Tips for the next Capture the Flag event"
+title: "Tips for the next Mendix Capture the Flag event"
 # description: "How to find the best hardware for Mendix developers"
 author: "Marius"
 url: "/blog/capture-the-flag-tips"
 date: "2025-10-18"
 tags: ["Mendix", "Development", "Tips", "Challenge", "CTF"]
+cover:
+   image: "header.png"
+   alt: "Hero image for tips on the next Mendix Capture the Flag event (AI generated)"
 
 ShowReadingTime: true
 hidemeta: false
@@ -16,7 +19,7 @@ After winning [this year's](https://www.linkedin.com/feed/update/urn:li:activity
 
 ## Recap
 
-The Capture the Flag event consisted of three levels: Pizza Mario (easy–intermediate), Patient Portal (difficult) and Magic level challenges. In total, you had about 30 hours to complete the 26 challenges. Since we solved 24 challenges (and also ate and slept), this leaves about 20 hours of hacking, which means solving approximately one challenge every hour of hacking. Time is of the essence, and working efficiently is important.
+The Capture the Flag event consisted of three difficulty levels: Pizza Mario (easy–intermediate), Patient Portal (difficult) and Magic level challenges. In total, you had about 30 hours to complete the 26 challenges. Since we solved 24 challenges (and also ate and slept), this leaves about 20 hours of hacking, which means solving approximately one challenge every hour of hacking. Time is of the essence, and working efficiently is important.
 
 ## Strategy
 

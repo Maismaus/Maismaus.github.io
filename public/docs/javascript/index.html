@@ -61,7 +61,21 @@ console.log("Could not remove objects:", e);
 },
 });
 },
-}); Session bookmarklet javascript:(function()%7Bmx.data.get(%7Bxpath%3A%20%22%2F%2FSystem.Session%22%2Ccallback%3A%20function%20(session)%20%7Bvar%20sessionArray%20%3D%20%5B%5D%3Bfor%20(var%20i%20%3D%200%3B%20i%20%3C%20session.length%3B%20i%2B%2B)%20%7BsessionArray.push(session%5Bi%5D._guid)%3B%7Dmx.data.remove(%7Bguids%3A%20sessionArray%2Ccallback%3A%20function%20()%20%7Bconsole.log(toString(session.length)%20%2B%20%22sessions%20removed%22)%3B%7D%2Cerror%3A%20function%20(e)%20%7Bconsole.log(%22Could%20not%20remove%20objects%3A%22%2C%20e)%3B%7D%7D)%3B%7D%7D)%7D)()
+}); Session bookmarklet javascript:(function()%7Bmx.data.get(%7Bxpath%3A%20%22%2F%2FSystem.Session%22%2Ccallback%3A%20function%20(session)%20%7Bvar%20sessionArray%20%3D%20%5B%5D%3Bfor%20(var%20i%20%3D%200%3B%20i%20%3C%20session.length%3B%20i%2B%2B)%20%7BsessionArray.push(session%5Bi%5D._guid)%3B%7Dmx.data.remove(%7Bguids%3A%20sessionArray%2Ccallback%3A%20function%20()%20%7Bconsole.log(toString(session.length)%20%2B%20%22sessions%20removed%22)%3B%7D%2Cerror%3A%20function%20(e)%20%7Bconsole.log(%22Could%20not%20remove%20objects%3A%22%2C%20e)%3B%7D%7D)%3B%7D%7D)%7D)() Logging in var xhr = new XMLHttpRequest();
+xhr.open("POST", location.origin + "/xas/", true);
+xhr.setRequestHeader("Content-Type", "application/json");
+xhr.send(
+JSON.stringify({
+action: "login",
+params: {
+username: "MxAdmin",
+password: "1",
+},
+})
+);
+xhr.onreadystatechange = function () {
+window.location = "index.html";
+}; Login bookmarklet Bookmark this and press the bookmark to login. Replace username and password with your own (currently: MxAdmin, 1).
 ...</p></div><a class=entry-link aria-label="post link to JavaScript API" href=http://localhost:1313/docs/jsdoc/javascriptapi/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>JavaScript Bookmarks</h2></header><div class=entry-content><p>This section describes various bookmarklets that you can use in the bookmarks toolbar. They contain various JavaScript functions for easy access.
 Login Login as a user. Currently set up with user MxAdmin and password 1.
 javascript:(function()%7Bvar xhr %3D new XMLHttpRequest()%3B%0Axhr.open("POST"%2C location.origin %2B "%2Fxas%2F"%2C true)%3B%0Axhr.setRequestHeader("Content-Type"%2C "application%2Fjson")%3B%0Axhr.send(%0AJSON.stringify(%7B%0A action%3A "login"%2C%0A params%3A %7B%0A username%3A "MxAdmin"%2C%0A password%3A "1"%2C%0A %7D%2C%0A %7D)%0A)%3B%0Axhr.onreadystatechange %3D function () %7B%0A window.location %3D "index.html"%3B%0A%7D%3B%7D)()%3B Logout Logout as current user.

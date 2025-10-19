@@ -20,7 +20,7 @@
 &lt;p&gt;First, we read the description and realize that a tester built a page that we don&amp;rsquo;t have access to. We can use our first principle of using developer mistakes to theorize about the solution. One common mistake is a developer not realizing that all pages are accessible regardless of access rules. All we have to do is figure out the name of the page.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Tips for the next Capture the Flag event</title>
+      <title>Tips for the next Mendix Capture the Flag event</title>
       <link>http://localhost:1313/blog/capture-the-flag-tips/</link>
       <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/capture-the-flag-tips/</guid>
