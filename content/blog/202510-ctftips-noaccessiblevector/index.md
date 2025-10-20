@@ -18,13 +18,13 @@ showtoc: false
 
 Let's solve the No Accessible Vector challenge using the principles we've just learned. Make sure you read the [Capture the Flag tips](/blog/capture-the-flag-tips) first, as this article leans heavily on the first.
 
-First, we read the description and realize that a tester built a page that we don't have access to. We can use our first principle of using developer mistakes to theorize about the solution. One common mistake is a developer not realizing that all pages are accessible regardless of access rules. All we have to do is figure out the name of the page.
+First, we read the description and realize that a tester built a page that we don't have access to. We can use our first principle of **using developer mistakes** to theorize about the solution. One common mistake is a developer not realizing that all pages are accessible regardless of access rules. All we have to do is figure out the name of the page.
 
-Going back to our client − server knowledge, there might be some data exchanged about available pages. And indeed, one of the requests contains some metadata about the page that includes pages not accessible to the current userrole:
+Going back to our **client − server** knowledge, there might be some data exchanged about available pages. And indeed, one of the requests contains some metadata about the page that includes pages not accessible to the current userrole:
 
 ![Burp content](/Burpcontent.png)
 
-Now that we know the name of the page, all we have to do is open it. Attempting to open the page using the Ciphix DevTools is not possible because of the new strict mode enabled on this app. However, we know that the app _can_ open pages and using our knowledge about the client − server protocol, it needs to have a method to do so. We'll we have to do refer to the [Client API](https://docs.mendix.com/apidocs-mxsdk/apidocs/client-api/) to find available methods.
+Now that we know the name of the page, all we have to do is open it. Attempting to open the page using the Ciphix DevTools is not possible because of the new strict mode enabled on this app. However, we know that the app _can_ open pages and using our knowledge about the client − server protocol, it needs to have a method to do so. We'll we have to do refer to the **[Client API](https://docs.mendix.com/apidocs-mxsdk/apidocs/client-api/)** to find available methods.
 
 We can find a method called OpenForm in the [Dojo](https://apidocs.rnd.mendix.com/10/client/mx.ui.html#.openForm) documentation:
 ```
@@ -38,7 +38,7 @@ mx.ui.openForm("Portal/DevTools.page.xml", {
 
 Unfortunately for us attempting to execute this JavaScript function leads to an error. Apparently, OpenForm does not exist in the React client anymore. We'll have to find another way!
 
-Searching through the requests in Burp, we find a reference to an undocumented function OpenForm2:
+Searching through the requests in **Burp**, we find a reference to an undocumented function OpenForm2:
 
 ![OpenForm2](/OpenForm2.png)
 

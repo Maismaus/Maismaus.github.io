@@ -19,7 +19,7 @@ After winning [this year's](https://www.linkedin.com/feed/update/urn:li:activity
 
 ## Recap
 
-The Capture the Flag event consisted of three difficulty levels: Pizza Mario (easy–intermediate), Patient Portal (difficult) and Magic level challenges. In total, you had about 30 hours to complete the 26 challenges. Since we solved 24 challenges (and also ate and slept), this leaves about 20 hours of hacking, which means solving approximately one challenge every hour of hacking. Time is of the essence, and working efficiently is important.
+The Capture the Flag event consisted of three difficulty levels: Pizza Mario (beginner–medium), Patient Portal (hard–insane) and Magic level challenges. In total, you had about 30 hours to complete the 26 challenges. Since we solved 24 challenges (and also ate and slept), this leaves about 20 hours of hacking, which means solving approximately one challenge every hour of hacking. Time is of the essence, and working efficiently is important.
 
 ## Strategy
 
@@ -33,9 +33,9 @@ We then mostly worked on challenges individually, but always communicated which 
 
 Of course, there are some requirements before you can get started. These are my personal recommendations:
 
-- **Ciphix DevTools** – The tool provides nothing that you cannot do through JavaScript, but it makes it much easier. Make sure you have a version that works on all Mendix apps.
-- **Burp Suite** – Essential for analyzing and manipulating browser traffic.
-- **VS Code** – Better editing, built-in error checking, and easy script/data management compared with the browser console.
+- **Burp Suite** – Required for analyzing and manipulating browser traffic.
+- **Ciphix DevTools** – The tool provides nothing that you cannot do through JavaScript, but it makes it much easier. Make sure you have a version that works on all Mendix apps. Because of the strict mode in Patient Portal, I hardly used it this year.
+- **VS Code** – Better editing, built-in error checking, and easy script/data management compared to the browser console.
 - **Slack** – Useful for communicating with your team in a separate channel. When you want to switch to another challenge, make sure you update your team with your latest findings.
 - **Mendix Studio Pro** – Installing the same Mendix version eliminates the possibility of differences between platform versions. 
 Rebuilding the challenge app yourself (especially the domain model) can help you visualize the problem.
@@ -63,13 +63,13 @@ HTTP is [stateless](https://stackoverflow.com/questions/4913763/what-does-it-mea
 
 > EVERY resource that is accessed via HTTP is a single request with no threaded connection between them. If you load a web page with an HTML file that within it contains three <img> tags hitting the same server, there will be four TCP connections negotiated and opened, four data transfers, four connections closed. There is simply no state kept at the server at the protocol level that will have the server know anything about you as you come in.
 
-**What does this mean in the context of a CTF?** This means that the client and server must communicate expectations. When clicking a button, the client already knows what request to send to the server. 
+**What does this mean in the context of a CTF?** This means that the client and server must communicate expectations. When clicking a button, the client already knows the request it needs to send to the server in order to execute the buttons functionality. 
 
-Conversely, when a server receives a request, it has no context about the request. That's why you send a session ID for authentication and the full context of what you are trying to do in the request body. The server then blindly executes your request, but it doesn't know anything about the context of your request except what is supplied in the HTTP request.
+Conversely, when a server receives a request, it has no context about the request. That's why you send a session ID for authentication and the full context of what you are trying to do in the request body. The server then blindly executes your request, but it doesn't know anything about its context except what is supplied in the HTTP request.
 
 All this metadata can be analyzed (and altered) in Burp Suite. 
 
-So when approaching any hacking challenge, make sure you understand that what you see in the browser is just the tip of the iceberg, and the underlying data provides a treasure trove of information about the inner workings of an application.
+So when approaching any hacking challenge, make sure you understand that what you see in the browser is just the tip of the iceberg, and the underlying data provides a treasure trove of information. Understanding the inner workings of the Mendix client is essential for hacking it.
 
 #### Understand the JavaScript API
 Once you understand the client – server relationship, you can start to dive into the functions that the browser has available. Most of this is done through the [Client API](https://docs.mendix.com/apidocs-mxsdk/apidocs/client-api/). You should be able to write and execute Client API JavaScript.
