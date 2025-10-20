@@ -24,7 +24,9 @@ The Capture the Flag event consisted of three difficulty levels: Pizza Mario (be
 ## Strategy
 
 The first thing our team did after the kickoff is talk strategy. There is no single "ultimate" strategy that you should follow, but I think _having_ a strategy defined in your team helps you to focus and work efficiently. 
+
 In our case, we decided to start with the Patient Portal challenges to crack some difficult cases first. We could then do the easier Pizza Mario challenges the next day when we were expecting to be more tired. We left the Magic challenges for last since they are usually not time-efficient to solve.
+
 In previous years we even used a Trello board to track each challenge, but since our team was smaller this year, we didn't feel the need for that this time around.
 
 We then mostly worked on challenges individually, but always communicated which challenge we were working on, so as not to do double work.

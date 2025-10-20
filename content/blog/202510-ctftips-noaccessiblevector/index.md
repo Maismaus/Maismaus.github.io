@@ -24,7 +24,7 @@ Going back to our **client − server** knowledge, there might be some data exch
 
 ![Burp content](/Burpcontent.png)
 
-Now that we know the name of the page, all we have to do is open it. Attempting to open the page using the Ciphix DevTools is not possible because of the new strict mode enabled on this app. However, we know that the app _can_ open pages and using our knowledge about the client − server protocol, it needs to have a method to do so. We'll we have to do refer to the **[Client API](https://docs.mendix.com/apidocs-mxsdk/apidocs/client-api/)** to find available methods.
+Now that we know the name of the page, all we have to do is open it. Attempting to open the page using the Ciphix DevTools is not possible because of the new strict mode enabled on this app. However, we know that the app _can_ open pages and using our knowledge about the client − server protocol, it needs to have a method to do so. We'll we have to do refer to our **[Client API](https://docs.mendix.com/apidocs-mxsdk/apidocs/client-api/)** knowledge to find available methods.
 
 We can find a method called OpenForm in the [Dojo](https://apidocs.rnd.mendix.com/10/client/mx.ui.html#.openForm) documentation:
 ```
